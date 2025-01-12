@@ -31,6 +31,52 @@ This document provides a brief explanation of HTTP, FTP, SMTP, and DHCP, along w
   - Handles outgoing email.
   - Works in conjunction with POP3 or IMAP for receiving emails.
   - Supports encryption with STARTTLS or SSL/TLS.
+ 
+# Email Protocols: SMTP, POP3, and IMAP
+
+This document provides an overview of the common email protocols used for sending and receiving emails: **SMTP**, **POP3**, and **IMAP**.
+
+---
+
+## Overview of Email Protocols
+
+1. **SMTP (Simple Mail Transfer Protocol)**  
+   - **Purpose:** SMTP is used for sending outgoing emails from the sender’s email client to the email server or between mail servers.
+   - **Port:** Typically operates on port **25**, but can also use **587** or **465** for secure connections.
+   - **How it works:**  
+     - When you send an email, your email client communicates with an SMTP server to push the email to the recipient’s server.
+     - SMTP only handles sending email, it does not store or retrieve the messages.
+
+2. **POP3 (Post Office Protocol 3)**  
+   - **Purpose:** POP3 is used for retrieving emails from a mail server to a client device.
+   - **Port:** Typically uses port **110** (unencrypted) or **995** (encrypted).
+   - **How it works:**  
+     - POP3 downloads the emails from the server and stores them on the local device, usually deleting them from the server after download.
+     - It’s ideal for users who want to access emails on a single device and prefer to store emails locally.
+
+3. **IMAP (Internet Message Access Protocol)**  
+   - **Purpose:** IMAP is used for retrieving emails, but unlike POP3, it keeps the emails on the mail server.
+   - **Port:** Typically uses port **143** (unencrypted) or **993** (encrypted).
+   - **How it works:**  
+     - IMAP allows users to manage emails from multiple devices, as the emails remain on the server.
+     - It provides more flexibility than POP3 and is commonly used for users accessing their email from various locations or devices.
+
+---
+
+## How They Work Together
+
+- **SMTP** (sending mail) and **POP3/IMAP** (receiving mail) work together to facilitate complete email communication.
+- **SMTP** is responsible for pushing outgoing emails to the recipient’s mail server.
+- **POP3/IMAP** are used to retrieve and manage incoming emails on the recipient’s side:
+  - **POP3:** Downloads the email to the local device, typically removing it from the server.
+  - **IMAP:** Synchronizes emails across multiple devices while keeping them stored on the server.
+
+---
+
+## Summary
+
+- **SMTP** is used for sending emails.
+- **POP3** and **IMAP** are used for receiving and managing emails, with **POP3** downloading emails and **IMAP** keeping them on the server for access across devices.
 
 ---
 
