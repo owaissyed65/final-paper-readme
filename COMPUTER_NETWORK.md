@@ -922,3 +922,355 @@ The **OSI (Open Systems Interconnection)** model is a conceptual framework that 
 ### Summary
 
 The OSI model provides a structured approach to understanding how data flows in a network and helps standardize communication protocols. It simplifies troubleshooting and protocol design by breaking down the process into manageable layers.
+
+---
+---
+---
+---
+
+
+# Important Topics:
+
+● Network Protocols
+● OSI Layer
+● Network Topology
+● Network Security
+● Cyber Security
+● VPN
+● Networking Devices
+● IP Addressing & Subnetting
+● IPv4 vs IPv6
+● Subnet Mask & CIDR
+● IOT
+
+## Network Protocols:
+Rules or intruction to connect computers with other devices over a network
+Use:
+to establish a proper connection between devices over a network
+Examples:
+HTTPS, FTP, SMTP, UDP, DNS, IMAP, POP3, SNMP
+
+
+## Network Topologies:
+Network topology is like the map or layout of a network. It shows how computers, devices, and connections (like cables or Wi-Fi) are arranged and connected to each other.
+
+BUS:
+- All devices are connected to a single central cable (bus).
+- Data Collision Problem
+
+Star:
+- All devices are connected to a central hub or switch.
+- If the hub fails, the whole network goes down.
+
+Ring:
+Devices are connected in a circular loop, with each device linked to its neighbors.
+- Data is travelling in single direction
+- If one device fails, the network can break.
+ 
+Mesh:
+- Every device is connected to every other device.
+- Very reliable; no single point of failure.
+
+Tree:
+- Combines star and bus topologies, with groups of devices connected to a central node.
+- Central hub issues can disrupt the network.
+
+Hybrid:
+- A mix of two or more topologies.
+
+Summary:
+Network topology is just a way of organizing and connecting devices in a network. Choosing the right topology depends on the size, purpose, and budget of the network!
+
+## Basic Components of Networking ?
+- Devices 
+- Transmission Media
+- Network Protocols
+- Network Interface Cards (NICs)
+- IP Addresses
+- Firewall
+- Network Software
+
+
+## Wireless Networking
+Wireless networking allows devices to communicate and exchange data without physical cables. It uses radio waves or infrared signals to connect devices like laptops, smartphones, and IoT devices.
+
+### Wi-Fi Standards (802.11 Family)
+The 802.11 standards, developed by IEEE, define how wireless networks operate. Each standard focuses on specific improvements, such as speed, range, and frequency.
+
+Key Wi-Fi Standards
+Standard	Frequency Band	Max Speed	Features
+802.11b	2.4 GHz	11 Mbps	First widely adopted standard, low speed.
+802.11a	5 GHz	54 Mbps	Better speed but shorter range than 802.11b.
+802.11g	2.4 GHz	54 Mbps	Combines the range of 802.11b and speed of 802.11a.
+802.11n	2.4 GHz/5 GHz	600 Mbps	Introduced MIMO (Multiple Input, Multiple Output) for faster speeds.
+802.11ac	5 GHz	1.3 Gbps	High speed, supports beamforming for improved range.
+802.11ax (Wi-Fi 6)	2.4 GHz/5 GHz	9.6 Gbps	Higher efficiency, supports more devices, better in crowded areas.
+802.11be (Wi-Fi 7)	2.4 GHz/5 GHz/6 GHz	Up to 46 Gbps	(Emerging) Focuses on ultra-high speeds and lower latency.
+
+
+### Wireless Security
+Wireless networks are vulnerable to unauthorized access, so security is critical. Common security measures include:
+
+### 1. Wi-Fi Security Protocols
+Protocol	Security Level	Features
+WEP (Wired Equivalent Privacy)	Low	Basic encryption, outdated, easily hackable.
+WPA (Wi-Fi Protected Access)	Medium	Improved encryption over WEP but still insecure.
+WPA2	High	Strong AES encryption, widely used.
+WPA3	Very High	Improved encryption and protection against brute-force attacks.
+### 2. Additional Security Measures
+SSID Hiding: Hides the network name to reduce visibility.
+MAC Filtering: Allows only specific devices to connect.
+Firewalls: Monitors and controls traffic to block unauthorized access.
+Strong Passwords: Use complex, unique passwords for Wi-Fi access.
+VPNs (Virtual Private Networks): Encrypt data for secure remote access
+
+
+## Networking Devices:
+Networking devices are hardware components used to connect and manage devices on a network. They help in data transmission, security, and performance management.
+
+### 1. **Router**  
+Connect LAN to the Internet  
+
+### 2. **Switch**  
+Connect devices over a LAN  
+
+### 3. **Hub**  
+Broadcast data to all devices in a network  
+
+### 4. **Modem**  
+Convert digital data to analog signals for internet access  
+
+### 5. **Access Point (AP)**  
+Extend Wi-Fi coverage in a network  
+
+### 6. **Network Interface Card (NIC)**  
+Provide the physical connection to the network  
+
+### 7. **Bridge**  
+Connect and filter data between two network segments  
+
+### 8. **Gateway**  
+Translate data between different network types  
+
+### 9. **Firewall**  
+Protect the network by controlling traffic flow  
+
+### 10. **Repeater**  
+Extend the range of a network by amplifying signals  
+
+## **Network Interface Card (NIC)**
+
+A **Network Interface Card (NIC)** is a hardware component that allows a device (such as a computer, printer, or server) to connect to a network, either through a wired connection (Ethernet) or a wireless connection (Wi-Fi).
+
+#### **Key Functions**:
+1. **Physical Connectivity**: The NIC provides the physical interface between the device and the network, using either an Ethernet cable (wired) or radio waves (wireless).
+2. **Data Link Layer Operations**: It operates at the Data Link layer of the OSI model, handling tasks like packaging and addressing data frames to ensure proper transmission over the network.
+3. **Communication**: It enables the device to communicate with other devices over the network by sending and receiving data packets.
+
+#### **Types**:
+1. **Wired NIC (Ethernet NIC)**: Connects to the network using an Ethernet cable.
+   - **Example**: Desktop computer connected to the internet via Ethernet.
+2. **Wireless NIC (Wi-Fi NIC)**: Connects to the network wirelessly using Wi-Fi.
+   - **Example**: Laptop connecting to a Wi-Fi network at home or a coffee shop.
+
+#### **Why is it Important?**
+- Without a NIC, a device cannot connect to any network and cannot send or receive data.
+- It provides the necessary interface for networking protocols to operate, such as TCP/IP, enabling internet access, file sharing, and communication with other devices.
+
+#### **Summary**:  
+A **NIC** is an essential component for connecting a device to a network, allowing it to communicate and exchange data with other devices.
+
+
+
+### **IP Addressing and Subnetting**
+
+#### **IP Addressing**  
+An **IP address** is a unique identifier for a device on a network. It serves as the address that allows data to be routed to the correct device, much like a postal address does for sending mail. IP addresses are critical for communication between devices on the internet or a local network.
+
+There are two versions of IP addressing: **IPv4** and **IPv6**.
+
+---
+
+### **IPv4 vs. IPv6**
+
+#### **IPv4 (Internet Protocol Version 4)**  
+- **Format**: A 32-bit address, usually written as four decimal numbers (octets) separated by dots (e.g., `192.168.1.1`).
+- **Address Space**: Can support approximately 4.3 billion unique addresses (2^32).
+- **Limitations**: With the increasing number of internet-connected devices, IPv4 addresses are running out, leading to the need for IPv6.
+
+#### **IPv6 (Internet Protocol Version 6)**  
+- **Format**: A 128-bit address, written as eight groups of four hexadecimal digits (e.g., `2001:0db8:85a3:0000:0000:8a2e:0370:7334`).
+- **Address Space**: Can support about 340 undecillion (3.4 × 10^38) addresses (2^128), making it nearly unlimited.
+- **Advantages**: It solves the address shortage problem of IPv4 and includes better security and performance features.
+
+---
+
+### **Subnetting**
+
+#### **What is Subnetting?**
+Subnetting is the process of dividing a large network into smaller, more manageable sub-networks or **subnets**. It helps optimize network performance, improve security, and efficiently allocate IP addresses.
+
+#### **Subnet Mask**  
+A **subnet mask** is used to determine which portion of an IP address is the network address and which part can be used for hosts (devices). It defines the boundaries of the subnet.  
+- **Format**: Written like an IP address (e.g., `255.255.255.0` for a common subnet mask).
+- The subnet mask has **1s** for the network part and **0s** for the host part. For example, `255.255.255.0` means the first 24 bits are for the network, and the last 8 bits are for devices (hosts).
+
+#### **Example of Subnetting**  
+- **IP Address**: `192.168.1.0/24`  
+  - Here, `/24` means the first 24 bits are dedicated to the network, leaving 8 bits for devices in that network. The range of available host addresses would be from `192.168.1.1` to `192.168.1.254`.
+
+#### **CIDR (Classless Inter-Domain Routing)**  
+CIDR is a notation for expressing IP addresses and subnet masks together in a more flexible way. It’s written as an IP address followed by a slash and the number of bits used for the network part of the address.  
+- Example: `192.168.1.0/24`  
+  - The `/24` represents the number of bits used for the network portion of the address.
+
+---
+
+### **Summary of Key Concepts**:
+
+- **IPv4**: 32-bit address space (e.g., `192.168.1.1`).
+- **IPv6**: 128-bit address space (e.g., `2001:0db8::`), solves IPv4 limitations.
+- **Subnet Mask**: Divides an IP address into network and host parts (e.g., `255.255.255.0`).
+- **CIDR**: A way to represent IP addresses and their subnet masks, using the format `IP/number of network bits` (e.g., `192.168.1.0/24`).
+
+Subnetting, along with IP addressing, is crucial for efficiently managing network resources and ensuring devices can communicate within and across networks.
+
+### **MAC Address**
+
+A **MAC (Media Access Control) Address** is a unique identifier assigned to network interfaces (NICs) for communication within a network. It operates at the **Data Link layer** of the OSI model and is used to identify devices on a local network.
+
+#### **Key Points about MAC Address**:
+- **Format**: A MAC address is a 48-bit address (6 bytes) expressed in hexadecimal format, often written as 12 hexadecimal characters separated by colons or hyphens (e.g., `00:1A:2B:3C:4D:5E`).
+- **Uniqueness**: Each NIC has a globally unique MAC address, ensuring no two devices share the same address.
+- **Permanent**: The MAC address is hardcoded into the network device (such as a computer’s Ethernet or Wi-Fi card) by the manufacturer and generally doesn't change.
+- **Function**: It is used for communication within a local network. When a device sends data, it uses the MAC address to identify the destination device on the same network.
+
+#### **MAC Address Example**:
+- If Device A wants to send data to Device B on the same local network, it will use Device B’s MAC address to identify where the data should go.
+
+---
+
+### **ARP (Address Resolution Protocol)**
+
+**ARP** is a protocol used to map an IP address to a MAC address within a local network. It helps devices identify the MAC address of a device when only its IP address is known.
+
+#### **How ARP Works**:
+1. **IP-to-MAC Resolution**: If a device (e.g., Device A) wants to communicate with another device on the local network (e.g., Device B), it first needs to find the MAC address corresponding to the destination device’s IP address.
+2. **ARP Request**: Device A broadcasts an **ARP request** to all devices on the network, asking "Who has IP address `X.X.X.X`?".
+3. **ARP Reply**: The device that has the matching IP address replies with its MAC address.
+4. **Caching**: Device A stores the MAC address in its **ARP cache** for future communications, reducing the need for repetitive ARP requests.
+
+#### **ARP Example**:
+- **Device A** wants to communicate with **Device B**, but only knows **Device B’s IP address** (`192.168.1.2`).
+  - Device A sends an ARP request: "Who has IP address `192.168.1.2`?"
+  - Device B replies: "I have `192.168.1.2`, and my MAC address is `00:1A:2B:3C:4D:5E`."
+  - Device A now knows Device B’s MAC address and can send data to it.
+
+---
+
+### **Summary**:
+- **MAC Address**: A unique hardware identifier for a network interface, used for communication within the same local network.
+- **ARP**: A protocol that maps an IP address to a MAC address, enabling devices to find each other on the local network and communicate effectively.
+
+## IOT
+IoT involves embedding technology (like sensors and software) into physical objects, enabling them to collect, share, and act on data.
+
+#### Components of IoT
+- Sensors and Devices:
+	- Collect data from the environment (e.g., temperature, motion, light).
+
+- Connectivity:
+	- Transmits data via protocols like Wi-Fi, Bluetooth, ZigBee, or cellular networks.
+
+- Edge Devices:
+	- Local processing of data close to the source for real-time analysis.
+
+- IoT Gateway:
+	- Acts as a bridge between devices and the cloud.
+
+- Cloud:
+	- Stores, processes, and analyzes the data.
+
+- User Interface:
+	- Enables users to interact with IoT systems (e.g., apps, dashboards).
+
+
+## Cybersecurity:
+Cybersecurity threats refer to various risks that can compromise the confidentiality, integrity, and availability of data and systems in a network. These threats can target individuals, businesses, or governments and exploit vulnerabilities in networks, devices, or protocols. In networking, cybersecurity threats are primarily aimed at unauthorized access, data breaches, and disruption of services.
+
+### Types of Cybersecurity Threats
+1. **Malware**: Malicious software that damages or gains unauthorized access to systems.
+2. **Phishing**: Fraudulent attempts to acquire sensitive information by impersonating trusted entities.
+3. **Man-in-the-Middle (MITM) Attacks**: Intercepting and altering communication between two parties without their knowledge.
+4. **Denial of Service (DoS) / Distributed DoS (DDoS)**: Overloading a system with traffic to make it unavailable to users.
+5. **SQL Injection**: Injecting malicious SQL code to manipulate databases and gain unauthorized access.
+6. **Insider Threats**: Threats originating from within an organization, often from employees or contractors.
+7. **Spoofing**: Faking one’s identity to gain unauthorized access to networks or devices.
+8. **Eavesdropping**: Unauthorized interception of network traffic to steal sensitive information.
+
+### Mitigation technique:
+
+1. **Firewalls**: Monitor and filter incoming and outgoing network traffic to block unauthorized access.
+2. **Encryption**: Convert data into a secure format to prevent unauthorized access during transmission or storage.
+3. **IDS/IPS**: Detect and prevent network intrusions by monitoring for suspicious activity.
+4. **Multi-Factor Authentication (MFA)**: Add an extra layer of security by requiring multiple forms of verification to access systems.
+5. **Regular Software Updates & Patching**: Keep software up to date to close security vulnerabilities.
+6. **Network Segmentation**: Divide a network into smaller parts to limit the spread of potential attacks.
+7. **Strong Password Policies**: Enforce complex password requirements to make unauthorized access more difficult.
+8. **Employee Training & Awareness**: Educate users about potential threats and safe online practices.
+9. **Backup and Disaster Recovery**: Regularly back up data and create recovery plans to minimize downtime after an attack.
+10. **Endpoint Protection**: Use security software to protect devices from malware and unauthorized access.
+
+### Firewall:
+Firewall
+A Firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between a trusted internal network (e.g., a private business network) and untrusted external networks (e.g., the internet).
+#### Types of Firewalls:
+1. Network-based Firewall: A hardware device that sits at the perimeter of a network.
+2. Host-based Firewall: A software firewall installed on individual devices (e.g., computers, servers).
+3. Application Firewall: Filters traffic at the application layer, often used to secure web applications.
+
+![WhatsApp Image 2025-01-13 at 00 10 31_d90ebf4c](https://github.com/user-attachments/assets/6edccd60-8035-4f0d-bc6f-42efd62f8a73)
+
+
+### VPN (Virtual Private Network)
+A VPN is a service that creates a secure and private connection over a less secure network, such as the internet. It allows users to send and receive data as if their devices were directly connected to a private network, even though they might be accessing it remotely.
+
+#### Summary:
+Firewall: A security tool that monitors and controls network traffic to prevent unauthorized access and attacks.
+VPN: A service that creates a secure and private connection over the internet, ensuring data encryption, privacy, and secure remote access.
+
+### Proxy
+A Proxy is a server that acts as an intermediary between a user’s device and the internet. While proxies also hide the user’s IP address, they do not encrypt data, making them less secure than VPNs.
+
+
+### OSI MODEL
+The **OSI Model (Open Systems Interconnection Model)** is a conceptual framework used to understand and standardize how different networking protocols interact in seven layers, from physical transmission to application-level communication.
+
+### **The 7 Layers of the OSI Model**:
+1. **Physical Layer**: Transmits raw data bits over a physical medium (e.g., cables, radio waves).
+2. **Data Link Layer**: Provides node-to-node data transfer, error detection, and correction (e.g., Ethernet).
+3. **Network Layer**: Determines the best path for data transfer across networks and handles IP addressing (e.g., IP, routers).
+4. **Transport Layer**: Ensures reliable data transfer between devices, managing flow control and error correction (e.g., TCP, UDP).
+5. **Session Layer**: Establishes, manages, and terminates communication sessions between applications (e.g., APIs).
+6. **Presentation Layer**: Translates data formats, encrypts, and compresses data for application use (e.g., SSL/TLS, JPEG).
+7. **Application Layer**: Interacts directly with end-user applications to provide network services (e.g., HTTP, FTP, SMTP).
+![WhatsApp Image 2025-01-13 at 00 09 18_7207b555](https://github.com/user-attachments/assets/f00716b8-b578-4e30-828a-fa804f4d03a4)
+
+
+### TCP Model
+The **TCP/IP Model** (Transmission Control Protocol/Internet Protocol Model) is a simplified, four-layer framework used to guide communication protocols for data transfer over a network, focusing on the core network functions.
+
+### **The 4 Layers of the TCP/IP Model**:
+
+1. **Application Layer**: Provides network services directly to end-user applications (e.g., HTTP, FTP).
+2. **Transport Layer**: Manages end-to-end communication and ensures reliable data transfer (e.g., TCP, UDP).
+3. **Internet Layer**: Responsible for logical addressing, routing, and packet forwarding (e.g., IP, ICMP).
+4. **Network Access Layer**: Handles the physical transmission of data over network hardware (e.g., Ethernet, Wi-Fi).
+
+![WhatsApp Image 2025-01-13 at 00 28 53_14252ee0](https://github.com/user-attachments/assets/8c0c4653-97df-4ced-b5ec-a08cac0fca3c)
+![WhatsApp Image 2025-01-13 at 00 30 00_8dbf1d97](https://github.com/user-attachments/assets/d5fd161e-7195-47f2-a7c3-889c266206bd)
+
+
+
+
+
