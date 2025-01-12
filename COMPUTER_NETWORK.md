@@ -59,3 +59,112 @@ This document provides a brief explanation of HTTP, FTP, SMTP, and DHCP, along w
 ### Want to Learn More?
 Feel free to explore each protocol in detail by referring to official documentation or networking resources!
 
+
+
+# Types of Network Topologies  
+
+Network topology refers to the arrangement of nodes (devices) and connections in a network. This document explains the key types of network topologies.  
+
+---
+
+## 1. **Bus Topology**  
+- **Description:**  
+  All devices are connected to a single central cable (bus).  
+- **Advantages:**  
+  - Easy to set up and cost-effective for small networks.  
+  - Requires less cable than other topologies.  
+- **Disadvantages:**  
+  - Single point of failure (if the bus fails, the entire network goes down).  
+  - Difficult to troubleshoot.  
+- **Use Case:**  
+  Used in small networks or temporary setups.  
+
+---
+
+## 2. **Star Topology**  
+- **Description:**  
+  All devices are connected to a central hub or switch.  
+- **Advantages:**  
+  - Easy to install and manage.  
+  - Failure of one node doesn’t affect others.  
+- **Disadvantages:**  
+  - Central hub failure causes the entire network to fail.  
+  - Higher cost due to more cables.  
+- **Use Case:**  
+  Commonly used in homes and offices.  
+
+---
+
+## 3. **Ring Topology**  
+- **Description:**  
+  Devices are connected in a circular loop, with each device connected to two others.  
+- **Advantages:**  
+  - Equal access to resources.  
+  - Suitable for handling heavy traffic.  
+- **Disadvantages:**  
+  - Failure of one device affects the entire network.  
+  - Adding or removing devices disrupts the network.  
+- **Use Case:**  
+  Used in telecommunication networks.  
+
+---
+
+## 4. **Mesh Topology**  
+- **Description:**  
+  Each device is connected to every other device in the network.  
+- **Advantages:**  
+  - Highly reliable (multiple paths for data transmission).  
+  - Easy to detect faults.  
+- **Disadvantages:**  
+  - Expensive due to high cabling and hardware requirements.  
+  - Complex to manage.  
+- **Use Case:**  
+  Used in critical networks like military or financial institutions.  
+
+---
+
+## 5. **Tree Topology**  
+- **Description:**  
+  Combines characteristics of star and bus topologies in a hierarchical structure.  
+- **Advantages:**  
+  - Scalable for large networks.  
+  - Easy to manage and expand.  
+- **Disadvantages:**  
+  - Central node failure impacts the entire network.  
+  - Requires more cable than bus topology.  
+- **Use Case:**  
+  Used in corporate networks and WANs.  
+
+---
+
+## 6. **Hybrid Topology**  
+- **Description:**  
+  A combination of two or more different topologies.  
+- **Advantages:**  
+  - Flexible and scalable.  
+  - Can be tailored to specific requirements.  
+- **Disadvantages:**  
+  - Expensive and complex to design.  
+  - Troubleshooting is challenging.  
+- **Use Case:**  
+  Used in large organizations with diverse requirements.  
+
+---
+
+## Summary Table  
+
+| **Topology**     | **Advantages**                       | **Disadvantages**                   | **Use Cases**                         |  
+|-------------------|--------------------------------------|--------------------------------------|---------------------------------------|  
+| **Bus**          | Cost-effective, simple setup         | Single point of failure, hard to troubleshoot | Small or temporary networks            |  
+| **Star**         | Easy management, fault isolation     | Central hub failure, higher cost    | Homes, offices                        |  
+| **Ring**         | Equal resource access, handles traffic | Entire network fails if one device fails | Telecommunication networks            |  
+| **Mesh**         | Highly reliable, fault detection     | Expensive, complex to manage        | Military, financial institutions      |  
+| **Tree**         | Scalable, easy expansion             | Central node failure impacts network | Corporate networks, WANs              |  
+| **Hybrid**       | Flexible, scalable                   | Expensive, complex to troubleshoot  | Large organizations                   |  
+
+---
+
+### Want to Learn More?  
+Explore detailed networking guides or textbooks for an in-depth understanding of these topologies.  
+
+
