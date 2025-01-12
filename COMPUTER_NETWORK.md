@@ -56,10 +56,6 @@ This document provides a brief explanation of HTTP, FTP, SMTP, and DHCP, along w
 
 ---
 
-### Want to Learn More?
-Feel free to explore each protocol in detail by referring to official documentation or networking resources!
-
-
 
 # Types of Network Topologies  
 
@@ -162,9 +158,99 @@ Network topology refers to the arrangement of nodes (devices) and connections in
 | **Tree**         | Scalable, easy expansion             | Central node failure impacts network | Corporate networks, WANs              |  
 | **Hybrid**       | Flexible, scalable                   | Expensive, complex to troubleshoot  | Large organizations                   |  
 
+
+# Wireless Networking in Computer Networks  
+
+This document provides an overview of wireless networking, its basic components, types, communication technologies, and applications.  
+
 ---
 
-### Want to Learn More?  
-Explore detailed networking guides or textbooks for an in-depth understanding of these topologies.  
+## Definition of Wireless Networking  
+**Wireless Networking** refers to the method of connecting devices to communicate and share data without the use of physical cables. It uses radio waves, infrared, or other wireless technologies to establish communication between devices over short or long distances.  
 
+---
+
+## Basic Components of Wireless Networks  
+1. **Access Points (APs):**  
+   Devices that provide wireless connectivity to devices within a network.  
+2. **Wireless Clients:**  
+   Devices such as laptops, smartphones, and IoT devices that connect to the network wirelessly.  
+3. **Antennas:**  
+   Enhance signal transmission and reception for better connectivity.  
+4. **Router:**  
+   Directs data between the wireless network and external networks like the internet.  
+5. **Wireless Network Interface Card (NIC):**  
+   Hardware in devices that enables wireless communication.  
+6. **Controller:**  
+   Manages multiple access points in larger networks.  
+
+---
+
+## Types of Wireless Networks  
+1. **Wireless Personal Area Network (WPAN):**  
+   - Short-range communication (e.g., Bluetooth, ZigBee).  
+   - Used for personal devices like smartphones and wearables.  
+
+2. **Wireless Local Area Network (WLAN):**  
+   - Covers a small area such as a home, office, or campus.  
+   - Example: Wi-Fi.  
+
+3. **Wireless Metropolitan Area Network (WMAN):**  
+   - Covers a city or large area using technologies like WiMAX.  
+
+4. **Wireless Wide Area Network (WWAN):**  
+   - Covers large geographical areas, often using cellular networks (e.g., 4G, 5G).  
+
+---
+
+## Wireless Communication Technologies  
+1. **Wi-Fi (Wireless Fidelity):**  
+   - Common for WLANs in homes and offices.  
+   - Operates on 2.4 GHz and 5 GHz frequency bands.  
+
+2. **Bluetooth:**  
+   - Used for short-range communication between personal devices.  
+
+3. **Infrared (IR):**  
+   - Used in remote controls and specific line-of-sight communication.  
+
+4. **Cellular Networks:**  
+   - Includes 3G, 4G, and 5G for long-distance wireless communication.  
+
+5. **ZigBee:**  
+   - Low-power technology for IoT devices and smart homes.  
+
+6. **Satellite Communication:**  
+   - Provides internet and communication services in remote areas.  
+
+---
+
+## Applications of Wireless Networking  
+1. **Home Networking:**  
+   - Enables devices like laptops, smartphones, and smart TVs to connect seamlessly.  
+
+2. **Business Environments:**  
+   - Facilitates mobility for employees with wireless connectivity in offices.  
+
+3. **Healthcare:**  
+   - Used in medical devices, telemedicine, and patient monitoring.  
+
+4. **Education:**  
+   - Provides internet access in schools and universities for e-learning.  
+
+5. **Public Services:**  
+   - Powers smart cities with IoT devices, public Wi-Fi, and transportation systems.  
+
+6. **Industrial Automation:**  
+   - Enables communication between IoT devices in manufacturing and logistics.  
+
+7. **Military and Defense:**  
+   - Used for secure and reliable communication in critical missions.  
+
+---
+
+### Summary  
+Wireless networking removes the need for physical cables, providing flexibility and scalability for various applications. It plays a crucial role in modern communication, enabling connectivity across personal, organizational, and industrial domains.  
+
+---
 
