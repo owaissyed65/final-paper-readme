@@ -876,3 +876,49 @@ VPNs provide a secure and private way to browse the internet, protect sensitive 
 
 For additional details, explore advanced VPN configurations and their applications in business and personal use.  
 
+## OSI Model
+
+The **OSI (Open Systems Interconnection)** model is a conceptual framework that standardizes network communication by dividing it into seven distinct layers. Each layer has specific responsibilities and interacts with the layers directly above and below it.
+
+### The Seven Layers:
+
+1. **Physical Layer**  
+   - **Function**: Handles the physical transmission of raw binary data over a network medium.  
+   - **Key Responsibilities**: Bit transmission, signaling, and media specifications.  
+   - **Examples**: Ethernet cables, fiber optics, hubs.
+
+2. **Data Link Layer**  
+   - **Function**: Ensures error-free data transfer between adjacent nodes.  
+   - **Key Responsibilities**: Framing, error detection/correction, and Medium Access Control (MAC).  
+   - **Examples**: MAC addresses, switches, Wi-Fi.
+
+3. **Network Layer**  
+   - **Function**: Determines the best path for data transfer and handles addressing and routing.  
+   - **Key Responsibilities**: Logical addressing (IP), routing, and packet forwarding.  
+   - **Examples**: IP addresses, routers.
+
+4. **Transport Layer**  
+   - **Function**: Provides reliable data transfer between systems.  
+   - **Key Responsibilities**: Error recovery, segmentation, and flow control.  
+   - **Examples**: TCP, UDP.
+
+5. **Session Layer**  
+   - **Function**: Manages sessions or connections between applications.  
+   - **Key Responsibilities**: Establishing, maintaining, and terminating sessions.  
+   - **Examples**: Remote Procedure Call (RPC), NetBIOS.
+
+6. **Presentation Layer**  
+   - **Function**: Translates data between application and network formats.  
+   - **Key Responsibilities**: Data encryption, compression, and translation.  
+   - **Examples**: SSL/TLS, JPEG, ASCII.
+
+7. **Application Layer**  
+   - **Function**: Provides services and interfaces for applications to access network resources.  
+   - **Key Responsibilities**: Network process management, user interface design.  
+   - **Examples**: HTTP, FTP, SMTP, DNS.
+
+---
+
+### Summary
+
+The OSI model provides a structured approach to understanding how data flows in a network and helps standardize communication protocols. It simplifies troubleshooting and protocol design by breaking down the process into manageable layers.
