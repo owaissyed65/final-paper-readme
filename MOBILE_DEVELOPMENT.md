@@ -533,3 +533,255 @@ In Android, **fragments** can be categorized based on their use cases and behavi
 ### **Conclusion**
 Fragments are versatile and can adapt to various use cases, such as lists, dialogs, or settings. The type of fragment to use depends on your app's design and functionality requirements.
 
+# Lecture 9:
+In Android, **fragments** can be categorized based on their use cases and behavior. Here are the common types of fragments in simple terms:
+
+---
+
+### **1. List Fragment**
+- **Definition:** Displays a list of items to the user. It is a subclass of the `Fragment` class specifically designed for lists.
+- **Use Case:** Showing lists like contact names, menu options, or a list of products.
+- **Example:**  
+  ```java
+  public class MyListFragment extends ListFragment {
+      @Override
+      public void onActivityCreated(Bundle savedInstanceState) {
+          super.onActivityCreated(savedInstanceState);
+          ArrayAdapter<String> adapter = new ArrayAdapter<>(
+              getActivity(),
+              android.R.layout.simple_list_item_1,
+              new String[] { "Item 1", "Item 2", "Item 3" });
+          setListAdapter(adapter);
+      }
+  }
+  ```
+
+---
+
+### **2. Dialog Fragment**
+- **Definition:** Displays a fragment as a dialog box.
+- **Use Case:** Showing pop-ups like alerts, confirmation boxes, or custom input dialogs.
+- **Example:**  
+  ```java
+  public class MyDialogFragment extends DialogFragment {
+      @Override
+      public Dialog onCreateDialog(Bundle savedInstanceState) {
+          return new AlertDialog.Builder(getActivity())
+              .setTitle("Dialog Title")
+              .setMessage("This is a dialog fragment.")
+              .setPositiveButton("OK", (dialog, which) -> dialog.dismiss())
+              .create();
+      }
+  }
+  ```
+
+---
+
+### **3. Preference Fragment**
+- **Definition:** Used to create a settings screen. It displays preferences that the user can configure.
+- **Use Case:** Implementing app settings, like toggles for notifications or themes.
+- **Example:**  
+  ```java
+  public class MyPreferenceFragment extends PreferenceFragment {
+      @Override
+      public void onCreate(Bundle savedInstanceState) {
+          super.onCreate(savedInstanceState);
+          addPreferencesFromResource(R.xml.preferences);
+      }
+  }
+  ```
+
+---
+
+### **4. Master-Detail Fragment**
+- **Definition:** Used for displaying two fragments side by side, typically on tablets or large screens. One fragment acts as the "master" (list), and the other as the "detail" (details of the selected item).
+- **Use Case:** Email apps where the left pane shows email subjects and the right pane shows the email content.
+- **Example:**
+  - Master: Shows the list of items.
+  - Detail: Displays item details when an item is clicked.
+
+---
+
+### **5. Dynamic Fragment**
+- **Definition:** Added, removed, or replaced at runtime using code, rather than being statically defined in XML.
+- **Use Case:** Apps where UI needs to change dynamically, like switching between fragments in a `ViewPager` or based on user interaction.
+- **Example:**  
+  ```java
+  FragmentManager manager = getSupportFragmentManager();
+  FragmentTransaction transaction = manager.beginTransaction();
+  MyFragment fragment = new MyFragment();
+  transaction.add(R.id.fragment_container, fragment);
+  transaction.commit();
+  ```
+
+---
+
+### **6. Static Fragment**
+- **Definition:** Defined directly in the XML layout file and remains fixed during the app's lifecycle.
+- **Use Case:** Simple layouts where the fragment doesn't need to change dynamically.
+- **Example (XML):**
+  ```xml
+  <fragment
+      android:id="@+id/static_fragment"
+      android:name="com.example.MyFragment"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+  ```
+
+---
+
+### **Summary Table**
+
+| **Type of Fragment**      | **Description**                                 | **Use Case**                              |
+|---------------------------|-----------------------------------------------|------------------------------------------|
+| **List Fragment**          | Displays a list of items.                     | Contact list, menu options.              |
+| **Dialog Fragment**        | Displays a fragment as a dialog.              | Alerts, confirmation boxes.              |
+| **Preference Fragment**    | Creates a settings screen.                    | App settings like toggles and themes.    |
+| **Master-Detail Fragment** | Shows two fragments side by side.             | Email apps, large-screen layouts.        |
+| **Dynamic Fragment**       | Added/removed at runtime via code.            | Flexible, interactive UIs.              |
+| **Static Fragment**        | Defined in XML and fixed in layout.           | Simple, static layouts.                  |
+
+---
+
+### **Conclusion**
+Fragments are versatile and can adapt to various use cases, such as lists, dialogs, or settings. The type of fragment to use depends on your app's design and functionality requirements.
+
+### **1. CoordinatorLayout**
+- **Definition:** A super-powered version of `FrameLayout` introduced in the **Design Support Library**. It coordinates interactions between child views or layouts.
+- **Purpose:** To create complex animations and interactions between UI elements like AppBar, FloatingActionButton (FAB), and other views.
+- **Key Features:**
+  - Manages the behavior of child views using **Behaviors** (e.g., scrolling effects).
+  - Commonly used for implementing material design components like **CollapsingToolbarLayout**.
+- **Example:**
+  ```xml
+  <androidx.coordinatorlayout.widget.CoordinatorLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <com.google.android.material.appbar.AppBarLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+          <!-- Toolbar or CollapsingToolbarLayout goes here -->
+      </com.google.android.material.appbar.AppBarLayout>
+
+      <RecyclerView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:layout_anchor="@id/app_bar"
+          app:layout_anchorGravity="bottom|end" />
+
+  </androidx.coordinatorlayout.widget.CoordinatorLayout>
+  ```
+
+---
+
+### **2. AppBarLayout**
+- **Definition:** A vertical `LinearLayout` specifically designed to work with `CoordinatorLayout` for creating collapsible or scrollable app bars.
+- **Purpose:** To manage top-level bars like the Toolbar, TabLayout, or CollapsingToolbarLayout.
+- **Key Features:**
+  - Works with scrolling behaviors to expand, collapse, or pin app bars.
+  - Typically wraps around a `Toolbar` or `CollapsingToolbarLayout`.
+- **Example:**
+  ```xml
+  <com.google.android.material.appbar.AppBarLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:theme="@style/ThemeOverlay.Material3.ActionBar">
+
+      <com.google.android.material.appbar.CollapsingToolbarLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+          <Toolbar
+              android:layout_width="match_parent"
+              android:layout_height="?attr/actionBarSize"
+              app:layout_collapseMode="pin" />
+      </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+  </com.google.android.material.appbar.AppBarLayout>
+  ```
+
+---
+
+### **3. FrameLayout**
+- **Definition:** A simple layout that acts as a container for child views, designed to stack elements on top of each other.
+- **Purpose:** To create overlays or fragments. Each child view is drawn in order of addition, with the most recently added child on top.
+- **Key Features:**
+  - Lightweight layout.
+  - Suitable for single-child layouts or overlapping views.
+- **Example:**
+  ```xml
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:src="@drawable/background_image" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Hello, FrameLayout!"
+          android:layout_gravity="center" />
+  </FrameLayout>
+  ```
+
+---
+
+### **4. CollapsingToolbarLayout**
+- **Definition:** A layout within `AppBarLayout` that allows the Toolbar to expand and collapse with scrolling content.
+- **Purpose:** To create rich, flexible toolbars that collapse on scroll, often used in material design apps.
+- **Key Features:**
+  - Supports background images, titles, and animations.
+  - Works with `CoordinatorLayout` for scroll effects.
+  - Customizable via `layout_collapseMode` and `layout_collapseParallaxMultiplier`.
+- **Example:**
+  ```xml
+  <com.google.android.material.appbar.CollapsingToolbarLayout
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      app:layout_scrollFlags="scroll|exitUntilCollapsed"
+      app:contentScrim="?attr/colorPrimary"
+      app:expandedTitleMarginStart="48dp"
+      app:expandedTitleMarginEnd="48dp">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:scaleType="centerCrop"
+          android:src="@drawable/header_image"
+          app:layout_collapseMode="parallax" />
+
+      <Toolbar
+          android:id="@+id/toolbar"
+          android:layout_width="match_parent"
+          android:layout_height="?attr/actionBarSize"
+          app:layout_collapseMode="pin" />
+
+  </com.google.android.material.appbar.CollapsingToolbarLayout>
+  ```
+
+---
+
+### **Summary Table**
+
+| **Layout**               | **Purpose**                                                                 | **Key Features**                                   |
+|--------------------------|-----------------------------------------------------------------------------|--------------------------------------------------|
+| **CoordinatorLayout**     | Base layout for coordinating interactions between child views.             | Behaviors, scrolling effects, anchors.           |
+| **AppBarLayout**          | Manages app bar components like Toolbar, Tabs, and CollapsingToolbar.      | Supports scroll effects, collapsible sections.   |
+| **FrameLayout**           | Simple container for stacking or overlaying child views.                  | Lightweight, useful for fragments or overlays.   |
+| **CollapsingToolbarLayout** | Creates collapsible and scrollable toolbars with background images.        | Rich animations, parallax scrolling effects.     |
+
+---
+
+### **Conclusion**
+These layouts are essential for creating dynamic and interactive UIs in Android. While `CoordinatorLayout` handles interactions, `AppBarLayout` and `CollapsingToolbarLayout` specialize in app bar animations, and `FrameLayout` provides a simple container for stacking views. Together, they enable modern, material design-inspired app experiences.
+
