@@ -534,117 +534,6 @@ In Android, **fragments** can be categorized based on their use cases and behavi
 Fragments are versatile and can adapt to various use cases, such as lists, dialogs, or settings. The type of fragment to use depends on your app's design and functionality requirements.
 
 # Lecture 9:
-In Android, **fragments** can be categorized based on their use cases and behavior. Here are the common types of fragments in simple terms:
-
----
-
-### **1. List Fragment**
-- **Definition:** Displays a list of items to the user. It is a subclass of the `Fragment` class specifically designed for lists.
-- **Use Case:** Showing lists like contact names, menu options, or a list of products.
-- **Example:**  
-  ```java
-  public class MyListFragment extends ListFragment {
-      @Override
-      public void onActivityCreated(Bundle savedInstanceState) {
-          super.onActivityCreated(savedInstanceState);
-          ArrayAdapter<String> adapter = new ArrayAdapter<>(
-              getActivity(),
-              android.R.layout.simple_list_item_1,
-              new String[] { "Item 1", "Item 2", "Item 3" });
-          setListAdapter(adapter);
-      }
-  }
-  ```
-
----
-
-### **2. Dialog Fragment**
-- **Definition:** Displays a fragment as a dialog box.
-- **Use Case:** Showing pop-ups like alerts, confirmation boxes, or custom input dialogs.
-- **Example:**  
-  ```java
-  public class MyDialogFragment extends DialogFragment {
-      @Override
-      public Dialog onCreateDialog(Bundle savedInstanceState) {
-          return new AlertDialog.Builder(getActivity())
-              .setTitle("Dialog Title")
-              .setMessage("This is a dialog fragment.")
-              .setPositiveButton("OK", (dialog, which) -> dialog.dismiss())
-              .create();
-      }
-  }
-  ```
-
----
-
-### **3. Preference Fragment**
-- **Definition:** Used to create a settings screen. It displays preferences that the user can configure.
-- **Use Case:** Implementing app settings, like toggles for notifications or themes.
-- **Example:**  
-  ```java
-  public class MyPreferenceFragment extends PreferenceFragment {
-      @Override
-      public void onCreate(Bundle savedInstanceState) {
-          super.onCreate(savedInstanceState);
-          addPreferencesFromResource(R.xml.preferences);
-      }
-  }
-  ```
-
----
-
-### **4. Master-Detail Fragment**
-- **Definition:** Used for displaying two fragments side by side, typically on tablets or large screens. One fragment acts as the "master" (list), and the other as the "detail" (details of the selected item).
-- **Use Case:** Email apps where the left pane shows email subjects and the right pane shows the email content.
-- **Example:**
-  - Master: Shows the list of items.
-  - Detail: Displays item details when an item is clicked.
-
----
-
-### **5. Dynamic Fragment**
-- **Definition:** Added, removed, or replaced at runtime using code, rather than being statically defined in XML.
-- **Use Case:** Apps where UI needs to change dynamically, like switching between fragments in a `ViewPager` or based on user interaction.
-- **Example:**  
-  ```java
-  FragmentManager manager = getSupportFragmentManager();
-  FragmentTransaction transaction = manager.beginTransaction();
-  MyFragment fragment = new MyFragment();
-  transaction.add(R.id.fragment_container, fragment);
-  transaction.commit();
-  ```
-
----
-
-### **6. Static Fragment**
-- **Definition:** Defined directly in the XML layout file and remains fixed during the app's lifecycle.
-- **Use Case:** Simple layouts where the fragment doesn't need to change dynamically.
-- **Example (XML):**
-  ```xml
-  <fragment
-      android:id="@+id/static_fragment"
-      android:name="com.example.MyFragment"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent" />
-  ```
-
----
-
-### **Summary Table**
-
-| **Type of Fragment**      | **Description**                                 | **Use Case**                              |
-|---------------------------|-----------------------------------------------|------------------------------------------|
-| **List Fragment**          | Displays a list of items.                     | Contact list, menu options.              |
-| **Dialog Fragment**        | Displays a fragment as a dialog.              | Alerts, confirmation boxes.              |
-| **Preference Fragment**    | Creates a settings screen.                    | App settings like toggles and themes.    |
-| **Master-Detail Fragment** | Shows two fragments side by side.             | Email apps, large-screen layouts.        |
-| **Dynamic Fragment**       | Added/removed at runtime via code.            | Flexible, interactive UIs.              |
-| **Static Fragment**        | Defined in XML and fixed in layout.           | Simple, static layouts.                  |
-
----
-
-### **Conclusion**
-Fragments are versatile and can adapt to various use cases, such as lists, dialogs, or settings. The type of fragment to use depends on your app's design and functionality requirements.
 
 ### **1. CoordinatorLayout**
 - **Definition:** A super-powered version of `FrameLayout` introduced in the **Design Support Library**. It coordinates interactions between child views or layouts.
@@ -785,3 +674,95 @@ Fragments are versatile and can adapt to various use cases, such as lists, dialo
 ### **Conclusion**
 These layouts are essential for creating dynamic and interactive UIs in Android. While `CoordinatorLayout` handles interactions, `AppBarLayout` and `CollapsingToolbarLayout` specialize in app bar animations, and `FrameLayout` provides a simple container for stacking views. Together, they enable modern, material design-inspired app experiences.
 
+### **1. Toolbar**
+- **Definition:** A flexible and customizable widget that acts as the app bar for an activity or fragment, introduced as part of the Material Design guidelines.
+- **Purpose:** Replaces the old `ActionBar` and provides more control over UI elements like navigation buttons, titles, and menus.
+  
+- **Key Features:**
+  - Fully customizable layout.
+  - Can host custom views, like search bars or logos.
+  - Works seamlessly with `CoordinatorLayout` and `AppBarLayout` for advanced scrolling behaviors.
+  - Supports navigation icons and menus.
+  
+- **Example:**
+  ```xml
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:background="?attr/colorPrimary"
+      app:title="My Toolbar"
+      app:titleTextColor="@android:color/white"
+      app:navigationIcon="@drawable/ic_back" />
+  ```
+  - **Setting up Toolbar in code:**
+    ```java
+    Toolbar toolbar = findViewById(R.id.toolbar);
+    setSupportActionBar(toolbar);
+    toolbar.setNavigationOnClickListener(view -> onBackPressed());
+    ```
+
+---
+
+### **2. NestedScrollView**
+- **Definition:** A layout that provides vertical scrolling for its child views and works well with nested scrolling views like `RecyclerView` or `AppBarLayout`.
+- **Purpose:** To handle scrolling content efficiently, especially when used with `CoordinatorLayout` and `AppBarLayout`.
+
+- **Key Features:**
+  - Supports nested scrolling (scrollable views inside other scrollable views).
+  - Smooth integration with `CoordinatorLayout` for collapsing app bars.
+  - Useful for handling large content layouts or combined scrolling effects.
+
+- **Use Cases:**
+  - Scrolling layouts containing `RecyclerView`, `ImageView`, `TextView`, or other views.
+  - Managing content-heavy pages with headers and footers.
+
+- **Example:**
+  ```xml
+  <androidx.core.widget.NestedScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:fillViewport="true">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:src="@drawable/sample_image" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Scrollable Content"
+              android:padding="16dp" />
+      </LinearLayout>
+  </androidx.core.widget.NestedScrollView>
+  ```
+
+---
+
+### **Differences Between Toolbar and ActionBar**
+| **Aspect**           | **Toolbar**                          | **ActionBar**                      |
+|----------------------|---------------------------------------|-------------------------------------|
+| **Customizability**   | Highly customizable.                 | Limited customization options.      |
+| **Positioning**       | Can be placed anywhere in the layout.| Fixed position at the top.          |
+| **Integration**       | Works as a standalone view.          | Part of the Activity's window decor.|
+| **Introduced in**     | Android 5.0 (Lollipop).              | Earlier versions of Android.        |
+
+---
+
+### **When to Use NestedScrollView**
+Use `NestedScrollView` when:
+1. You have a scrollable container with multiple child views.
+2. You need nested scrolling with elements like `RecyclerView` or `ViewPager`.
+3. You want to achieve scrollable layouts with collapsible app bars.
+
+---
+
+### **Conclusion**
+- **Toolbar** is a versatile replacement for `ActionBar`, offering extensive customization for app navigation and interaction.
+- **NestedScrollView** is a powerful layout for managing scrolling behaviors and integrating nested scrollable content. Together, they allow for modern, user-friendly, and interactive app designs.
