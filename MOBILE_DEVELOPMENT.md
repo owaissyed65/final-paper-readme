@@ -31,3 +31,46 @@ When developing Android applications, understanding measurement units is crucial
 | sp   | Yes                         | Yes                              | Text sizes       |
 
 By using `dp` and `sp` appropriately, you can create a responsive and accessible user interface that works well on a wide range of devices.
+
+# Implicit vs Explicit
+
+In Android, **intents** are used to communicate between components (like activities, services, etc.). They can be of two types:
+
+---
+
+### **1. Implicit Intent**
+- **Definition:** Does not specify the target component. Instead, it specifies an action to perform.
+- **Example Use Case:**
+  - Open a webpage.
+  - Share text or images.
+  - Dial a phone number.
+- **Example Code:**
+  ```java
+  Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://example.com"));
+  startActivity(intent);
+  ```
+- **Key Point:** The system decides the best component to handle the intent.
+
+---
+
+### **2. Explicit Intent**
+- **Definition:** Specifies the exact target component (activity, service, etc.) to start.
+- **Example Use Case:**
+  - Navigate between activities in the same app.
+- **Example Code:**
+  ```java
+  Intent intent = new Intent(CurrentActivity.this, TargetActivity.class);
+  startActivity(intent);
+  ```
+- **Key Point:** You explicitly state the component to handle the intent.
+
+---
+
+### Summary Table
+
+| **Feature**        | **Implicit Intent**             | **Explicit Intent**               |
+|---------------------|---------------------------------|-----------------------------------|
+| **Target**          | System finds suitable component | Specific component is defined.    |
+| **Use Case**        | Open external apps or services | Navigate within the app.          |
+| **Example Action**  | View a URL, Share, Dial        | Open another activity.            |
+
