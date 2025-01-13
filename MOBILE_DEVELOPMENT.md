@@ -766,3 +766,90 @@ Use `NestedScrollView` when:
 ### **Conclusion**
 - **Toolbar** is a versatile replacement for `ActionBar`, offering extensive customization for app navigation and interaction.
 - **NestedScrollView** is a powerful layout for managing scrolling behaviors and integrating nested scrollable content. Together, they allow for modern, user-friendly, and interactive app designs.
+
+
+# Shared Preferences:
+### **Shared Preferences in Android**
+
+**Shared Preferences** is a key-value storage mechanism provided by Android that allows you to store small amounts of data in a persistent way. It is commonly used to store simple data like user settings, preferences, login credentials, and app configuration.
+
+### **Key Features of Shared Preferences:**
+- **Simple Key-Value Storage:** Data is stored as pairs of keys and values, where the key is a string and the value can be primitive data types (e.g., `String`, `int`, `boolean`).
+- **Persistent:** The data persists across app sessions, meaning it is saved even when the app is closed or the device is restarted.
+- **Lightweight:** Ideal for storing small amounts of data (like preferences or user settings), not meant for large datasets or files.
+  
+### **Where to Use Shared Preferences:**
+- **User Settings:** Save app preferences like theme choice (dark/light mode), language selection, etc.
+- **Login Information:** Store basic information like whether the user is logged in or not.
+- **Flags or Counters:** Store flags to track actions (e.g., whether a user has seen a tutorial) or simple counters.
+
+---
+
+### **How to Use Shared Preferences**
+
+#### **1. Storing Data in Shared Preferences**
+To save data, you need to access the `SharedPreferences` object and use an editor to modify the data.
+
+- **Code to store data:**
+  ```java
+  SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+  SharedPreferences.Editor editor = sharedPreferences.edit();
+  editor.putString("username", "JohnDoe");    // Store a string
+  editor.putInt("age", 25);                    // Store an integer
+  editor.putBoolean("isLoggedIn", true);       // Store a boolean
+  editor.apply();                              // Commit changes
+  ```
+
+#### **2. Retrieving Data from Shared Preferences**
+To retrieve stored data, you call the `getSharedPreferences()` method and use the corresponding getter methods like `getString()`, `getInt()`, etc.
+
+- **Code to retrieve data:**
+  ```java
+  SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+  String username = sharedPreferences.getString("username", "DefaultUser");
+  int age = sharedPreferences.getInt("age", 0); // Default value is 0 if not found
+  boolean isLoggedIn = sharedPreferences.getBoolean("isLoggedIn", false); // Default is false
+  ```
+
+#### **3. Removing Data from Shared Preferences**
+You can remove specific key-value pairs or clear all stored data.
+
+- **Remove a specific key:**
+  ```java
+  SharedPreferences.Editor editor = sharedPreferences.edit();
+  editor.remove("username"); // Removes the key "username"
+  editor.apply();
+  ```
+
+- **Clear all data:**
+  ```java
+  SharedPreferences.Editor editor = sharedPreferences.edit();
+  editor.clear();  // Clears all saved preferences
+  editor.apply();
+  ```
+
+#### **4. Checking if a Key Exists**
+To check whether a key exists in the shared preferences, use `contains()`:
+
+- **Code to check existence:**
+  ```java
+  boolean exists = sharedPreferences.contains("username");
+  ```
+
+---
+
+### **Advantages of Shared Preferences:**
+- **Persistent and Simple:** Ideal for storing small amounts of persistent data.
+- **Easy to Use:** Simple API with no complex setup required.
+- **Lightweight:** Does not require databases or complex storage mechanisms.
+
+---
+
+### **Limitations:**
+- **Small Data Only:** Not suitable for large amounts of data, such as images, files, or complex objects.
+- **Not Secure:** Data is stored in plain text and can be accessed or modified by any app with the proper permissions. It's not recommended for storing sensitive data like passwords unless encrypted.
+
+---
+
+### **Conclusion**
+Shared Preferences is a simple and efficient way to store lightweight, key-value data in Android. It’s perfect for managing user settings, flags, and small pieces of information that need to persist between app sessions.
