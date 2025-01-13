@@ -119,3 +119,72 @@ Arrays can be defined in the `arrays.xml` file. This file is typically placed in
 </resources>
 **``**
 ```
+
+# Style vs Theme
+In Android app development, **Themes** and **Styles** are used to define the visual appearance of UI elements. While they are similar, they serve different purposes and scopes.
+
+---
+
+### **1. Style**
+- **Definition:** A collection of attributes that specify the appearance of a single UI element.
+- **Scope:** Applied to individual views or widgets.
+- **Use Case:** Customizing the look of a specific widget or view (e.g., button, text view).
+- **Example Code:**
+  ```xml
+  <!-- styles.xml -->
+  <style name="MyButtonStyle">
+      <item name="android:background">#FF6200EE</item>
+      <item name="android:textColor">#FFFFFF</item>
+      <item name="android:padding">10dp</item>
+  </style>
+  ```
+  ```xml
+  <!-- activity_main.xml -->
+  <Button
+      style="@style/MyButtonStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Click Me"/>
+  ```
+
+---
+
+### **2. Theme**
+- **Definition:** A collection of styles that apply globally to an entire app or activity, defining the overall look and feel.
+- **Scope:** Applied to an activity or the entire application.
+- **Use Case:** Setting a consistent appearance for the app, such as colors, fonts, and general design.
+- **Example Code:**
+  ```xml
+  <!-- themes.xml -->
+  <style name="AppTheme" parent="Theme.Material3.DayNight.DarkActionBar">
+      <item name="colorPrimary">#6200EE</item>
+      <item name="colorPrimaryVariant">#3700B3</item>
+      <item name="colorOnPrimary">#FFFFFF</item>
+  </style>
+  ```
+  ```xml
+  <!-- AndroidManifest.xml -->
+  <application
+      android:theme="@style/AppTheme">
+      ...
+  </application>
+  ```
+
+---
+
+### **Key Differences**
+
+| **Feature**       | **Style**                                        | **Theme**                                       |
+|--------------------|--------------------------------------------------|------------------------------------------------|
+| **Scope**          | Specific to a single view or widget.            | Applies to an entire app, activity, or fragment. |
+| **Purpose**        | Customizes the appearance of individual elements. | Defines the global appearance of the app.      |
+| **Application**    | Applied using the `style` attribute in XML.      | Applied via the `theme` attribute in the manifest or activity. |
+| **Inheritance**    | Can inherit from other styles.                   | Can inherit from base themes like `Material3`. |
+| **Examples**       | Button, TextView styles.                        | Light/Dark mode, Material Themes.             |
+
+---
+
+### **When to Use:**
+- Use **Styles** for customizing individual components.
+- Use **Themes** to define a consistent look for your app or activity.
+
