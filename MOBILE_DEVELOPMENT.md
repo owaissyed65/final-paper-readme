@@ -99,3 +99,23 @@ To define a dimension value, the `<dimen>` tag is used. A dimension value is def
 <TextView
     android:padding="@dimen/myVal" />
 ```
+# Arrays in Android
+
+An **array** is a data structure that consists of a collection of elements (values or variables), each of the same memory size, and each identified by at least one array index or key.
+
+## Defining Arrays in Android
+
+Arrays can be defined in the `arrays.xml` file. This file is typically placed in the `res/values` folder of the project.
+
+### Example:
+
+```xml
+<resources>
+    <string-array name="my_array">
+        <item>Value 1</item>
+        <item>Value 2</item>
+        <item>Value 3</item>
+    </string-array>
+</resources>
+**``**
+```
