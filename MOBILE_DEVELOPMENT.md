@@ -40,6 +40,7 @@ In Android, **intents** are used to communicate between components (like activit
 
 ### **1. Implicit Intent**
 - **Definition:** Does not specify the target component. Instead, it specifies an action to perform.
+- used to communicate with other apps
 - **Example Use Case:**
   - Open a webpage.
   - Share text or images.
@@ -55,6 +56,7 @@ In Android, **intents** are used to communicate between components (like activit
 
 ### **2. Explicit Intent**
 - **Definition:** Specifies the exact target component (activity, service, etc.) to start.
+- used to communicate with other apps
 - **Example Use Case:**
   - Navigate between activities in the same app.
 - **Example Code:**
