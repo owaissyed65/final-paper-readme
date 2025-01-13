@@ -74,3 +74,28 @@ In Android, **intents** are used to communicate between components (like activit
 | **Use Case**        | Open external apps or services | Navigate within the app.          |
 | **Example Action**  | View a URL, Share, Dial        | Open another activity.            |
 
+# Dimension Value in Android
+
+A **dimension value** is an XML-defined value that is defined in an XML file within the project's `res/values` folder. It is used to define the styling dimensions for different widgets to be included in the Android project. 
+
+Using a `dimens.xml` file is considered good coding practice to better handle dimension changes.
+
+## Steps to Add a Dimension XML File to the Values Folder
+
+1. Right-click on the `values` folder.
+2. Select `New > Values Resource File` to open the "New Resource File" dialog window.
+
+## Adding Dimension Values
+
+To define a dimension value, the `<dimen>` tag is used. A dimension value is defined by a number followed by a unit of measurement.
+
+### Measurement Units
+- **dp** (density-independent pixels)
+- **px** (pixels)
+- **sp** (scale-independent pixels)
+
+### Example Usage
+```xml
+<TextView
+    android:padding="@dimen/myVal" />
+```
