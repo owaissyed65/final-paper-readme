@@ -780,3 +780,19 @@ plt.show()
 This script detects keypoints in both images, matches them, computes the homography to map the reference image onto the target image, and draws the detected object within the scene.
 
 For a comprehensive understanding and additional details, refer to the official OpenCV documentation. 
+
+---
+--- 
+--- 
+
+# Question 3
+
+# **Haar (Haar Cascade Classifier)** in OpenCV is a machine learning-based algorithm used for object detection. It is mainly used for tasks like face detection. Haar uses features similar to the ones used in human vision, such as the contrast between adjacent regions, and combines them to detect objects in images.
+
+### Key Points:
+- **Fast**: It can detect objects in real-time.
+- **Trained Classifiers**: Haar classifiers are pre-trained to recognize specific objects (e.g., faces).
+- **Uses Rectangular Features**: It uses simple rectangular features to identify patterns like edges or textures.
+
+In simple terms, **Haar** is a method in OpenCV that helps detect specific objects, like faces, by looking for patterns in the image.
+
