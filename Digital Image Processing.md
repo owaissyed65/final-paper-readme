@@ -787,7 +787,8 @@ For a comprehensive understanding and additional details, refer to the official 
 
 # Question 3
 
-# **Haar (Haar Cascade Classifier)** in OpenCV is a machine learning-based algorithm used for object detection. It is mainly used for tasks like face detection. Haar uses features similar to the ones used in human vision, such as the contrast between adjacent regions, and combines them to detect objects in images.
+# **Haar (Haar Cascade Classifier)**
+HAAR in OpenCV is a machine learning-based algorithm used for object detection. It is mainly used for tasks like face detection. Haar uses features similar to the ones used in human vision, such as the contrast between adjacent regions, and combines them to detect objects in images.
 
 ### Key Points:
 - **Fast**: It can detect objects in real-time.
