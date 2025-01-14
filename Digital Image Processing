@@ -7,9 +7,9 @@ Here’s a simplified summary of the text:
 This chapter focuses on understanding features in images and why they are important. Features are specific patterns in images that help identify and compare different parts of an image. For example, when you play a jigsaw puzzle, you find unique patterns in the pieces to assemble the puzzle. Similarly, computers use features to stitch images or create 3D models from photos.
 
 Key Points:
-Flat Areas (like A and B): These are hard to locate because they look the same everywhere.
-Edges (like C and D): Easier to find but still not perfect because the pattern repeats along the edge.
-Corners (like E and F): Best features because they look unique and don’t repeat, no matter where you move them.
-Features like corners are great because they show maximum variation in all directions. Identifying these is called Feature Detection. Once features are found, they are described in detail so the computer can find the same feature in other images. This is called Feature Description.
+- Flat Areas (like A and B): These are hard to locate because they look the same everywhere.
+- Edges (like C and D): Easier to find but still not perfect because the pattern repeats along the edge.
+- Corners (like E and F): Best features because they look unique and don’t repeat, no matter where you move them.
+- Features like corners are great because they show maximum variation in all directions. Identifying these is called Feature Detection. Once features are found, they are described in detail so the computer can find the same feature in other images. This is called Feature Description.
 
 With features detected and described, we can align images, stitch them together, or use them for other tasks. The chapter will explore algorithms in OpenCV to detect, describe, and match features.
