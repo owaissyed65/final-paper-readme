@@ -808,3 +808,36 @@ FLANN is a library in OpenCV used for finding similar features or points between
 - **Efficient**: It is optimized for large-scale feature matching, such as matching thousands of keypoints.
 
 In simple words, **FLANN** is a tool that helps compare and match features between two images in a fast and efficient way.
+
+---
+# AI
+In OpenCV, **AI (Artificial Intelligence)** refers to the use of advanced algorithms and models to enable computers to perform tasks that typically require human intelligence. These tasks can include **image recognition**, **object detection**, **face recognition**, and **motion tracking**.
+
+### Key Points:
+- **Machine Learning**: OpenCV can integrate machine learning models to help recognize patterns or classify images.
+- **Neural Networks**: OpenCV supports deep learning models, such as convolutional neural networks (CNNs), for tasks like image classification.
+- **Object Detection**: OpenCV uses AI to identify and locate objects in an image, like detecting faces, cars, or pedestrians.
+
+In simple words, **AI in OpenCV** involves using smart algorithms to help computers understand and analyze images, just like how humans recognize faces, objects, and patterns.
+
+# FFT
+### **FFT (Fast Fourier Transform)** in OpenCV:
+
+**FFT** is a mathematical technique used to transform an image from the **spatial domain** (where pixels are directly represented) to the **frequency domain** (where the image is represented in terms of its frequency components). 
+
+- **Purpose**: It helps analyze the image in terms of its frequency (how quickly the pixel values change across the image). This is useful in tasks like image compression, noise reduction, and filtering.
+- **Speed**: The "Fast" part of FFT means it performs this transformation quickly, making it efficient for large images.
+
+In simple terms, **FFT** in OpenCV is used to look at the image from a different perspective, focusing on how quickly the pixel values change across the image rather than the image's actual colors or intensities.
+
+---
+
+### **AI (Artificial Intelligence)** in OpenCV:
+
+In OpenCV, **AI** refers to using algorithms and models that allow a computer to **learn** and **make decisions** based on data, similar to how humans use their brain.
+
+- **Machine Learning**: OpenCV can use machine learning algorithms to help recognize patterns in images, like detecting objects or faces.
+- **Deep Learning**: AI in OpenCV also includes neural networks, which are used to solve more complex problems, like image classification or object detection.
+
+In simple terms, **AI in OpenCV** helps computers "understand" images and make decisions based on what they "see," just like how humans can recognize objects or patterns in the world.
+
