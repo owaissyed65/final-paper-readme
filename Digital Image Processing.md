@@ -167,16 +167,17 @@ SIFT is a method used in computer vision to detect and describe local features i
 
 SIFT (Scale-Invariant Feature Transform) is a popular algorithm in Digital Image Processing (DIP) used for detecting and describing key features in images. It is widely used in applications like object recognition, image stitching, and motion tracking because it is highly reliable and robust to changes in scale, rotation, and lighting.
 
-Key Features of SIFT:
-Scale-Invariance:
+**Key Features of SIFT:**
 
+- **Scale-Invariance:**
 SIFT can detect features in images regardless of their size. For example, it works whether an object appears small or large in the image.
-Rotation-Invariance:
 
+- **Rotation-Invariance:**
 SIFT features are unaffected by the orientation of the object. Even if the object is rotated in the image, the algorithm can still recognize the features.
-Robust to Illumination Changes:
 
+- **Robust to Illumination Changes:**
 SIFT is designed to handle variations in brightness and contrast, making it suitable for real-world scenarios.
+
 **Implementation in OpenCV:**
 
 OpenCV provides the `cv.SIFT_create()` function to create a SIFT detector object. This object can then be used to detect key points and compute their descriptors.
