@@ -161,7 +161,7 @@ This script loads an image, converts it to grayscale, detects the top 25 corners
 
 For a comprehensive understanding and additional details, refer to the official OpenCV documentation. 
 
-**Introduction to SIFT (Scale-Invariant Feature Transform)**
+# **Introduction to SIFT (Scale-Invariant Feature Transform)**
 
 SIFT is a method used in computer vision to detect and describe local features in images. It identifies key points that are invariant to scale and rotation, making it effective for object recognition and image matching. 
 
