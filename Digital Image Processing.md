@@ -797,3 +797,14 @@ HAAR in OpenCV is a machine learning-based algorithm used for object detection. 
 
 In simple terms, **Haar** is a method in OpenCV that helps detect specific objects, like faces, by looking for patterns in the image.
 
+---
+
+# **FLANN (Fast Library for Approximate Nearest Neighbors)** 
+FLANN is a library in OpenCV used for finding similar features or points between two images quickly. It is mainly used for **feature matching** tasks, where you compare keypoints detected in two images to find the closest matches.
+
+### Key Points:
+- **Fast**: FLANN helps find matches quickly, even in large datasets.
+- **Approximate**: It finds the nearest neighbors using an approximate method, which speeds up the process while still providing good results.
+- **Efficient**: It is optimized for large-scale feature matching, such as matching thousands of keypoints.
+
+In simple words, **FLANN** is a tool that helps compare and match features between two images in a fast and efficient way.
