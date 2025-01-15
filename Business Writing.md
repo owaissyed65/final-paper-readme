@@ -262,7 +262,7 @@ In short, the first sentence sounds overly formal and complicated, while the sec
 
 
 
-**Subject:** Application for [Job Title] - [Your Full Name]  
+# **Subject:** Application for [Job Title] - [Your Full Name]  
 
 **Greeting:**  
 Dear [Recipient's Name],  
