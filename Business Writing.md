@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0939a2d6-aae1-4b64-b796-cd0364002350)![image](https://github.com/user-attachments/assets/2a158aa7-acc1-4537-a089-9af96d57934d)# Technical And Business Writing
+# Technical And Business Writing
 
 ### Glossary:  
 A **glossary** is a list of important words and their meanings, usually found at the end of a book or document. It helps readers understand the key terms used in the text.
