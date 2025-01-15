@@ -429,3 +429,53 @@ Below is an example of creating short notes or documentation in Markdown:
      - `font-size`: Sets text size.
      - `background-color`: Sets background color.
 
+# Title: Nestle Milk Sales Crisis: Understanding the Impact of Consumer Boycott
+Prepared by: [Muhammad Hassaan Khan, Assistant Manager]
+Date: Oct 16, 2024
+Introduction:
+Nestle, a leading global food and beverage company, is facing an unprecedented
+challenge in the Pakistan market. Despite high production levels, Nestle milk sales have
+crashed down due to a widespread consumer boycott. This report aims to provide an
+overview of the situation, identify key factors contributing to the crisis, and recommend
+potential strategies for recovery.
+Background:
+In recent months, Nestle milk has been at the center of a consumer boycott sparked by
+concerns over product pricing, quality, and the company's alleged involvement in
+unethical business practices. Social media campaigns and local activist groups have
+amplified the boycott call, leading to a significant decline in sales.
+Methodology:
+This report is based on:
+• Sales data analysis (January-June 2024)
+• Market research
+• Consumer surveys (n=1,000) and focus groups (n=20)
+• Internal stakeholder interviews (marketing, sales, and supply chain teams)
+Findings:
+Key findings include:
+• Sales decline: 35% decrease in Nestle milk sales revenue compared to the same period
+last year.
+• Production surplus: Current stockpiles exceed 30% of total production capacity.
+• Consumer perceptions:
+➢ 35% of surveyed consumers cite pricing as a primary concern.
+➢ 25% express doubts about product quality.
+➢ 40% mention unethical business practices as a reason for the boycott.
+• Competitor analysis: Local brands have gained market share, capitalizing on the
+boycott.
+Conclusion:
+The boycott has severely impacted Nestle milk sales, resulting in excess production and
+significant revenue loss. To address this crisis, Nestle Pakistan must:
+1. Re-evaluate pricing strategies to align with consumer expectations.
+2. Enhance quality control measures and transparency.
+3. Address allegations of unethical practices through clear communication and
+corrective actions.
+4. Invest in targeted marketing campaigns to rebuild brand image.
+5. Engage with local stakeholders and activists to resolve concerns.
+Recommendations:
+1. Conduct a comprehensive review of supply chain and production costs to identify
+areas for optimization.
+2. Develop a consumer outreach program to address concerns and demonstrate
+commitment to quality and ethics.
+3. Collaborate with local influencers and social media platforms to promote positive
+brand messaging.
+By understanding the root causes of the boycott and implementing strategic reforms,
+Nestle Pakistan can work towards recovering lost market share and restoring consumer
+trust
