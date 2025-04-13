@@ -235,3 +235,218 @@ Let me know if you'd like:
 - A sample Python program that applies Amdahl’s Law 💻  
 - Or a side-by-side comparison with Gustafson’s Law 🔁  
 
+# 🧠 Fault Tolerance, GPU Architecture, and Programming
+
+---
+
+## 🔁 Fault Tolerance
+
+### 📌 What is Fault Tolerance?
+Fault tolerance is the ability of a system to continue operating correctly even when some of its components fail.
+
+### 🎯 Importance
+- Ensures system reliability
+- Protects data integrity
+- Maintains continuous service in mission-critical systems
+
+---
+
+## ⚙️ Types of Faults
+
+- **Hardware Faults**: Malfunctioning components or physical damage
+- **Software Faults**: Bugs and glitches in code
+- **Environmental Faults**: Power outages, electromagnetic interference, temperature issues
+
+---
+
+## 🧾 Why Faults Occur
+
+- **Component Wear and Tear**
+- **Overclocking and Heat**
+- **Environmental Conditions** (dust, humidity)
+
+---
+
+## 🎯 Importance in Real-World Systems
+
+- **Medical Devices**
+- **Aerospace Systems**
+- **Banking and Financial Systems**
+
+---
+
+## 🛠️ Fault Tolerance Techniques
+
+| Technique               | Purpose                                            |
+|------------------------|----------------------------------------------------|
+| Redundancy             | Backup components in case of failure               |
+| Error Detection & Correction | Detects and corrects data errors               |
+| Checkpoints & Rollbacks| Saves system state to recover after failure        |
+
+---
+
+## 🧩 Load Balancing & Replication
+
+- **Replication**: Keeps copies of data/components across systems
+- **Load Balancing**: Spreads load across systems for fault tolerance and high availability
+
+---
+
+## 🔧 Recovery Strategies
+
+| Strategy               | Description                                      |
+|------------------------|--------------------------------------------------|
+| Automatic Recovery     | System self-recovers using predefined rules      |
+| Manual Intervention    | Human operator fixes issues manually             |
+| Self-Healing Systems   | AI-enabled recovery without human involvement    |
+
+---
+
+## ⚠️ Challenges in Fault Tolerance
+
+- Resource overhead
+- Increased system complexity
+- Adapting to dynamic faults in changing environments
+
+---
+
+## 🧪 Case Study: Google Infrastructure
+
+- **Google File System (GFS)**: A fault-tolerant distributed file system
+- **Chubby Lock Service**: Ensures coordination across distributed nodes
+- Uses **replication**, **redundancy**, and **automatic recovery** to maintain uptime at scale
+
+---
+
+# 🖥️ GPU Architecture and Programming
+
+---
+
+## 🧠 What is a GPU?
+
+A Graphics Processing Unit (GPU) is a specialized processor for **parallel computation**. It is designed to execute many threads simultaneously.
+
+---
+
+## 🧱 Key GPU Components
+
+| Component             | Description                                   |
+|-----------------------|-----------------------------------------------|
+| Streaming Multiprocessors (SM) | Execute instructions concurrently      |
+| CUDA Cores            | Processing units within SMs                   |
+| Memory Hierarchy      | Optimized memory access across GPU            |
+
+---
+
+## 🚀 CUDA Programming Model
+
+- **Host (CPU)** controls GPU
+- **Device (GPU)** executes tasks in parallel
+- **Kernels** are GPU functions executed by many threads simultaneously
+
+---
+
+## 🖥️ GPU Programming Languages
+
+- **CUDA**: NVIDIA's proprietary GPU language
+- **OpenCL**: Open standard for heterogeneous computing
+- **Vulkan**: API for graphics and compute tasks
+
+---
+
+## ⚙️ Parallelism in GPUs
+
+| Concept             | Description                                   |
+|---------------------|-----------------------------------------------|
+| SIMT Architecture   | Single Instruction, Multiple Threads          |
+| Thread Hierarchy    | Threads → Warps → Blocks → Grids             |
+| Warp Execution      | Threads within a warp run in lockstep         |
+
+---
+
+## 💾 GPU Memory Types
+
+| Type             | Description                                   |
+|------------------|-----------------------------------------------|
+| Global Memory    | Accessible to all threads                     |
+| Shared Memory    | Shared by threads in the same block           |
+| Constant Memory  | Read-only data for all threads                |
+
+---
+
+## 🧪 Applications of GPGPU
+
+- Scientific computing
+- Machine learning (e.g., training neural networks)
+- Real-time graphics rendering
+- Big data analysis
+
+---
+
+## ⚠️ GPU Performance Considerations
+
+- **Data Transfer Bottlenecks** between CPU ↔ GPU
+- **Thread Divergence**: Slows down when threads in a warp do different things
+- **Shared Memory Conflicts**
+
+---
+
+## 🛠️ CUDA Libraries
+
+| Library  | Purpose                                    |
+|----------|---------------------------------------------|
+| cuBLAS   | High-performance linear algebra             |
+| cuDNN    | Deep learning acceleration                  |
+| Thrust   | Parallel algorithms (like C++ STL for CUDA) |
+
+---
+
+## 🌐 GPU Virtualization
+
+- Enables multiple VMs to share a single GPU
+- Powered by **NVIDIA GRID**
+- Use cases: Cloud gaming, virtual desktops, cloud rendering
+
+---
+
+## 🛡️ GPU Fault Tolerance
+
+| Method               | Description                                  |
+|----------------------|----------------------------------------------|
+| ECC Memory           | Detects and corrects memory errors           |
+| Redundant Clusters   | Spare GPU units in large clusters            |
+| GPU Checkpointing    | Saves state for failure recovery             |
+
+---
+
+## 🧪 Case Study: NVIDIA Tesla GPUs
+
+- Used in **HPC** and **deep learning**
+- Tesla V100 architecture: High performance, high memory bandwidth
+- Used in AI research, simulations, and data centers
+
+---
+
+## 🧭 Summary
+
+| Topic             | Key Idea                                       |
+|-------------------|------------------------------------------------|
+| Fault Tolerance   | Keeps systems running in the face of failures  |
+| GPU Architecture  | Parallel execution using many cores            |
+| CUDA Programming  | Enables parallelism on NVIDIA GPUs             |
+| Applications      | AI, scientific computing, rendering            |
+
+---
+
+## 🔮 Future Directions
+
+- Advancing **self-healing systems**
+- GPU-driven **AI accelerators**
+- Cloud-native fault-tolerant GPU computing
+
+---
+
+## 📚 References
+
+- Distributed Systems – Tanenbaum, 3rd Ed.
+- Distributed and Cloud Computing – Kai Hwang
