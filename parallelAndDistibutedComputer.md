@@ -450,3 +450,205 @@ A Graphics Processing Unit (GPU) is a specialized processor for **parallel compu
 
 - Distributed Systems – Tanenbaum, 3rd Ed.
 - Distributed and Cloud Computing – Kai Hwang
+
+
+# 📘 Parallel and Distributed Computing
+
+---
+
+## 🧠 Introduction
+
+### Parallel Computing
+- Simultaneous execution of multiple tasks using multiple processors.
+- Speeds up problem-solving for large or complex problems.
+
+### Distributed Computing
+- Tasks are spread across multiple networked computers.
+- Each machine works on a portion of the task collaboratively.
+
+### Why Important?
+- Efficient handling of big data.
+- High performance and scalability.
+- Solving complex problems in less time.
+
+---
+
+## 🖥️ Types of Computing
+
+| Type             | Description                                                |
+|------------------|------------------------------------------------------------|
+| Serial Computing | One task at a time on a single processor.                  |
+| Parallel Computing | Multiple tasks run at the same time on multiple processors. |
+| Distributed Computing | Tasks are spread across different computers in a network. |
+
+---
+
+## ⚡ Advantages of Parallel Computing
+
+- ✅ Faster execution
+- 📦 Handles larger problems
+- 💪 Increases total computing power
+
+---
+
+## ⚠️ Challenges in Parallel Computing
+
+- **Task Synchronization**: Ensuring tasks work together correctly.
+- **Load Balancing**: Even task distribution among processors.
+- **Data Dependency**: Tasks depending on others may cause delay or errors.
+
+---
+
+## 🧠 Memory Models
+
+### Shared Memory Model
+- All processors access common memory.
+- **Pros**: Easier data sharing.
+- **Cons**: Limited scalability.
+- **Example**: OpenMP
+
+### Message Passing Model
+- Each processor has its own memory and communicates via messages.
+- **Pros**: Scalable.
+- **Cons**: Complex communication.
+- **Example**: MPI (Message Passing Interface)
+
+---
+
+## 🌐 Distributed Computing
+
+### Characteristics
+- Tasks spread over a network of computers.
+- Provides fault tolerance and scalability.
+
+### Advantages
+- Improved reliability and fault tolerance.
+- Shared resources and computing power.
+
+### Challenges
+- Network latency.
+- Data consistency and synchronization.
+- Fault detection and recovery.
+
+---
+
+## 🏗️ Distributed Computing Models
+
+| Model             | Description                                               |
+|-------------------|-----------------------------------------------------------|
+| Client-Server     | Clients request services from centralized server.         |
+| Peer-to-Peer      | Each node acts as both client and server.                 |
+| Hybrid            | Mix of both for flexibility and optimization.             |
+
+---
+
+## 🧪 Examples
+
+### Client-Server
+- Web applications, email servers.
+- **Pros**: Central control.
+- **Cons**: Single point of failure.
+
+### Peer-to-Peer
+- Blockchain, file sharing systems.
+- **Pros**: Decentralized.
+- **Cons**: Complex to manage.
+
+### Hybrid Models
+- Used in cloud computing, distributed databases.
+
+---
+
+## 🖥️ High-Performance Computing (HPC)
+
+- Parallel processing for simulations and scientific computations.
+- Used in weather forecasting, molecular modeling, etc.
+
+---
+
+## 🧵 Grid Computing
+
+- Distributed computing across geographically separate systems.
+- Resources shared virtually.
+- Used in scientific research and big data.
+
+---
+
+## ☁️ Cloud Computing
+
+- On-demand access to computing over the internet.
+- **Service Models**:
+  - IaaS (Infrastructure)
+  - PaaS (Platform)
+  - SaaS (Software)
+- **Benefits**: Scalable, cost-effective, accessible.
+
+---
+
+## 🌫️ Fog and Edge Computing
+
+- Push computation closer to the data source (edge devices).
+- Used in real-time systems like IoT and autonomous cars.
+- Reduces latency vs traditional cloud computing.
+
+---
+
+## 🔄 Load Balancing
+
+- Distributes tasks across servers for optimal performance.
+- **Strategies**:
+  - Round-robin
+  - Least connections
+  - Adaptive load balancing
+
+---
+
+## 📁 Data Replication
+
+- Duplicate data across multiple nodes.
+- Increases availability and speed.
+- Challenge: Keep all copies **consistent**.
+
+---
+
+## 🧪 Case Study: MapReduce
+
+- Programming model to process large datasets.
+- Used in **Hadoop**.
+
+### Workflow:
+1. **Map** – Split and process data in parallel
+2. **Shuffle** – Sort and distribute results
+3. **Reduce** – Aggregate and finalize output
+
+---
+
+## 🤖 Parallel and Distributed AI
+
+- Parallelism in neural network training (e.g. GPUs).
+- Distributed training across multiple machines for faster convergence.
+- AI model deployment via distributed systems (real-time prediction, scalability).
+
+---
+
+## 🚀 Future Trends
+
+- **Quantum Computing** – Faster computation via quantum principles.
+- **Neuromorphic Computing** – Mimics brain-like structures.
+- **AI + Distributed Systems** – Optimized models for cloud-native AI applications.
+
+---
+
+## ✅ Conclusion
+
+- Parallel and Distributed Computing help solve modern data and compute challenges.
+- Critical for high-speed, scalable, and reliable systems.
+- Will continue to evolve alongside AI and hardware innovations.
+
+---
+
+## 📚 References
+
+- *Distributed Systems – Third Edition (2017)*  
+- *Distributed and Cloud Computing – From Parallel Processing to the Internet of Things*
+
