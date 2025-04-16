@@ -315,3 +315,72 @@ NLP tools are everywhere – in your phone, your browser, and even in hospitals 
 ---
 
 Let me know if you'd like this as a downloadable file or want it in PDF format too.
+
+# 🧠 NLP Tools: Open-Source Libraries & Commercial Platforms
+
+This document gives a simple overview of **popular NLP tools**, both **open-source** and **commercial cloud-based services**, used for processing and understanding human language.
+
+---
+
+## 📚 Open-Source NLP Libraries & Frameworks
+
+These tools are **free** to use and are mostly used by developers, researchers, and students.
+
+### 🔹 Python-Based Tools
+
+| Library | Description |
+|--------|-------------|
+| **spaCy** | Fast and great for real-world projects. Used in production apps. |
+| **NLTK (Natural Language Toolkit)** | Good for learning NLP. Covers many basic and advanced tasks. |
+| **Gensim** | Best for topic modeling and comparing documents. |
+| **TextBlob** | Very easy to use. Good for tasks like sentiment analysis and part-of-speech tagging. |
+| **Hugging Face Transformers** | Powerful! Lets you use pre-trained models like BERT, GPT, and more. Great for text generation and understanding. |
+
+---
+
+### 🔹 Java-Based Tools
+
+| Library | Description |
+|--------|-------------|
+| **Stanford CoreNLP** | A complete toolkit that handles many NLP tasks like parsing, NER, etc. |
+| **OpenNLP** | Another good Java library for basic NLP features like sentence detection, POS tagging, and more. |
+
+---
+
+## ☁️ Commercial NLP Platforms & Services
+
+These are cloud-based services that offer NLP features without needing to build your own models.
+
+### 🔸 Cloud-Based NLP APIs
+
+| Platform | Description |
+|----------|-------------|
+| **Google Cloud Natural Language API** | Detects sentiment, entities, syntax. Easy to use with Google Cloud. |
+| **Amazon Comprehend** | Provides NLP features like entity recognition and sentiment detection. Works well with other AWS tools. |
+| **IBM Watson Natural Language Understanding** | A full-featured NLP service for businesses. Handles emotion, categories, and more. |
+| **Microsoft Azure Text Analytics** | Part of Azure services. Supports key phrase extraction, language detection, etc. |
+
+---
+
+### 🔸 Other NLP Platforms
+
+| Platform | Description |
+|----------|-------------|
+| **MonkeyLearn** | Lets you build custom NLP models (like no-code for NLP). |
+| **Aylien** | Good for analyzing large amounts of text data (e.g., news). |
+| **Rasa** | Open-source tool to build smart chatbots and virtual assistants. |
+| **Eden AI** | One API to access different NLP providers (like a marketplace for NLP services). |
+
+---
+
+## 📝 Note
+
+This list is **not complete**, but it gives a good starting point. The **best NLP tool** depends on:
+
+- Your project’s goal (e.g., chatbot, translation, text summarization)
+- Your skills (Python, Java, etc.)
+- Whether you want free or paid tools
+- How much data you’re working with
+
+---
+
