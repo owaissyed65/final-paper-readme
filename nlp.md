@@ -246,8 +246,61 @@ Used in office or work apps.
 Developers can use them in their own apps.  
 **Examples:** OpenAI API, Google Cloud NLP API  
 
+# NLP Tasks & Tools
+
+### 🏷️ Text Classification  
+- **Sentiment Analysis:** Tells if a review is good or bad  
+- **Topic Classification:** Groups text by topic (sports, news)  
+- **Summarization:** Makes text shorter  
+- **POS Tagging:** Shows grammar role (noun, verb)  
+- **Syntactic Analysis:** Checks sentence structure  
+
 ---
 
+### 📍 Information Extraction  
+- **NER:** Finds names of people, places  
+- **IE:** Pulls out dates, phone numbers  
+- **QA:** Answers questions from documents  
+
+---
+
+### ✍️ Text Generation  
+- **Translation:** Language conversion (e.g., English ↔ Urdu)  
+- **Chatbots:** Helps customers on websites  
+- **Text Creation:** Writes articles, stories  
+- **Speech Recognition:** Converts speech to text  
+
+---
+
+## 🔹 6. NLP Libraries for Developers
+
+- **spaCy:** Fast library for NLP  
+- **NLTK:** Classic Python toolkit  
+- **Textacy:** Built on top of spaCy for analysis  
+
+---
+
+## 🔹 7. Tool Comparison
+
+| Tool/Product           | Strengths                                   | Weaknesses                                  |
+|------------------------|---------------------------------------------|----------------------------------------------|
+| **ChatGPT** (OpenAI)   | Great for writing, answering, conversations | Needs strong computer power, can be wrong    |
+| **Google BERT**        | Understands text deeply                     | Not good for writing/generating              |
+| **IBM Watson NLP**     | Many features, business ready               | Expensive, setup is hard                     |
+| **AWS Comprehend**     | Works well with AWS, handles big data       | May not fit small/unique needs               |
+| **Azure Text Analytics** | Easy to use in Azure, works fast          | May not support all languages equally        |
+
+---
+
+## 🔹 8. Voice Assistant Comparison
+
+| Feature              | Siri       | Alexa        | DeepSeek      |
+|----------------------|------------|--------------|---------------|
+| Voice Commands        | ✅         | ✅           | ✅            |
+| Works in Devices      | Apple only | Many devices | Not confirmed |
+| Personalization       | ✅         | Limited      | ✅            |
+| Third-party Skills    | Limited    | Many         | Unknown       |
+| Conversational Skills | Basic      | Advanced     | Advanced      |
 
 ## 📌 Conclusion
 
