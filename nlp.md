@@ -105,7 +105,7 @@ Find words that refer to the same thing.
 ## ⚙️ Techniques Used in NLP
 
 ### 1. 🧾 Rule-Based Methods
-- Use hand-written rules (e.g., “If word = ‘cat’, then it's a noun”).
+- Use hand-written rules (e.g., “If word = ‘cat’, then it's a noun”). These involve manually created rules and heuristics to process language data. For example, defining patterns in language to extract meaning.
 
 ### 2. 🤖 Machine Learning & Deep Learning
 - Learn patterns from lots of text.
