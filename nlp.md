@@ -272,7 +272,7 @@ Developers can use them in their own apps.
 
 ---
 
-## 🔹 6. NLP Libraries for Developers
+## 🔹 NLP Libraries for Developers
 
 - **spaCy:** Fast library for NLP  
 - **NLTK:** Classic Python toolkit  
@@ -280,7 +280,7 @@ Developers can use them in their own apps.
 
 ---
 
-## 🔹 7. Tool Comparison
+## 🔹 Tool Comparison
 
 | Tool/Product           | Strengths                                   | Weaknesses                                  |
 |------------------------|---------------------------------------------|----------------------------------------------|
@@ -292,7 +292,7 @@ Developers can use them in their own apps.
 
 ---
 
-## 🔹 8. Voice Assistant Comparison
+## 🔹 Voice Assistant Comparison
 
 | Feature              | Siri       | Alexa        | DeepSeek      |
 |----------------------|------------|--------------|---------------|
