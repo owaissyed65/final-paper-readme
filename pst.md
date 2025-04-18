@@ -307,3 +307,33 @@ The Aligarh Movement, led by *Sir Syed Ahmad Khan*, was a pivotal reform initiat
 ---
 
 *“Sir Syed was not just a reformer; he was the architect of Muslim revival through education.”*
+
+# Pakistan Movement (1940-1947) - Key Points
+
+## Main Points of the Pakistan Resolution (Lahore Resolution, 1940)
+- *Demand for Independent States*: Muslims of India should have separate, independent states in regions where they are the majority.
+- *Two-Nation Theory*: Emphasized that Hindus and Muslims are distinct nations with different cultures, religions, and social practices.
+- *Role of Muslim League*: Led by Muhammad Ali Jinnah, the All-India Muslim League demanded political rights for Muslims.
+- *Rejection of Federal Systems*: Opposed a single Indian union, fearing Muslim minority status in a Hindu-majority India.
+
+---
+
+## Cabinet Mission Plan (1946)
+### Main Proposals of the Mission
+- *United India with Federal Structure*: Proposed a united India divided into three groups of provinces with limited central authority.
+  - *Group A*: Hindu-majority provinces (e.g., Madras, Bombay).
+  - *Group B*: Muslim-majority provinces in the northwest (e.g., Punjab, Sindh).
+  - *Group C*: Muslim-majority provinces in the northeast (e.g., Bengal, Assam).
+- *Central Government Powers*: Limited to defense, foreign affairs, and communications.
+- *Provincial Autonomy*: Provinces could form their own constitutions and leave the union after 10 years.
+
+### Key Clauses of the Plan
+1. A loose federation with strong provincial governments.
+2. Formation of a Constituent Assembly to draft India’s constitution.
+3. Interim government with representatives from Congress and the Muslim League.
+
+---
+
+## Outcome (1947)
+- The Cabinet Mission Plan was rejected by both Congress and the Muslim League.
+- Mountbatten Plan (1947) led to the partition of India and the creation of Pakistan on August 14, 1947.
