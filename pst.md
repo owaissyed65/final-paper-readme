@@ -1,7 +1,3 @@
-Here’s a very **simple, short, and clean summary** for your exam based on your file :
-
----
-
 # **Pakistan Resolution and Movement - Key Points**
 
 ### **Pakistan Movement**
@@ -69,12 +65,6 @@ Here’s a very **simple, short, and clean summary** for your exam based on your
 - Result: Strengthened Muslim identity.
 
 ---
-
-Would you also like me to give you a **one-page revision sheet** (even shorter) if you want to memorize even faster? 📚✨  
-Just say!
-
-Of course! I'll explain **in a very easy way** some important topics from your Two Nation Theory file  — so you can **understand deeply** and **write better in your exams**:
-
 ---
 
 ## 1. **What is Two Nation Theory?**
@@ -175,10 +165,6 @@ Muslims and Hindus were different **in everything**,
 ➔ That’s why Pakistan was created!
 
 ---
-
-Would you like me to also give you a **"sample answer"** for *"Explain Two Nation Theory in your own words"* question?  
-It will help you **score full marks** easily! 📚✅  
-Just say "**Yes, sample answer!**" 🚀
 
 # Ideology of Pakistan & Two Nation Theory
 
