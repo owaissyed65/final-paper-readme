@@ -180,12 +180,10 @@ Would you like me to also give you a **"sample answer"** for *"Explain Two Natio
 It will help you **score full marks** easily! 📚✅  
 Just say "**Yes, sample answer!**" 🚀
 
-
 # Ideology of Pakistan & Two Nation Theory
 
 ## Overview
-This document outlines the foundational ideology behind the creation of Pakistan, rooted in Islamic principles and the Two Nation Theory.
-It highlights the key concepts, historical context, and the role of prominent leaders in shaping the ideological framework of the country.
+This document outlines the foundational ideology behind the creation of Pakistan, rooted in Islamic principles and the Two Nation Theory. It highlights the key concepts, historical context, and the role of prominent leaders in shaping the ideological framework of the country.
 
 ---
 
@@ -208,6 +206,7 @@ It highlights the key concepts, historical context, and the role of prominent le
 - *Core Idea*: Muslims and Hindus are two distinct nations.
 - Differences in religion, culture, language, and social values.
 - Muslims needed a separate homeland to practice Islam freely.
+- Originated in *712 AD* with the arrival of Islam in the subcontinent.
 
 ---
 
@@ -215,38 +214,43 @@ It highlights the key concepts, historical context, and the role of prominent le
 - Pakistan was founded on Islamic ideology, not geography.
 - Aimed to build a society based on *Islamic values* and *justice*.
 - “Pakistan” symbolizes a place where Islam is practiced in all areas of life.
+- Declared by *Quaid-e-Azam in 1940* at the Lahore Resolution.
 
 ---
 
 ## Reasons for Demand of Separate Homeland
 - Religious, cultural, economic, and political differences.
 - Hindu nationalism and anti-Muslim sentiment.
-- Events: War of 1857, Urdu-Hindi controversy, Bengal Partition.
-- Muslims needed a separate identity and protection of their rights.
+- Key Events:
+  - *1857*: War of Independence
+  - *1905*: Partition of Bengal
+  - *1928*: Nehru Report (rejected by Muslims)
+  - *December 29, 1930*: Annual Meeting of the All-India Muslim League; Allama Iqbal's Allahabad Address
+  - *1940*: Pakistan Resolution
 
 ---
 
 ## Key Figures
 
-### Sir Syed Ahmed Khan
+### Sir Syed Ahmed Khan (1817–1898)
 - First to propose the idea of *Two Nations*.
-- Highlighted growing Hindu-Muslim hostility.
+- Founded *Aligarh Movement* in 1863.
+- Highlighted growing Hindu-Muslim hostility after the 1857 revolt.
 
-### Allama Iqbal
-- Advocated for a *Muslim homeland*.
+### Allama Iqbal (1877–1938)
+- Advocated for a *Muslim homeland* in his *1930 Allahabad Address*.
 - Believed Islam is a *complete code of life*.
 - Emphasized Muslim unity and spiritual identity.
 
-### Quaid-e-Azam Muhammad Ali Jinnah
+### Quaid-e-Azam Muhammad Ali Jinnah (1876–1948)
 - Strong proponent of the *Two Nation Theory*.
-- Rejected nationalism, socialism, or any other “ism” other than Islam.
+- Led *Muslim League* and presented *Pakistan Resolution in 1940*.
 - Wanted Pakistan as a *laboratory to implement Islamic principles*.
 
 ---
 
 ## Conclusion
-Pakistan was created as the first *Islamic ideological state* in the modern world. Its existence is tied to the ideology of Islam,
-and the Two Nation Theory remains central to understanding its foundation and purpose.
+Pakistan was created as the first *Islamic ideological state*
 
 
 # Tehreek-e-Aligarh (Aligarh Movement)
