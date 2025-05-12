@@ -161,6 +161,171 @@ Wireless systems require coordination across layers:
 4. Remember how **cross-layer design** works to optimize communication.
 5. Be familiar with **emerging network types** like ad-hoc and sensor networks.
 
+Here's a complete, organized summary of **Week 2: Basics of Wireless Networks** in `README.md` format — perfect for revision and quiz prep:
+
 ---
 
-Would you like this summary as a downloadable `README.md` file too?
+# 📡 Week 2 – Basics of Wireless Networks
+
+## 📘 Learning Objectives
+
+* Understand the **structure and components** of wireless networks
+* Learn various **access technologies**
+* Explore issues like **interference**, **multipath propagation**, **path loss**, and **battery life**
+* Study **channel allocation**, **routing**, **mobility**, **security**, and **power management**
+
+---
+
+## 🌐 What is a Wireless Network?
+
+| Wired Network          | Wireless Network               |
+| ---------------------- | ------------------------------ |
+| Uses cables            | Uses air/radio waves           |
+| High data rate         | Comparatively lower data rate  |
+| Fixed – lacks mobility | Portable and supports mobility |
+
+### Advantages:
+
+* Quick and inexpensive setup
+* High mobility
+* Useful in remote areas
+
+---
+
+## 🏗️ Wireless Network Architecture
+
+### 1. **Mobile Hosts**
+
+Devices that move and maintain wireless connections
+**Examples**: Mobile phones, tablets, laptops
+
+### 2. **Fixed Wireless Hosts**
+
+Stationary devices using wireless media
+**Examples**: Wireless printers, servers
+
+### 3. **Access Network**
+
+Access stations (Base Stations - BS) that provide services to nearby mobile/fixed hosts
+
+### 4. **Core Network**
+
+Handles:
+
+* Switching between access stations
+* Mobility & location tracking
+* Communication between:
+
+  * Mobile ↔ Mobile
+  * Mobile ↔ Wired
+  * Fixed ↔ Fixed
+
+---
+
+## 🔠 Classification of Wireless Networks
+
+| Type     | Description                        | Signal Range                     |
+| -------- | ---------------------------------- | -------------------------------- |
+| **WBAN** | Wireless Body Area Network         | ≤ 2 meters                       |
+| **WPAN** | Wireless Personal Area Network     | ≤ 10 meters                      |
+| **WLAN** | Wireless Local Area Network        | ≈ 100 meters (Wi-Fi/IEEE 802.11) |
+| **WMAN** | Wireless Metropolitan Area Network | 5–50 km (WiMAX/IEEE 802.16)      |
+| **WWAN** | Wireless Wide Area Network         | Very large (GSM, 3G, LTE, 5G)    |
+
+---
+
+## 🔁 Wireless Switching Technology
+
+### 🌐 Packet Switching (Used in Wireless)
+
+* Breaks data into **short packets**
+* Uses bandwidth **only when transmitting**
+* Includes **multiplexing and pipelining**
+* More **efficient** than circuit switching
+
+### 🔗 Virtual Circuits
+
+* **Switched VC (SVC)**: Set up on demand, 3 phases (setup, transfer, teardown)
+* **Permanent VC (PVC)**: Always available, only data transfer mode
+
+---
+
+## ⚠️ Wireless Communication Challenges
+
+### 1. **Increased Bit Error Rate**
+
+* Due to interference, obstacles, and weak signals
+
+### 2. **Lower Transmission Power**
+
+* Battery-powered devices have limited range and power
+* Follows formula:
+
+  $$
+  P_r = \frac{P_t}{(4πd/λ)^2}
+  $$
+
+  Where:
+
+  * $P_r$: Received power
+  * $P_t$: Transmit power
+  * $d$: Distance
+  * $λ$: Wavelength
+
+### 3. **Scattering**
+
+* Occurs when waves hit small objects or irregular surfaces
+
+### 4. **Reflection**
+
+* Happens when waves hit large objects (walls, buildings)
+
+### 5. **Diffraction**
+
+* Occurs when waves encounter sharp edges
+
+### 6. **Multipath Propagation**
+
+* Signal reaches receiver from multiple paths, causing **interference**
+* **Solution**: Antenna diversity
+
+---
+
+## 🧱 Wireless Network Reference Model (Based on TCP/IP)
+
+### 🗂️ Layers:
+
+| Layer           | Functions                                                  |
+| --------------- | ---------------------------------------------------------- |
+| **Application** | User interfaces (Email, Browser, FTP)                      |
+| **Transport**   | End-to-end connection & reliability                        |
+| **Network**     | Routing and addressing                                     |
+| **Data Link**   | Framing, error checking, access control                    |
+| **Physical**    | Wireless signal transmission (modulation, data rate, etc.) |
+
+> ✅ TCP/IP has **no session layer** unlike OSI.
+
+### Example Protocol Data Units:
+
+* **TCP header**: Port, sequence number, checksum
+* **IP header**: Destination IP
+* **MAC header**: Physical addressing
+
+---
+
+## 🎯 Transport Layer Goals
+
+* Provide **Quality of Service (QoS)**
+* Bridge gap between user expectations and network limitations
+
+---
+
+## ✅ Quiz Tips
+
+* Memorize **types of wireless networks (WBAN, WPAN, etc.)** with signal ranges.
+* Understand the difference between **wired vs. wireless**.
+* Learn common problems like **multipath, scattering, reflection**.
+* Know the **TCP/IP model layers** and their wireless-specific roles.
+* Remember what **packet switching** and **virtual circuits** are.
+* Focus on **transmission power formula and its variables**.
+
