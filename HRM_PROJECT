@@ -1,12 +1,587 @@
 Here’s a **10–12-page written summary** of the three uploaded lecture PDFs. It synthesizes all key concepts with detailed yet simplified explanations ideal for review, assignments, or presentations.
 
+📘 Lecture 3: Workflow & Job Analysis
+1. Workflow Analysis
+Definition: Study of how work (inputs → activities → outputs) moves through an organization.
+
+
+Steps:
+
+
+Understand business goals
+
+
+Identify inputs, process, outputs
+
+
+Identify unit-wise tasks
+
+
+Document time, resources, effort
+
+
+Prepare final workflow
+
+
+2. Job Design Concepts
+Job Characteristics Model (Hackman & Oldham):
+
+
+Skill Variety
+
+
+Task Identity
+
+
+Task Significance
+
+
+Autonomy
+
+
+Feedback
+
+
+3. Job Redesign Techniques
+Job Enlargement: Add more tasks
+
+
+Job Enrichment: Add depth, growth, responsibility
+
+
+Job Rotation: Shift between jobs
+
+
+4. Job Analysis Components
+Job Content: Duties, tools, tasks, training
+
+
+Job Context: Work environment, risks, reporting
+
+
+Job Requirements: Qualifications, experience, traits
+
+
+5. Outcomes of Job Analysis
+Job Description: Title, location, duties, conditions
+
+
+Job Specification: Qualifications, skills, personality
+
+
+6. Strategic Job Analysis & Dejobbing
+Emphasis on:
+
+
+Roles > Tasks
+
+
+Profiles > Descriptions
+
+
+Fluidity & Teamwork > Specialization
+
+
+Dejobbing: Flexible roles, project-based work, decision empowerment
+
+
+7. Competency Profiling
+Based on:
+
+
+Competencies
+
+
+Attributes
+
+
+Knowledge
+
+
+Experience
+
+
+8. Strategic Job Modeling
+Focus on:
+
+
+Can-do competencies (current)
+
+
+Will-do competencies (future)
+
+
+
+📗 Lecture 4: Labor Laws
+1. Key Labor Laws in Pakistan (16 Major Laws)
+Includes EOBI Act, Social Security Ordinance, Factories Act, Payment of Wages Act, Maternity Benefit Ordinance, etc.
+
+
+2. Minimum Wage
+PKR 20,000/month (2021–2022)
+
+
+3. Working Hours
+Daily: 8–9 hrs
+
+
+Weekly: 48 hrs
+
+
+Ramadan: 6 hrs/day
+
+
+Rest: 1 hour every 6 hours; 30 mins over 5 hours
+
+
+4. Overtime
+Paid at 2x rate (1.25x for Railway)
+
+
+Max daily spread: 12 hours
+
+
+5. Types of Leave
+Annual Leave: 14 consecutive days
+
+
+Sick Leave: 10 days (private), 121–365 days (govt.)
+
+
+Maternity Leave: 12 weeks full pay (pre + postnatal)
+
+
+Paternity Leave: 30 days (max 3 times)
+
+
+Pilgrimage Leave: 30 days unpaid (once)
+
+
+6. Statutory Contributions & Gratuity
+30 days’ wages for every completed year of service (gratuity)
+
+
+Paid upon retirement, resignation (not on misconduct)
+
+
+7. Termination & Severance
+Notice period based on contract
+
+
+Severance pay varies: e.g., PKR 900,000 for 26 years @ PKR 30,000 salary
+
+
+
+📙 Lecture 5: Strategic Training & Development
+1. Training vs Learning
+Training: Org-driven, skill-focused
+
+
+Learning: Employee-driven, ongoing
+
+
+2. Organizational Learning
+Levels:
+
+
+Individual
+
+
+Group
+
+
+Organizational
+
+
+3. Learning Framework
+Learn → Act → Share
+
+
+4. Knowledge Management
+Systematic process of storing and sharing knowledge (e.g., NASA's debrief process)
+
+
+5. ADDIE Model
+Analyse needs
+
+
+Design strategy
+
+
+Develop content
+
+
+Implement methods (on-the-job, off-the-job)
+
+
+Evaluate effectiveness
+
+
+6. Learning Methods
+On-the-job: Coaching, mentoring, job rotation
+
+
+Off-the-job: Lectures, simulations, role playing
+
+
+7. E-learning Types
+Synchronous: Real-time (live classes)
+
+
+Asynchronous: Self-paced (forums, videos)
+
+
+8. Career Plateaus
+Structural, Content, Learning, Life
+
+
+Sure! Below is a detailed explanation of all three lectures structured in a professional and comprehensive README.md format, suitable for study notes, documentation, or GitHub repositories.
+
+---
+
+# 📘 HRM Lectures Summary
+
+This repository provides a detailed breakdown of three core topics in Human Resource Management (HRM):
+
+* *Lecture 06:* Personnel Planning & Recruitment
+* *Lecture 07:* Traditional Training Methods
+* *Lecture 10:* Strategy Formulation & HRM
+
+Each section outlines the major concepts, strategies, methods, and examples necessary for understanding or applying HR practices effectively.
+
+---
+
+## 📍 Lecture 06: Personnel Planning & Recruitment
+
+### 📌 Overview
+
+Recruitment is a critical HR function that follows the establishment of business goals, workforce planning, and job analysis. It focuses on building a qualified pool of candidates and selecting the right talent for organizational needs.
+
+---
+
+### 🧩 Recruitment Process
+
+1. *Candidate Pool Generation*
+
+   * Internal or external sourcing
+2. *Application & Screening*
+
+   * Forms and interviews
+3. *Selection Tools*
+
+   * Testing, assessments, etc.
+4. *Final Offer*
+
+   * Conditional upon meeting requirements
+
+---
+
+### ⚙ Recruitment Approaches
+
+#### 🔨 Build Approach
+
+* Hire fresh graduates
+* Train and develop internally
+* E.g., SBP's Officer Recruitment Program
+
+#### 🛒 Buy Approach
+
+* Hire experienced professionals
+* Ready-to-deploy skills
+* E.g., Bank Alfalah hiring experienced bankers
+
+> ✅ Most organizations adopt a *hybrid* of both approaches.
+
+---
+
+### 📉 Recruitment Challenges
+
+* Legal compliance (Labor Laws)
+* Selection tool effectiveness
+* Internal policy constraints
+
+---
+
+### 🔺 Recruiting Yield Pyramid
+
+Helps determine how many candidates are needed at each step (applications, interviews, offers) to achieve the required number of hires.
+
+---
+
+### 🔁 Internal vs External Hiring
+
+#### Internal Recruitment
+
+* Promotions, job postings, rehiring
+* *Pros*: Better cultural fit, higher morale
+* *Cons*: Risk of favoritism, limited perspective
+
+#### External Recruitment
+
+* Online platforms, agencies, referrals
+* *Pros*: Broader talent pool
+* *Cons*: Higher costs, time-consuming
+
+---
+
+### 📣 Example: Internal Job Posting
+
+> Job Opening: Marketing Officer – Credit Sales Dept.
+> Requirements: MBA + 6 months experience
+> Method: Email announcement + NOC from HoD
+
+---
+
+### 🌍 External Hiring Methods
+
+* *Internet Recruitment*
+
+  > Fast and cost-effective but may exclude older demographics.
+
+* *Employment Agencies*
+
+  > Useful when in-house HR is limited.
+
+* *Executive Recruiters*
+
+  > Headhunters for top-level talent.
+
+* *College Recruitment*
+
+  > Job fairs, campus drives, internships.
+
+* *Walk-ins & Referrals*
+
+  > Organic recruitment but risks bias.
+
+---
+
+### 🌐 Outsourcing & Offshoring
+
+* *Outsourcing*: Domestic third-party vendors
+* *Offshoring*: Overseas partners
+* *Challenges*: Legal, cultural, political risks, employee resistance
+
+---
+
+---
+
+## 🧪 Lecture 07: Traditional Training Methods
+
+### 🎯 Objective
+
+Transforming employee knowledge into actual job performance using various training methodologies.
+
+---
+
+### 📂 Categories of Training Methods
+
+| Category       | Nature        | Examples                       |
+| -------------- | ------------- | ------------------------------ |
+| Presentation   | Passive       | Lectures, AV                   |
+| Hands-On       | Active        | OJT, Simulations, Case Studies |
+| Group Building | Collaborative | Team Training, Action Learning |
+
+---
+
+### 🧑‍🏫 Presentation Methods
+
+#### 📘 Lecture
+
+* One-way communication
+* Suitable for large groups
+* Cost-effective
+
+#### 📽 Audio-Visual
+
+* Includes videos, slides, etc.
+* Great for demonstrating soft skills
+
+---
+
+### 🛠 Hands-On Methods
+
+#### 👷 On-the-Job Training (OJT)
+
+* Learning by observation + practice
+* Includes Apprenticeship and Self-Directed Learning
+
+#### 🎓 Self-Directed Learning
+
+* Trainee controls pace & content
+* Requires self-motivation
+
+#### 🧰 Apprenticeships
+
+* Blend of classroom and job training
+* E.g., Skilled trades like plumbing, carpentry
+
+#### 🎮 Simulations
+
+* Mimic real-world job situations
+* Useful for high-risk roles or managerial decisions
+
+#### 📚 Case Studies
+
+* Problem analysis and recommendations
+* Encourages critical thinking
+
+#### 🎲 Business Games
+
+* Decision-making in a competitive scenario
+* Common in management training
+
+#### 🎭 Role Plays
+
+* Acting out workplace scenarios
+* Focus on interpersonal skills
+
+#### 👥 Behavior Modeling
+
+* Watch → Practice → Feedback → Apply
+* Based on social learning theory
+
+---
+
+### 🧑‍🤝‍🧑 Group Building Methods
+
+#### ⛰ Adventure Learning
+
+* Outdoor challenges to boost teamwork and leadership
+
+#### 🧠 Team Training
+
+* Focused on group coordination and conflict resolution
+
+#### ⚙ Action Learning
+
+* Teams solve real problems and implement solutions
+* Encourages accountability and collaboration
+
+---
+
+### 🧾 Choosing the Right Training Method
+
+1. Match the method with learning outcomes
+2. Ensure transferability of skills
+3. Consider costs and ROI
+4. Evaluate effectiveness over time
+
+---
+
+## 🧭 Lecture 10: Strategy Formulation & HRM
+
+### 🏥 Opening Case: Sarasota Memorial Hospital
+
+* Adopted “Pillars of Excellence” strategy
+* HR focused on “People” pillar
+* Outcomes: Higher satisfaction, reduced turnover
+
+---
+
+### 🧱 Strategic Management Process
+
+1. *Strategic Intent*
+
+   > Mission, vision, purpose
+
+2. *Environmental Scanning*
+
+   > External (PESTLE), Internal (SWOT)
+
+3. *Strategy Formulation*
+
+   > Using models like Porter, Miles & Snow
+
+4. *Implementation*
+
+   > Deploying HR and operational plans
+
+5. *Evaluation*
+
+   > Measuring outcomes, feedback loop
+
+---
+
+### 🧾 Mission Statement Examples
+
+| Company   | Mission                                              |
+| --------- | ---------------------------------------------------- |
+| IKEA      | "Better everyday life through affordable design"     |
+| KFC       | "Fast, friendly food for health-conscious customers" |
+| Coca-Cola | "Refresh the world, inspire optimism"                |
+
+---
+
+### 📊 Strategy Models
+
+#### *Porter’s Generic Strategies*
+
+* Cost Leadership
+* Differentiation
+* Focus/Niche
+
+#### *Miles and Snow Typology*
+
+* Defenders: Stable, cost-efficient
+* Prospectors: Innovators
+* Analyzers: Mix of both
+* Reactors: No clear strategy
+
+#### *Sonnenfeld & Pieperl Typology*
+
+Defines organizational HR planning style:
+
+| Type          | Traits                        |
+| ------------- | ----------------------------- |
+| Club          | Internal hiring, low turnover |
+| Baseball Team | Open hiring, high turnover    |
+| Academy       | Formal training, career paths |
+| Fortress      | High layoffs, little planning |
+
+---
+
+### 📜 HR Anecdote: Alice & the Mad Hatter
+
+A metaphor emphasizing:
+
+* Learning from both success and failure
+* Strategic HR must balance flexibility and direction
+* Continuous improvement over circular patterns
+
+---
+
+## ✅ Conclusion
+
+These three lectures provide a *comprehensive overview* of how HR professionals:
+
+* Plan and recruit talent strategically
+* Train and develop using traditional methods
+* Align HR practices with business strategy
+
+---
+
+## 📚 Recommended Use
+
+You can use this README.md as:
+
+* Study notes
+* Employee onboarding material
+* Strategic HRM documentation
+* Training program guide
+
+---
+
+Let me know if you want this turned into a downloadable .md file or exported to PDF/HTML for presentations!
+
+
 ---
 
 # **📘 Combined Summary: Traditional Training Methods, Evaluation, Employee Relations & Termination**
 
 ---
 
-## **Chapter 1: Traditional Training Methods**
+## **Chapter 7: Traditional Training Methods**
 
 ### 🔹 Overview
 
