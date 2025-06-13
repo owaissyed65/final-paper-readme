@@ -1,5 +1,52 @@
 # HRM Lectures Summary: Environment of HRM & Workflow Analysis
 
+## *📘 Lecture 1: Introduction to Human Resource Management (HRM)*
+
+### *Key Topics Covered*:
+
+* *HRM Functions*: Staffing, Employee & Labor Relations, Safety & Health, Compensation, Human Resource Development.
+* *Compensation*:
+
+  * *Direct Financial*: Salaries, wages, commissions, bonuses, increments.
+  * *Indirect Financial*: Fringe benefits like healthcare, insurance, retirement, etc.
+  * *Non-Financial*: Job satisfaction, positive work environment.
+
+### *Compensation Types*:
+
+* *Salary*: Fixed periodic pay (exempt/white-collar).
+* *Wage*: Hourly/daily pay (non-exempt/manual).
+* *Commission & Bonus*: Based on performance or sales.
+* *Increment*: Regular addition to base pay.
+
+### *Total Compensation Program Components*:
+
+* *External*: Legal, market, societal influences.
+* *Internal*: Job characteristics, workplace environment, flexibility.
+
+### *Intrinsic vs. Extrinsic Rewards*:
+
+* *Intrinsic*: Derived from job content (variety, autonomy, significance).
+* *Extrinsic*: Benefits from employer (monetary & non-monetary).
+
+### *Equity in Compensation*:
+
+* *Equity Theory*: People compare inputs and outcomes with others.
+* *Types*:
+
+  * External Equity (across organizations)
+  * Internal Equity (within job grades)
+  * Individual Equity (among coworkers)
+  * Procedural Equity (fair pay processes)
+
+### *Effective Compensation System*:
+
+* Should align employee behavior with organizational goals.
+* Must offer value for cost.
+* Avoid under- or over-paying which leads to demotivation or inefficiencies.
+
+---
+
+
 ## Lecture 2: Environment of HRM
 
 ### Introduction to Business Environment
