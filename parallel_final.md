@@ -395,78 +395,78 @@ If you want this formatted into a PDF handout, slide deck, or README-style file 
 
 # Message Passing Interface (MPI) and Parallel I/O - Simplified
 
-## What is MPI?
+## What is MPI?  
 MPI is a standard that helps different computer processes talk to each other in parallel computing.
 
-## MPI Features
-1. **Point-to-Point Communication**: Direct messaging between two processes using send/receive operations with message tags
-2. **Collective Communication**: Group operations like broadcast, scatter, gather, and reduce for process coordination
-3. **Derived Data Types**: Custom data structures for efficient data transmission
+## MPI Features  
+1. **Point-to-Point Communication**: Direct messaging between two processes using send/receive operations with message tags  
+2. **Collective Communication**: Group operations like broadcast, scatter, gather, and reduce for process coordination  
+3. **Derived Data Types**: Custom data structures for efficient data transmission  
 
-## MPI Advantages
-• High-speed communication
-• Works on large systems
+## MPI Advantages  
+• High-speed communication  
+• Works on large systems  
 
-## MPI Disadvantages
-• Hard to program
-• May have compatibility issues
+## MPI Disadvantages  
+• Hard to program  
+• May have compatibility issues  
 
-## What is Parallel I/O?
+## What is Parallel I/O?  
 Parallel I/O allows multiple processes to read and write data simultaneously, reducing bottlenecks in high-performance computing.
 
 ## Parallel I/O Key Points
 
-### Challenges
-• Slow data access (latency/bandwidth)
-• Keeping data consistent across processes
+### Challenges  
+• Slow data access (latency/bandwidth)  
+• Keeping data consistent across processes  
 
-### Solutions
-• **Parallel File Systems**: Spread data across multiple storage devices
-• **I/O Libraries**: Tools like HDF5, MPI-IO, ADIOS make programming easier
-• **Access Patterns**: Sequential, strided, and direct I/O methods
+### Solutions  
+• **Parallel File Systems**: Spread data across multiple storage devices  
+• **I/O Libraries**: Tools like HDF5, MPI-IO, ADIOS make programming easier  
+• **Access Patterns**: Sequential, strided, and direct I/O methods  
 
-### Performance Improvements
-• Combine multiple I/O operations (aggregation)
-• Use data compression and filtering
-• Balance speed vs data safety with caching strategies
+### Performance Improvements  
+• Combine multiple I/O operations (aggregation)  
+• Use data compression and filtering  
+• Balance speed vs data safety with caching strategies  
 
-## Real-World Examples
-• **MPI**: Parallel matrix multiplication
-• **Parallel I/O**: Large simulation data output
+## Real-World Examples  
+• **MPI**: Parallel matrix multiplication  
+• **Parallel I/O**: Large simulation data output  
 
 # Scalability, Heterogeneity & Interconnection Topologies - Complete Topics
 
-## Introduction
-• Growing importance of scalable, heterogeneous systems and interconnection topologies in modern computing
-• Impact on various domains: cloud computing, IoT, data centers
+## Introduction  
+• Growing importance of scalable, heterogeneous systems and interconnection topologies in modern computing  
+• Impact on various domains: cloud computing, IoT, data centers  
 
 ## Scalability
 
-### Types of Scalability
-• **Horizontal Scalability**: Adding more machines/nodes to distribute the load
-• **Vertical Scalability**: Increasing resources (CPU, memory, etc.) of a single machine
-• Need to choose the right approach based on application characteristics
+### Types of Scalability  
+• **Horizontal Scalability**: Adding more machines/nodes to distribute the load  
+• **Vertical Scalability**: Increasing resources (CPU, memory, etc.) of a single machine  
+• Need to choose the right approach based on application characteristics  
 
-### Scalability Challenges
-• **Bottlenecks**: Resource constraints that limit scalability potential
-• **Load Balancing Issues**: Distributing workload evenly across nodes
-• **Data Synchronization Problems**: Ensuring consistency across distributed systems
+### Scalability Challenges  
+• **Bottlenecks**: Resource constraints that limit scalability potential  
+• **Load Balancing Issues**: Distributing workload evenly across nodes  
+• **Data Synchronization Problems**: Ensuring consistency across distributed systems  
 
-### Scalability Solutions
-• **Cloud Computing**: Scaling resources on-demand in virtualized environments
-• **Containerization**: Isolating applications for efficient deployment across environments
-• **Distributed Systems**: Utilizing multiple interconnected nodes for parallel processing
+### Scalability Solutions  
+• **Cloud Computing**: Scaling resources on-demand in virtualized environments  
+• **Containerization**: Isolating applications for efficient deployment across environments  
+• **Distributed Systems**: Utilizing multiple interconnected nodes for parallel processing  
 
 ## Heterogeneity
 
-### Definition
-• Presence of diverse hardware, software, or network components in a system
-• Common due to differences in device capabilities, operating systems, and data formats
+### Definition  
+• Presence of diverse hardware, software, or network components in a system  
+• Common due to differences in device capabilities, operating systems, and data formats  
 
-### Heterogeneity Challenges
-• **Compatibility Issues**: Ensuring components work seamlessly together
-• **Performance Variations**: Handling different processing speeds and capabilities
-• **Management**: Managing diverse systems efficiently for optimal performance
+### Heterogeneity Challenges  
+• **Compatibility Issues**: Ensuring components work seamlessly together  
+• **Performance Variations**: Handling different processing speeds and capabilities  
+• **Management**: Managing diverse systems efficiently for optimal performance  
 
 ### Heterogeneity Management
 • **Virtualization**: Creating virtual instances of different environments on single hardware
