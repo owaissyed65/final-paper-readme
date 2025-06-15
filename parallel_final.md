@@ -10,4 +10,5 @@ Explain message passing interface with features,advantages
 illustrate fault tolerance gpu architecture and programming
 
 Explain heterogeneity and interconnection topologies in parallel and distributed computing
+
 ---
