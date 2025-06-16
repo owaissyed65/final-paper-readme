@@ -251,5 +251,40 @@ Where:
 
 ---
 
+# Quiz Questions
+
+### *Q1)* A user tries to open a secure banking website, but the browser shows a certificate error. Which OSI layer is MOST directly involved in this?
+
+*Answer:*
+The issue is related to the *Presentation layer (Layer 6)* of the OSI model, which handles data encryption and decryption, including SSL/TLS certificates. A certificate error indicates a problem with the authentication or encryption process.
+
+---
+
+### *Q2)* If a router drops a packet due to lack of a route to the destination, which OSI layer is involved?
+
+*Answer:*
+This issue occurs at the *Network layer (Layer 3)*. The network layer is responsible for routing and forwarding packets. If no valid route exists, the router cannot deliver the packet, leading to a drop.
+
+---
+
+### *Q3)* What is the role of a Base Station Controller (BSC) in a GSM network, and how does it differ from the Base Transceiver Station (BTS)?
+
+*Answer:*
+The *BSC* manages multiple BTSs, controls handovers, and allocates radio channels. The *BTS*, on the other hand, handles direct communication with mobile devices via radio signals. In essence, BSC is for control, BTS is for transmission.
+
+---
+
+### *Q4)* What are the main differences between GSM and CDMA in terms of access methods and network structure?
+
+*Answer:*
+*GSM* uses *TDMA* (Time Division Multiple Access), where users share frequency in time slots. *CDMA* uses *Code Division Multiple Access*, allowing all users to share the same frequency simultaneously with unique codes. GSM has a SIM-based identity, while CDMA binds identity to the device.
+
+---
+
+### *Q5)* How does a mobile phone maintain communication when moving between different cells?
+
+*Answer:*
+The phone performs a *handover* (or handoff), where the network transfers the call or data session from one cell tower to another seamlessly. The BSC or MSC (Mobile Switching Center) coordinates this to ensure continuous communication.
+
 
 
