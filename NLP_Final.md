@@ -1,11 +1,14 @@
 # NLP Notes
 ---
 ## Important:
+
+
 Total 04 Questions:
-•	NLP Processing Pipeline
-•	Text Pre-Processing in NLP with Programming Example
-•	Word Representation with its different aspects and types
-•	MCQs from above topics
+- NLP Processing Pipeline
+- Text Pre-Processing in NLP with Programming Example
+- Word Representation with its different aspects and types
+- MCQs from above topics
+
 ---
 
 # 📘 Introduction to Natural Language Processing (NLP)
