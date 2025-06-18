@@ -13,6 +13,7 @@ Total 04 Questions:
 ### Table Of Contents:
 - [🧠 NLP Pipeline – Step by Step](#nlp-pipeline--step-by-step)
 - [Text Preprocessing in NLP - Easy Guide](#Text-Preprocessing-in-NLP---Easy-Guide)
+- [Word Processing](#Word-Processing)
 ---
 
 # 📘 Introduction to Natural Language Processing (NLP)
