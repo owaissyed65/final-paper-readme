@@ -10,6 +10,9 @@ Total 04 Questions:
 - MCQs from above topics
 
 ---
+### Table Of Contents:
+- (NLP Processing Pipeline)[# NLP Pipeline – Step by Step]
+---
 
 # 📘 Introduction to Natural Language Processing (NLP)
 
@@ -33,7 +36,7 @@ NLP helps in:
 
 ---
 
-## 🛠️ NLP Pipeline – Step by Step
+## NLP Pipeline – Step by Step
 
 To understand language, NLP breaks it down into small steps:
 
