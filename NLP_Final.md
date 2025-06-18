@@ -12,7 +12,7 @@ Total 04 Questions:
 ---
 ### Table Of Contents:
 - [🧠 NLP Pipeline – Step by Step](#nlp-pipeline--step-by-step)
-- 
+- [Text Preprocessing in NLP - Easy Guide](#Text-Preprocessing-in-NLP---Easy-Guide)
 ---
 
 # 📘 Introduction to Natural Language Processing (NLP)
@@ -400,7 +400,7 @@ Sure! Here's your content rewritten in **easy-to-understand language** and forma
 
 ---
 
-# 🧹 Text Preprocessing in NLP - Easy Guide
+# Text Preprocessing in NLP - Easy Guide
 
 Natural Language Processing (NLP) is used in many apps like chatbots, translations, and sentiment analysis. But before using text in these apps, we need to **clean and prepare the text**. This process is called **text preprocessing**.
 
