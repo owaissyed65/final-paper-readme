@@ -175,3 +175,96 @@ Here’s a **clean and simplified version** of the **Compensation Policy Guideli
   * **How** it is delivered (cash, equity, perks, etc.)
 
 ---
+
+Here’s a **clear and concise summary** of the content you provided on **Employee Participation, Engagement, Retention, and Termination**:
+
+---
+
+## 👥 **Employee Participation in Management**
+
+**Definition:**
+Involvement of employees in decision-making to help achieve group goals and share responsibility.
+
+### 🔹 **Types of Participation:**
+
+1. **Information Participation** – Employees receive important company info.
+2. **Consultative Participation** – Employees are consulted (e.g., safety, health); final decision by top management.
+3. **Associative Participation** – Like consultative, but management is morally obliged to accept employee decisions.
+4. **Administrative Participation** – Employees help manage functions (e.g., canteen, welfare).
+5. **Decisive Participation** – Highest level; employees and managers make joint decisions.
+
+---
+
+## 🔸 **Levels of Participation**
+
+* **Collective Bargaining** – Basic right to negotiate.
+* **Job Enlargement & Enrichment** – More tasks added / meaningful responsibilities added.
+* **Suggestion Schemes** – Employee ideas are considered and rewarded.
+* **TQM & Quality Circles** – Focused on continuous improvement.
+* **Autonomous Teams** – Self-managed work teams.
+
+---
+
+## 🔹 **Forms of Participation**
+
+* **Direct/Formal:** Participation through roles, boards, committees.
+* **Indirect/Informal:** Participation through job involvement, communication.
+
+---
+
+## ❤️ **Employee Engagement**
+
+**Definition:**
+Emotional and active involvement of employees in their work.
+
+### ✨ **Key Concepts:**
+
+* **Job Involvement:** Emotional connection with work.
+* **Flow:** Work becomes part of personal interest.
+* **Engaged Employees:** Loyal, productive, advocate for the company.
+* **Engagement = Physical + Cognitive + Emotional effort**
+
+---
+
+## ⚠️ **Cost of Disengagement**
+
+* More absenteeism, poor performance, theft, negativity.
+* Leads to disengaged customers.
+* Increases turnover, rehiring, and training costs.
+
+---
+
+## 🔒 **Employee Retention**
+
+### 🔑 **Retention Strategies:**
+
+* Strategic HR planning
+* Proper onboarding
+* Recognition & rewards
+* Work-life balance
+* Training and development
+* Effective communication
+* Strong teamwork
+
+---
+
+## ❌ **Employee Termination**
+
+### Types:
+
+* **Voluntary Termination** – Employee resigns
+* **Involuntary Termination** – Fired or laid off
+
+### 🧾 **Termination Strategy Includes:**
+
+* Who to terminate and why
+* Giving proper notice
+* Handling emotional responses
+* Informing the team
+* Settling compensation
+* Exit interviews
+* Data security and formalities
+
+---
+
+Let me know if you'd like this converted into a **PowerPoint**, **PDF handout**, or **mind map**.
