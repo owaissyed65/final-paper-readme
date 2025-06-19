@@ -145,4 +145,33 @@ Here's a **short and clear summary of Lecture 10 – Strategy Formulation & HRM*
 
 ---
 
+Here’s a **clean and simplified version** of the **Compensation Policy Guidelines** content you provided:
 
+---
+
+## 💰 **Compensation Policy Guidelines**
+
+### ✅ **Key Policy Decisions Include:**
+
+1. Setting **minimum and maximum pay levels**
+2. Defining the **relationship among pay levels** (e.g., between job roles)
+3. Deciding if the pay structure should:
+
+   * **Lead the market** (pay more than competitors)
+   * **Lag the market** (pay less than competitors)
+   * **Lead/Lag mix** (balance in-between)
+4. Determining how to **divide the total compensation** (e.g., base pay, bonuses, benefits)
+
+---
+
+### 📌 **Additional Considerations:**
+
+* **Senior management** decides how to apply pay policies, including:
+
+  * **How much** to pay
+  * **To whom** the pay goes
+  * **When** it should be paid
+  * **Where** it applies (locations, departments)
+  * **How** it is delivered (cash, equity, perks, etc.)
+
+---
