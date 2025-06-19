@@ -74,4 +74,75 @@ It answers:
 
 ---
 
-Let me know if you want this formatted as a **slide**, **chart**, or printable PDF!
+Here's a **short and clear summary of Lecture 10 – Strategy Formulation & HRM** based on your uploaded PDF:
+
+---
+
+## 📘 **Lecture 10: Strategy Formulation & HRM**
+
+---
+
+### ✅ **Strategic Management Process**
+
+1. **Strategic Intent** – Set goals/vision
+2. **Environmental Scanning** – Study internal & external factors
+3. **Strategy Formulation** – Decide the plan
+4. **Strategy Implementation** – Apply the plan
+5. **Strategy Evaluation** – Measure performance
+
+---
+
+### 🎯 **Mission Statement**
+
+* Explains **purpose of the organization**
+* Should be clear, broad, and meaningful
+
+**Examples:**
+
+* **IKEA:** "To create a better everyday life..."
+* **KFC:** "To sell food in a fast, friendly environment..."
+* **Coca-Cola:** "To refresh the world..."
+
+---
+
+### 🧠 **Porter’s Competitive Strategies**
+
+1. **Cost Leadership** – Lowest price (e.g., Walmart)
+2. **Differentiation** – Unique product/service (e.g., The Body Shop)
+3. **Focus** – Niche market targeting (e.g., Ice Cream Shop for Diabetics)
+
+---
+
+### 🧭 **Miles & Snow Typology**
+
+1. **Defenders** – Efficient, low cost (e.g., McDonald's)
+2. **Prospectors** – Innovators (e.g., Facebook)
+3. **Analyzers** – Copy successful ideas (e.g., Starbucks)
+4. **Reactors** – No clear strategy (e.g., Kmart)
+
+---
+
+### 🧩 **Sonnenfeld and Pieper's Typology (HR Strategy Types)**
+
+| Type         | Description                                               | Examples             |
+| ------------ | --------------------------------------------------------- | -------------------- |
+| **Club**     | Early career hiring, seniority-based growth, low turnover | Military, Airlines   |
+| **Baseball** | Hire at all levels, high turnover, individual recognition | Software houses      |
+| **Academy**  | Internal promotion, well-defined training & career paths  | Auto, Pharma         |
+| **Fortress** | High turnover, little career planning, frequent layoffs   | Textiles, Publishing |
+
+---
+
+### 💬 **Opening Case: Sarasota Memorial Hospital**
+
+* Adopted **5 Pillars of Excellence**
+* HR focused on “People” pillar
+* Used **process mapping** to eliminate waste
+* Results:
+
+  * Customer satisfaction ↑
+  * Staff turnover ↓ (from 24% to 9%)
+
+---
+
+
