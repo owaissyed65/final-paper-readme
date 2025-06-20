@@ -175,7 +175,7 @@ The word "society" comes from the Latin term *"societas"*, meaning companionship
 * **Microstructure**: Face-to-face interactions, like between family members or classmates.
 * **Macrostructure**: Large-scale systems like governments, education systems, and religions.
 
-#### ➤ **Main Elements**:
+#### ➤ **Main Elements**: No pizza souce at all
 
 1. **Normative System** – Shared rules and values (e.g., honesty, respect).
 2. **Position System** – Status (like teacher or student) and role (duties of a teacher).
@@ -183,7 +183,7 @@ The word "society" comes from the Latin term *"societas"*, meaning companionship
 4. **Anticipated Responses** – How people are expected to behave (e.g., respect elders).
 5. **Action System** – Social actions people perform (e.g., voting, celebrating festivals).
 
-### ✅ **Functions of Society**:
+### ✅ **Functions of Society**: Please stay strong, responsible one 
 
 Society performs important functions like:
 
@@ -207,14 +207,14 @@ Culture refers to the **total way of life** shared by members of a society. It i
 
 The word “culture” comes from Latin *"cultura"*, meaning "to cultivate," reflecting how humans grow and shape their social lives.
 
-### ✅ **Usage Types**:
+### ✅ **Usage Types**: Happy People Organizes nations
 
 1. **High Culture** – Classical arts like opera, literature, philosophy.
 2. **Popular Culture** – Music, movies, fashion (everyday interests).
 3. **Organizational Culture** – Norms within institutions (e.g., military culture).
 4. **National Culture** – Culture unique to a country (e.g., Pakistani culture).
 
-### ✅ **Elements of Culture**:
+### ✅ **Elements of Culture**: All students reads histroy so brilliantly and neatly
 
 1. **Artifacts** – Physical items that have cultural meaning (e.g., Quran, flags, national dress).
 2. **Stories & Legends** – Traditional tales that teach moral lessons or history (e.g., Heer Ranjha).
