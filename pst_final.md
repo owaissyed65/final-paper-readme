@@ -106,7 +106,7 @@ These rivers **don’t join Indus**, but are important locally:
 
 ---
 
-## ☁️ **4. Climate & Seasonal Change**
+## ☁️ **Climate & Seasonal Change**
 
 * Most rivers get water from **snow** and **rain**.
 * **Flood season**: July–August (monsoon)
@@ -115,7 +115,7 @@ These rivers **don’t join Indus**, but are important locally:
 
 ---
 
-## ⚖️ **5. Political & Legal Issues**
+## ⚖️ **. Political & Legal Issues**
 
 ### 🤝 **Indus Waters Treaty (1960)**
 
