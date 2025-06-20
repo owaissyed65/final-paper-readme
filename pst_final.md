@@ -1,9 +1,6 @@
 Here’s a structured, detailed summary of Pakistan’s river systems, organized heading‑wise for clarity:
 
 ---
-Absolutely, Owais! Let me explain the **Indus River System** and related rivers in a **very simple and clear way** so you can understand it better.
-
----
 
 ## 🌊 **1. Indus River System – Main River of Pakistan**
 
