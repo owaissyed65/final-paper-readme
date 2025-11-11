@@ -2,9 +2,9 @@
 
 
 ### Topics:
-- [Chapter 1 - What is Digital Marketing](#🧭 **1. What is Marketing & Digital Marketing**)
-- [Chapter 2 - Customer Value Journey](#Customer Value Journey)
-- [Chapter 3 - Content Marketing Strategy](#Content Marketing:)
+- [Chapter 1 - What is Digital Marketing](#🧭-**1.-What-is-Marketing-&-Digital-Marketing**)
+- [Chapter 2 - Customer Value Journey](#Customer-Value-Journey)
+- [Chapter 3 - Content Marketing Strategy](#Content-Marketing)
 
 
 ## 🧭 **1. What is Marketing & Digital Marketing**
