@@ -189,8 +189,8 @@ This is *paid content* created to promote your brand, usually in partnership wit
 
 ## Customer Value Journey:
 
-<img href="https://changescapeweb.com/wp-content/uploads/2020/06/CustomerValueJourney-1024x791.jpg" alt="Customer Value Journey" />
- 
+![Customer Value Journey](https://changescapeweb.com/wp-content/uploads/2020/06/CustomerValueJourney-1024x791.jpg)
+
 ## 🌟 **What is the Customer Value Journey (CVJ)?**
 
 The **Customer Value Journey** is a **strategic marketing framework** that maps out the **entire path a person takes from being a stranger to becoming a loyal brand promoter**.
