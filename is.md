@@ -445,3 +445,110 @@ Any action to protect against attacks.
 5. **Separation of Privilege:** Teacher password + admin approval for grade changes
 6. **Least Privilege:** Students view grades only; teachers can edit; principal sees all
 7. **Least Common Mechanism:** Each class has separate gradebook
+
+
+## **Fundamental Security Design Principles (Part 2)**
+
+---
+
+### **8. Psychological Acceptability** 😊
+
+**Definition:** Security measures should be designed to introduce minimum hurdles to the user. Security should be user-friendly, not frustrating.
+
+**Examples:**
+- **Access card swipe** (easy) vs. **eye scan** (annoying, takes time)
+- Simple password login vs. complicated 10-step verification every time
+- Fingerprint unlock on phone (quick) vs. typing 20-character password
+- Auto-save features so users don't lose work
+- Single sign-on (log in once, access multiple systems)
+
+---
+
+### **9. Isolation** 🚧
+
+**Definition:** Systems with critical data, processes, or resources must be isolated to restrict public access and prevent interference.
+
+**Examples:**
+- **Multiple users on same OS, each with separate account** (can't access each other's files)
+- Virtual Machines (VMs) - each runs independently, isolated from others
+- Banking system separated from public website
+- Production database isolated from testing database
+- Quarantine folder for suspicious files
+
+---
+
+### **10. Encapsulation** 📦
+
+**Definition:** A specific form of isolation based on object-oriented functionality. Hide internal details and expose only necessary interfaces.
+
+**Examples:**
+- **Password module/class** - algorithm and methods are hidden inside, only "login" function is exposed
+- ATM machine - internal cash counting mechanism is hidden, you only see "Withdraw" button
+- Encryption library - complex math is hidden, you just call "encrypt()" function
+- API - internal code hidden, only specific functions available to users
+
+---
+
+### **11. Modularity** 🧩
+
+**Definition:** Security mechanisms must be generated as separate and protected modules. Build security in independent pieces.
+
+**Examples:**
+- **If update needed → only specific module updates** (not entire system)
+- Antivirus module separate from firewall module
+- Authentication module separate from authorization module
+- Payment processing module separate from inventory module
+- If login module has bug, fix only that module (don't rebuild everything)
+
+---
+
+### **12. Layering (Defense in Depth)** 🛡️🛡️🛡️
+
+**Definition:** Use multiple, overlapping protection approaches addressing people, technology, and operations. Multiple layers of security.
+
+**Examples:**
+- **Multiple barriers for attacker**: Username/password → Firewall → Encryption → Access control
+- Castle defense: Moat → Wall → Guards → Locked doors
+- Airport security: ID check → Metal detector → Bag scan → Gate check
+- Network security: Firewall → Antivirus → Intrusion detection → Data encryption
+- Physical security: Fence → Security guard → Badge reader → Locked server room
+
+---
+
+### **13. Least Astonishment** 🤷
+
+**Definition:** The user interface must not surprise or confuse users while accessing the secure system. Security should work as users expect.
+
+**Examples:**
+- "Lock" icon means secure (users expect this)
+- Red warning = danger (not green)
+- "Delete" button should delete (not save)
+- Logout button in expected location (top-right corner)
+- Confirmation prompt before deleting important files (users expect this safety check)
+- Consistent security prompts across the system
+
+---
+
+## **Quick Summary Table:**
+
+| **Principle** | **Main Idea** | **Example** |
+|---------------|---------------|-------------|
+| Psychological Acceptability | User-friendly security | Access card > eye scan |
+| Isolation | Separate critical systems | Each user has own account |
+| Encapsulation | Hide internal details | Password class hides algorithm |
+| Modularity | Independent security modules | Update only specific module |
+| Layering | Multiple security layers | Password + Firewall + Encryption |
+| Least Astonishment | Predictable interface | Lock icon = secure |
+
+---
+
+## **Real-World Scenario:**
+
+**Mobile Banking App:**
+
+1. **Psychological Acceptability:** Fingerprint login (quick & easy)
+2. **Isolation:** Your account data separated from other users
+3. **Encapsulation:** Encryption code hidden, you just tap "Transfer"
+4. **Modularity:** Can update payment module without reinstalling entire app
+5. **Layering:** Password → Fingerprint → SMS code → Transaction limit
+6. **Least Astonishment:** "Logout" button where users expect it (top corner)
