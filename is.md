@@ -332,69 +332,116 @@ Any action to protect against attacks.
 
 ---
 
+## **Fundamental Security Design Principles**
+
+---
+
 ### **1. Economy of Mechanism** 🔧
-**Keep it simple!**
-- Complex systems = More bugs and vulnerabilities
-- *Example: Simple lock is better than complicated 10-step security system*
+
+**Definition:** Keep security mechanisms as simple and straightforward as possible to reduce errors and vulnerabilities from complex designs.
+
+**Examples:**
+- Use a simple 4-digit PIN instead of a complicated 20-character password with special rules
+- Basic door lock vs. complex biometric system with 10 different sensors
+- Simple firewall rules vs. overly complicated filtering system
 
 ---
 
 ### **2. Fail-Safe Default** 🚫
-**When in doubt, block access**
-- If system fails or unsure → DENY access (be safe)
-- *Example: If firewall crashes, block all traffic (don't let everything through)*
+
+**Definition:** The default action should be to deny access or secure access. When something goes wrong, the system should fail in a secure state.
+
+**Examples:**
+- **If firewall fails → block all traffic** (don't let everything through)
+- If authentication server is down → deny all logins (don't allow everyone in)
+- If door lock battery dies → door stays locked (doesn't unlock)
+- Bank vault power failure → stays locked
 
 ---
 
 ### **3. Complete Mediation** ✅
-**Check every single time**
-- Always verify permission for every access attempt
-- Don't assume "they were allowed before, so it's fine now"
-- *Example: When you change password, system asks you to re-authenticate*
+
+**Definition:** Ensure that every access to a resource is checked for authorization. Check permissions every single time, not just once.
+
+**Examples:**
+- **If you change password → system asks for re-authentication** immediately
+- Every time you access a file, system checks if you still have permission (not just the first time)
+- ATM verifies your PIN for each transaction, not just when you insert the card
+- Website checks your login status on every page, not just at login
 
 ---
 
 ### **4. Open Design** 📖
-**Security method should be public, only keys stay secret**
-- Don't rely on secrecy of the system itself
-- *Example: Everyone knows how AES encryption works (public), but your encryption key stays secret*
+
+**Definition:** The design of a security mechanism should be open and public rather than secret. Security should not depend on the secrecy of the design, only on the secrecy of keys.
+
+**Examples:**
+- **Encryption algorithms (AES, RSA) are publicly known**, but your encryption key is secret
+- Everyone knows how HTTPS works, but your specific password stays secret
+- Lock mechanism design is public, but your specific key is unique
+- Security researchers can review and test the system for weaknesses
 
 ---
 
 ### **5. Separation of Privilege** 🔐🔑
-**Need multiple checks to access sensitive stuff**
-- Don't rely on just ONE security measure
-- *Example: Bank vault needs TWO keys held by different people (Multi-factor authentication)*
+
+**Definition:** Multiple privilege attributes (checks) are required to achieve access to a restricted resource. Don't rely on a single security measure.
+
+**Examples:**
+- **Password + smart card** to log into computer (Multi-factor authentication)
+- Bank requires two signatures for large transactions
+- Nuclear missile launch requires two keys from two different officers
+- Safe deposit box needs bank key + your key
+- Password + fingerprint + security question
 
 ---
 
 ### **6. Least Privilege** 👤
-**Give minimum permissions needed**
-- Users get only what they need for their job, nothing extra
-- *Example: Cashier can process sales but can't access employee payroll (Role-Based Access Control)*
+
+**Definition:** Grant users and processes only the minimum permissions necessary to perform their tasks. Nothing extra.
+
+**Examples:**
+- **Cashier can process sales but cannot access employee payroll** (Role-Based Access Control)
+- Student can view grades but cannot change them
+- Guest WiFi can access internet but not internal company files
+- Database user can read data but cannot delete databases
+- Temporary worker has access only to their assigned project folder
 
 ---
 
 ### **7. Least Common Mechanism** 🚧
-**Don't share resources between users**
-- Minimize sharing to prevent one user affecting another
-- *Example: Each user has their own folder; don't put everyone's files in one shared folder*
+
+**Definition:** Sharing components or resources among different users or processes should be minimized. This reduces the potential for one user's actions affecting another user's security.
+
+**Examples:**
+- **Each user has separate folder** (not everyone sharing one folder)
+- Separate virtual machines for different applications
+- Individual user accounts instead of everyone using "Admin"
+- Isolated network segments for different departments
+- Each process runs in its own memory space (not shared memory)
 
 ---
 
-## **Quick Summary Table:**
+## **Real-World Application:**
 
-| **Principle** | **Rule** | **Example** |
-|---------------|----------|-------------|
-| Economy of Mechanism | Keep it simple | Simple password > complex 10-step system |
-| Fail-Safe Default | Deny by default | Firewall fails → block all |
-| Complete Mediation | Check every time | Re-verify after password change |
-| Open Design | Method public, keys secret | Encryption algorithm is public |
-| Separation of Privilege | Multiple checks | Password + fingerprint |
-| Least Privilege | Minimum permissions | Cashier can't see payroll |
-| Least Common Mechanism | Minimize sharing | Separate user folders |
-**School System Attack:**
-- **Disclosure**: Student grades leaked online (Exposure)
-- **Deception**: Someone changes grades in the database (Falsification)
-- **Disruption**: School server goes down during exam week (Obstruction)
-- **Usurpation**: Hacker gets admin access to change any student record (Misappropriation)
+**Online Banking System Example:**
+
+1. **Economy of Mechanism:** Simple login page, not overly complex
+2. **Fail-Safe Default:** If session expires → automatically log out
+3. **Complete Mediation:** Re-verify identity for every transaction
+4. **Open Design:** Banking protocol (HTTPS) is public, your password is secret
+5. **Separation of Privilege:** Password + SMS code + security question
+6. **Least Privilege:** You can only see YOUR accounts, not others'
+7. **Least Common Mechanism:** Each customer's data stored separately
+
+---
+
+**School System Example:**
+
+1. **Economy of Mechanism:** Simple username/password login
+2. **Fail-Safe Default:** If system crashes → no one can change grades
+3. **Complete Mediation:** Check permission every time grade is accessed
+4. **Open Design:** Login system design is known, passwords are secret
+5. **Separation of Privilege:** Teacher password + admin approval for grade changes
+6. **Least Privilege:** Students view grades only; teachers can edit; principal sees all
+7. **Least Common Mechanism:** Each class has separate gradebook
