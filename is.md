@@ -328,6 +328,71 @@ Any action to protect against attacks.
 - **Disruption**: Bank's website crashes (Incapacitation)
 - **Usurpation**: Hacker transfers money from your account (Misuse)
 
+## **Fundamental Security Design Principles (Simple)**
+
+---
+
+### **1. Economy of Mechanism** 🔧
+**Keep it simple!**
+- Complex systems = More bugs and vulnerabilities
+- *Example: Simple lock is better than complicated 10-step security system*
+
+---
+
+### **2. Fail-Safe Default** 🚫
+**When in doubt, block access**
+- If system fails or unsure → DENY access (be safe)
+- *Example: If firewall crashes, block all traffic (don't let everything through)*
+
+---
+
+### **3. Complete Mediation** ✅
+**Check every single time**
+- Always verify permission for every access attempt
+- Don't assume "they were allowed before, so it's fine now"
+- *Example: When you change password, system asks you to re-authenticate*
+
+---
+
+### **4. Open Design** 📖
+**Security method should be public, only keys stay secret**
+- Don't rely on secrecy of the system itself
+- *Example: Everyone knows how AES encryption works (public), but your encryption key stays secret*
+
+---
+
+### **5. Separation of Privilege** 🔐🔑
+**Need multiple checks to access sensitive stuff**
+- Don't rely on just ONE security measure
+- *Example: Bank vault needs TWO keys held by different people (Multi-factor authentication)*
+
+---
+
+### **6. Least Privilege** 👤
+**Give minimum permissions needed**
+- Users get only what they need for their job, nothing extra
+- *Example: Cashier can process sales but can't access employee payroll (Role-Based Access Control)*
+
+---
+
+### **7. Least Common Mechanism** 🚧
+**Don't share resources between users**
+- Minimize sharing to prevent one user affecting another
+- *Example: Each user has their own folder; don't put everyone's files in one shared folder*
+
+---
+
+## **Quick Summary Table:**
+
+| **Principle** | **Rule** | **Example** |
+|---------------|----------|-------------|
+| Economy of Mechanism | Keep it simple | Simple password > complex 10-step system |
+| Fail-Safe Default | Deny by default | Firewall fails → block all |
+| Complete Mediation | Check every time | Re-verify after password change |
+| Open Design | Method public, keys secret | Encryption algorithm is public |
+| Separation of Privilege | Multiple checks | Password + fingerprint |
+| Least Privilege | Minimum permissions | Cashier can't see payroll |
+| Least Common Mechanism | Minimize sharing | Separate user folders |
 **School System Attack:**
 - **Disclosure**: Student grades leaked online (Exposure)
 - **Deception**: Someone changes grades in the database (Falsification)
