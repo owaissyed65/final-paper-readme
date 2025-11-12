@@ -225,3 +225,33 @@ Think of your house:
 - **Inside attack**: Your roommate steals from you
 - **Outside attack**: Stranger breaks in
 
+## **Countermeasure = Security Defense**
+
+Any action to protect against attacks.
+
+---
+
+## **Three Goals:**
+
+**1. PREVENT** 🛡️ - Stop attacks before they happen
+- Example: Firewalls, strong passwords, locks
+
+**2. DETECT** 👁️ - Notice when attacks happen
+- Example: Alarms, security cameras, alerts
+
+**3. RECOVER** 🔧 - Fix damage after attacks
+- Example: Backups, remove viruses, repair systems
+
+---
+
+## **Key Points:**
+
+⚠️ **No countermeasure is perfect**
+- Can create new vulnerabilities
+- Some risk always remains
+- Goal: Minimize risk, not eliminate it
+
+**Think: Home security**
+- Prevent = Locks
+- Detect = Alarm
+- Recover = Insurance
