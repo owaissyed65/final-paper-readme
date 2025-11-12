@@ -255,3 +255,81 @@ Any action to protect against attacks.
 - Prevent = Locks
 - Detect = Alarm
 - Recover = Insurance
+
+## **4 Threat Consequences & Their Attacks (With Examples)**
+
+---
+
+### **1. Unauthorized Disclosure** 🔓
+**Consequence:** Someone sees data they shouldn't see
+
+**Attacks:**
+- **Exposure** - Data directly leaked
+  - *Example: Employee emails customer list to competitor*
+  
+- **Interception** - Data stolen while traveling
+  - *Example: Hacker intercepts your credit card info on unsecured WiFi*
+  
+- **Inference** - Figuring out secrets from clues
+  - *Example: Guessing someone's salary by looking at their office size and parking spot*
+  
+- **Intrusion** - Breaking in to access data
+  - *Example: Hacker breaks into company database to steal passwords*
+
+---
+
+### **2. Deception** 🎭
+**Consequence:** Someone is tricked with fake data
+
+**Attacks:**
+- **Masquerade** - Pretending to be someone else
+  - *Example: Scammer calls pretending to be tech support*
+  
+- **Falsification** - Inserting fake data
+  - *Example: Hacker changes your bank balance from $1000 to $10*
+  
+- **Repudiation** - Denying you did something
+  - *Example: Someone sends a mean email then claims "I didn't send that!"*
+
+---
+
+### **3. Disruption** ⚠️
+**Consequence:** System stops working properly
+
+**Attacks:**
+- **Incapacitation** - Disabling the system
+  - *Example: Ransomware locks all your files*
+  
+- **Corruption** - Damaging system functions/data
+  - *Example: Virus deletes random files on your computer*
+  
+- **Obstruction** - Blocking services
+  - *Example: DDoS attack floods website with fake traffic so real users can't access it*
+
+---
+
+### **4. Usurpation** 👑
+**Consequence:** Attacker takes control
+
+**Attacks:**
+- **Misappropriation** - Taking unauthorized control
+  - *Example: Hacker gains admin access to your social media account*
+  
+- **Misuse** - Using system in harmful ways
+  - *Example: Attacker uses your email to send spam to everyone in your contacts*
+
+---
+
+## **Real-World Scenario Examples:**
+
+**Online Banking Attack:**
+- **Disclosure**: Hacker steals your account number (Interception)
+- **Deception**: Fake bank website tricks you into entering password (Masquerade)
+- **Disruption**: Bank's website crashes (Incapacitation)
+- **Usurpation**: Hacker transfers money from your account (Misuse)
+
+**School System Attack:**
+- **Disclosure**: Student grades leaked online (Exposure)
+- **Deception**: Someone changes grades in the database (Falsification)
+- **Disruption**: School server goes down during exam week (Obstruction)
+- **Usurpation**: Hacker gets admin access to change any student record (Misappropriation)
