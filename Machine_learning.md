@@ -1,0 +1,352 @@
+# Data, Attributes, and Data Preprocessing (Data Mining)
+
+This document explains the basic concepts of **Data**, **Attributes**, **Measurement**, **Data Types**, **Data Quality**, and **Data Preprocessing** as used in **Data Mining**.
+
+---
+
+## 1. What is Data?
+
+**Data** is a collection of **objects** and their **attributes**.
+
+- **Object**: An entity or instance  
+  (also called record, case, sample, point, or entity)
+- **Attribute**: A property or characteristic of an object  
+  (also called variable, field, feature)
+
+### Example:
+| Object (Person) | Attributes |
+|----------------|-----------|
+| Ali | Age, Height, Eye Color |
+
+---
+
+## 2. Attribute Values
+
+- Attribute values are **numbers or symbols** assigned to attributes.
+- The **same attribute** can have different values depending on how it is measured.
+
+### Example:
+- Height → meters or feet
+- Age → integer values
+
+⚠️ Different attributes can use the **same values** but mean **different things**  
+(e.g., ID and Age both use numbers, but ID has no order meaning).
+
+---
+
+## 3. Measurement of Length (Important Concept)
+
+> The way you measure an attribute may **not match its real properties**.
+
+### Explanation:
+If we convert real measurements (like length) into **ranks**, we lose real distance information.
+
+### Example:
+| Object | Real Length | Assigned Rank |
+|------|------------|---------------|
+| A | 5 | 1 |
+| B | 7 | 2 |
+| C | 8 | 3 |
+| D | 10 | 4 |
+| E | 15 | 5 |
+
+- Rank preserves **order**
+- Rank does **not preserve actual differences**
+
+➡️ This can cause **wrong conclusions** in data analysis.
+
+---
+
+## 4. Types of Attributes
+
+### 4.1 Nominal
+- Categories only
+- No order
+
+**Examples**:
+- ID number
+- Eye color
+- Zip code
+
+---
+
+### 4.2 Ordinal
+- Categories with order
+- Differences are not meaningful
+
+**Examples**:
+- Grades (A, B, C)
+- Rankings
+- Height (short, medium, tall)
+
+---
+
+### 4.3 Interval
+- Ordered
+- Difference is meaningful
+- No true zero
+
+**Examples**:
+- Temperature in Celsius or Fahrenheit
+- Calendar dates
+
+---
+
+### 4.4 Ratio
+- Ordered
+- Difference & ratio are meaningful
+- True zero exists
+
+**Examples**:
+- Length
+- Weight
+- Time
+- Temperature in Kelvin
+
+---
+
+## 5. Properties of Attribute Values
+
+| Property | Meaning |
+|--------|--------|
+| Distinctness | Values are different |
+| Order | Values can be compared |
+| Addition | Differences make sense |
+| Multiplication | Ratios make sense |
+
+### Attribute Types vs Properties
+
+| Attribute Type | Properties |
+|--------------|------------|
+| Nominal | Distinctness |
+| Ordinal | Distinctness + Order |
+| Interval | Distinctness + Order + Addition |
+| Ratio | All four |
+
+---
+
+## 6. Discrete vs Continuous Attributes
+
+### Discrete Attributes
+- Finite or countable values
+- Usually integers
+
+**Examples**:
+- Zip codes
+- Number of students
+- Binary values (0,1)
+
+---
+
+### Continuous Attributes
+- Real numbers
+- Measured values
+
+**Examples**:
+- Height
+- Weight
+- Temperature
+
+---
+
+## 7. Types of Data Sets
+
+- Record Data
+- Data Matrix
+- Document Data
+- Transaction Data
+- Graph Data
+- Ordered / Sequential Data
+- Spatial & Temporal Data
+- Genomic Data
+
+---
+
+## 8. Record Data & Data Matrix
+
+### Record Data
+- Fixed set of attributes
+- Each row is an object
+
+### Data Matrix
+- m × n matrix
+- Rows → objects
+- Columns → attributes
+
+---
+
+## 9. Document Data
+
+- Each document is a **vector**
+- Attributes are words (terms)
+- Values are word frequencies
+
+---
+
+## 10. Transaction Data
+
+- Each record is a set of items
+
+**Example**:
+- Grocery shopping cart
+- Items = products
+- Transaction = one shopping trip
+
+---
+
+## 11. Data Quality Issues
+
+### Common Problems:
+- Noise
+- Outliers
+- Missing values
+- Duplicate data
+
+---
+
+## 12. Noise
+
+- Random error in data
+
+**Examples**:
+- Poor phone audio
+- Distorted sensor values
+
+---
+
+## 13. Outliers
+
+- Data points very different from others
+- May indicate errors or rare events
+
+---
+
+## 14. Missing Values
+
+### Reasons:
+- Data not collected
+- Not applicable
+
+### Handling Methods:
+- Remove record
+- Estimate value
+- Ignore during analysis
+- Replace with probable values
+
+---
+
+## 15. Duplicate Data
+
+- Same data repeated
+- Common when merging datasets
+
+**Solution**: Data cleaning
+
+---
+
+## 16. Data Preprocessing Techniques
+
+- Aggregation
+- Sampling
+- Dimensionality Reduction
+- Feature Selection
+- Feature Creation
+- Discretization
+- Attribute Transformation
+
+---
+
+## 17. Aggregation
+
+- Combine multiple objects or attributes
+
+### Benefits:
+- Reduce data size
+- Change scale
+- More stable data
+
+---
+
+## 18. Sampling
+
+- Select subset of data
+- Used when full data is too large
+
+### Types:
+- Random sampling
+- Sampling with replacement
+- Sampling without replacement
+- Stratified sampling
+
+---
+
+## 19. Dimensionality Reduction
+
+### Purpose:
+- Reduce number of features
+- Avoid curse of dimensionality
+- Improve visualization
+
+### Technique:
+- PCA (Principal Component Analysis)
+
+---
+
+## 20. Feature Subset Selection
+
+- Remove redundant or irrelevant features
+
+### Methods:
+- Brute force
+- Filter
+- Wrapper
+- Embedded
+
+---
+
+## 21. Feature Creation
+
+- Create new meaningful attributes
+
+### Methods:
+- Feature extraction
+- Feature construction
+- Mapping to new space
+
+---
+
+## 22. Discretization
+
+- Convert continuous values into categories
+- Often uses entropy or class labels
+
+---
+
+## 23. Attribute Transformation
+
+- Change attribute values using functions
+
+### Examples:
+- log(x)
+- x²
+- |x|
+
+---
+
+## 24. Normalization & Standardization
+
+### Normalization
+- Scale values to range [0,1]
+
+### Standardization
+- Mean = 0
+- Standard deviation = 1
+
+---
+
+## 25. Key Takeaway
+
+Correct data representation and preprocessing are **critical** in data mining.  
+Wrong measurement or poor-quality data can lead to **incorrect results**, even with good algorithms.
+
+---
