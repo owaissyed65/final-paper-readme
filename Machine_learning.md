@@ -269,15 +269,61 @@ If we convert real measurements (like length) into **ranks**, we lose real dista
 
 ## 18. Sampling
 
-- Select subset of data
-- Used when full data is too large
+**Sampling** is the process of selecting a **subset of data** from a large dataset.  
+It is used when processing the **entire dataset is too large, expensive, or time-consuming**.
 
-### Types:
-- Random sampling
-- Sampling with replacement
-- Sampling without replacement
-- Stratified sampling
+A good sample should **represent the original data** as closely as possible.
 
+---
+
+### 1. Random Sampling
+
+- Every data object has an **equal chance** of being selected.
+- Selection is done **randomly**.
+- Simple and commonly used method.
+
+**Example:**  
+Selecting 100 students randomly from a list of 10,000 students.
+
+---
+
+### 2. Sampling with Replacement
+
+- Once a data object is selected, it is **put back** into the dataset.
+- The **same object can be selected multiple times**.
+- Dataset size remains the same.
+
+**Example:**  
+Picking a ball from a bag, noting its color, and putting it back before the next pick.
+
+---
+
+### 3. Sampling without Replacement
+
+- Once a data object is selected, it is **removed** from the dataset.
+- The **same object cannot be selected again**.
+- More common in practical applications.
+
+**Example:**  
+Picking lottery numbers where each number is used only once.
+
+---
+
+### 4. Stratified Sampling
+
+- Dataset is divided into **groups (strata)** based on a specific attribute.
+- Random samples are taken **from each group**.
+- Ensures all important groups are represented.
+
+**Example:**  
+A class has 60% boys and 40% girls.  
+Sampling maintains the same ratio in the selected data.
+
+---
+
+### Key Point
+
+Sampling improves **efficiency** while maintaining **data quality**, provided the sample is **representative** of the original dataset.
 ---
 
 ## 19. Dimensionality Reduction
