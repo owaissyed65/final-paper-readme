@@ -362,65 +362,127 @@ Sampling improves **efficiency** while maintaining **data quality**, provided th
 
 ## 19. Dimensionality Reduction
 
-### Purpose:
-- Reduce number of features
-- Avoid curse of dimensionality
-- Improve visualization
+**Dimensionality Reduction** is the process of **reducing the number of attributes (features)** in a dataset while keeping the most important information.
 
-### Technique:
-- PCA (Principal Component Analysis)
+### Why it is used
+- Reduces **computation time**
+- Saves **memory**
+- Avoids the **curse of dimensionality**
+- Makes data easier to **visualize**
+- Reduces **noise**
+
+### Common Technique
+- **PCA (Principal Component Analysis)**  
+  Finds new features that capture the **maximum variance** in the data.
 
 ---
 
 ## 20. Feature Subset Selection
 
-- Remove redundant or irrelevant features
+**Feature Subset Selection** means selecting a **subset of original features** and removing:
+- **Redundant features** (duplicate information)
+- **Irrelevant features** (no useful information)
 
-### Methods:
-- Brute force
-- Filter
-- Wrapper
-- Embedded
+⚠️ Unlike dimensionality reduction, features are **not transformed**, only **selected or removed**.
+
+### Example
+- Keeping **GPA** but removing **Student ID** when predicting performance.
+
+### Methods
+- Filter methods
+- Wrapper methods
+- Embedded methods
 
 ---
 
 ## 21. Feature Creation
 
-- Create new meaningful attributes
+**Feature Creation** is the process of **creating new features** from existing data to improve model performance.
 
-### Methods:
-- Feature extraction
-- Feature construction
-- Mapping to new space
+### Why it is used
+- Captures important information more efficiently
+- Improves accuracy
+
+### Types
+- **Feature Extraction**:  
+  Creating new features from raw data  
+  (e.g., pixels → edges in images)
+
+- **Feature Construction**:  
+  Combining existing features  
+  (e.g., Total Price = Quantity × Unit Price)
 
 ---
 
 ## 22. Discretization
 
-- Convert continuous values into categories
-- Often uses entropy or class labels
+**Discretization** converts **continuous data** into **discrete categories or intervals**.
+
+### Why it is used
+- Simplifies data
+- Makes data easier to understand
+- Useful for classification algorithms
+
+### Example
+| Age | Category |
+|----|---------|
+| 0–18 | Child |
+| 19–35 | Adult |
+| 36+ | Senior |
 
 ---
 
 ## 23. Attribute Transformation
 
-- Change attribute values using functions
+**Attribute Transformation** applies a **mathematical function** to change attribute values.
 
-### Examples:
+### Purpose
+- Improve data distribution
+- Reduce skewness
+- Normalize values
+
+### Common Transformations
 - log(x)
 - x²
+- √x
 - |x|
+
+### Normalization & Standardization
+- **Normalization**: scales values to range [0,1]
+- **Standardization**: mean = 0, standard deviation = 1
+
+---
+
+## Quick Summary
+
+| Technique | Purpose |
+|--------|--------|
+| Dimensionality Reduction | Reduce number of features |
+| Feature Subset Selection | Remove unnecessary features |
+| Feature Creation | Create new useful features |
+| Discretization | Convert continuous → categorical |
+| Attribute Transformation | Change scale or distribution |
 
 ---
 
 ## 24. Normalization & Standardization
 
-### Normalization
-- Scale values to range [0,1]
+## Normalization & Standardization
 
-### Standardization
-- Mean = 0
-- Standard deviation = 1
+Both **Normalization** and **Standardization** are **data preprocessing techniques** used to scale numeric attributes so that features are comparable.
+
+---
+
+## Normalization
+
+**Normalization** rescales data into a **fixed range**, usually **[0, 1]**.
+
+### Why Normalization is used
+- Features have different scales
+- Prevents large values from dominating smaller ones
+- Required for distance-based algorithms
+
+### Formula (Min–Max Normalization)
 
 ---
 
