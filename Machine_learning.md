@@ -256,14 +256,48 @@ If we convert real measurements (like length) into **ranks**, we lose real dista
 
 ---
 
-## 17. Aggregation
+## Aggregation
 
-- Combine multiple objects or attributes
+**Aggregation** is the process of **combining multiple data objects or attributes into a single object or attribute**.
 
-### Benefits:
-- Reduce data size
-- Change scale
-- More stable data
+It is mainly used to **reduce data size** and make data **simpler and more stable** for analysis.
+
+---
+
+### Why Aggregation is Used
+
+- **Data Reduction**:  
+  Reduces the number of records or attributes.
+
+- **Change of Scale**:  
+  Converts detailed data into higher-level summaries.
+
+- **Stability**:  
+  Aggregated data usually has **less noise and variability**.
+
+---
+
+### Examples
+
+- Daily sales → Monthly sales  
+- City-wise data → Country-wise data  
+- Hourly temperature → Average daily temperature  
+
+---
+
+### Simple Example Table
+
+| Original Data (Daily Sales) | Aggregated Data (Monthly Sales) |
+|----------------------------|--------------------------------|
+| Day 1 = 100 | Month = 3000 |
+| Day 2 = 120 | |
+| Day 3 = 90 | |
+
+---
+
+### Key Point
+
+Aggregation helps in **summarizing data** so that it is easier to analyze, visualize, and process in data mining.
 
 ---
 
