@@ -405,7 +405,7 @@ b) **Digital marketing or technical improvements:**
 
 ---
 
-### Scenario 1 – Website Traffic Issue (SEO)
+### Scenario 2 – Website Traffic Issue (SEO)
 
 A company launches a business website and publishes regular content.
 Even after several weeks, the website receives very low traffic from search engines.
@@ -440,43 +440,134 @@ b) SEO-focused improvements:
 - Create quality backlinks
 
 - Submit sitemap to search engines
+---
 
-### Scenario 2 – Social Media Engagement Issue
+### Scenario 3 – Social Media Engagement Issue
 
 A startup actively promotes its services on social media platforms, but users rarely like, comment, or share the posts.
 
 a) What could be the main cause of poor engagement?
 b) What changes in social media strategy can improve user interaction?
 
-### Scenario 3 – Email Campaign Issue
+## **Scenario 3 – Social Media Engagement Issue**
+
+**a) Main causes of poor engagement:**
+
+* Content not relevant to the target audience
+* Irregular posting schedule
+* Overly promotional content
+* No interaction with followers
+
+**b) Strategy changes to improve engagement:**
+
+* Post interactive content (polls, videos, questions)
+* Maintain a consistent posting schedule
+* Use trending hashtags and topics
+* Respond to comments and messages
+* Analyze insights to adjust content strategy
+
+---
+
+### Scenario 4 – Email Campaign Issue
 
 An organization sends regular email campaigns to its subscribers, but most emails remain unopened.
 
 a) Identify the possible reasons for low open rates.
 b) Suggest email marketing improvements to increase user response.
 
-### Scenario 4 – Content Engagement Issue
+## **Scenario 4 – Email Campaign Issue**
+
+**a) Possible reasons for low open rates:**
+
+* Unattractive or misleading subject lines
+* Emails sent at the wrong time
+* Emails marked as spam
+* Lack of personalization
+
+**b) Email marketing improvements:**
+
+* Use clear and engaging subject lines
+* Segment email lists based on user interest
+* Personalize email content
+* Optimize sending time
+* Ensure emails are mobile-friendly
+
+---
+
+### Scenario 5 – Content Engagement Issue
 
 A website receives visitors, but most users leave after viewing only one page.
 
 a) What does this behavior indicate about the website’s content?
 b) How can content marketing techniques be used to increase user engagement?
 
-### Scenario 5 – Lead Conversion Issue (Value Journey)
+
+## **Scenario 5 – Content Engagement Issue**
+
+**a) What this behavior indicates:**
+
+* Content is not engaging or relevant
+* Poor content structure or readability
+* Lack of internal links
+* Content does not match user intent
+
+**b) Content marketing techniques to improve engagement:**
+
+* Use clear headings, visuals, and short paragraphs
+* Add internal links and call-to-action buttons
+* Create user-focused and informative content
+* Use videos, blogs, and infographics
+* Optimize content for faster loading
+
+---
+
+
+### Scenario 6 – Lead Conversion Issue (Value Journey)
 
 A software service website attracts many visitors, but very few users sign up or request a demo.
 
 a) At which stage of the customer value journey is the problem occurring?
 b) What digital marketing actions can help move users to the next stage?
 
-### Scenario 6 – Brand Awareness Issue
+## **Scenario 6 – Lead Conversion Issue (Value Journey)**
+
+**a) Stage where the problem occurs:**
+
+* **Conversion stage** of the customer value journey
+
+**b) Digital marketing actions to move users forward:**
+
+* Add strong call-to-action (CTA) buttons
+* Offer free trials, demos, or downloadable content
+* Use email nurturing campaigns
+* Display testimonials and trust signals
+* Retarget visitors using ads
+
+---
+
+### Scenario 7 – Brand Awareness Issue
 
 A newly launched digital service exists online, but most potential users are unaware of it.
 
 a) What is the primary marketing challenge in this scenario?
 b) Which digital marketing channels can be used to improve visibility and awareness?
 
+## **Scenario 7 – Brand Awareness Issue**
+
+**a) Primary marketing challenge:**
+
+* Lack of **brand awareness and visibility**
+
+**b) Digital marketing channels to improve awareness:**
+
+* Social media marketing
+* Search Engine Optimization (SEO)
+* Content marketing (blogs, videos)
+* Influencer marketing
+* Paid ads (Google Ads, social media ads)
+
 ---
+>>> 
 ---
 
 # 🧠 Scenario-Based Questions (IMPORTANT FOR EXAM)
