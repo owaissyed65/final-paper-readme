@@ -379,7 +379,48 @@ b) Suggest practical digital marketing or technical improvements that can help i
 
 ---
 
+### Scenario 1 – Website Traffic Issue (SEO)
 
+A company launches a business website and publishes regular content.
+Even after several weeks, the website receives very low traffic from search engines.
+
+a) Identify the possible reasons for low search visibility.
+b) Suggest SEO-focused improvements to increase organic traffic.
+
+### Scenario 2 – Social Media Engagement Issue
+
+A startup actively promotes its services on social media platforms, but users rarely like, comment, or share the posts.
+
+a) What could be the main cause of poor engagement?
+b) What changes in social media strategy can improve user interaction?
+
+### Scenario 3 – Email Campaign Issue
+
+An organization sends regular email campaigns to its subscribers, but most emails remain unopened.
+
+a) Identify the possible reasons for low open rates.
+b) Suggest email marketing improvements to increase user response.
+
+### Scenario 4 – Content Engagement Issue
+
+A website receives visitors, but most users leave after viewing only one page.
+
+a) What does this behavior indicate about the website’s content?
+b) How can content marketing techniques be used to increase user engagement?
+
+### Scenario 5 – Lead Conversion Issue (Value Journey)
+
+A software service website attracts many visitors, but very few users sign up or request a demo.
+
+a) At which stage of the customer value journey is the problem occurring?
+b) What digital marketing actions can help move users to the next stage?
+
+### Scenario 6 – Brand Awareness Issue
+
+A newly launched digital service exists online, but most potential users are unaware of it.
+
+a) What is the primary marketing challenge in this scenario?
+b) Which digital marketing channels can be used to improve visibility and awareness?
 
 ---
 ---
