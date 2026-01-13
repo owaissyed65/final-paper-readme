@@ -118,12 +118,72 @@ Social Media Marketing (SMM) is the use of **social media platforms** to promote
 * Twitter (X)
 * TikTok
 
-### 🧩 Types of Social Media Marketing
+## 3️⃣ Social Media Marketing – Detailed Types
 
-* Organic posting
-* Paid advertising
-* Influencer marketing
-* Community management
+### 1️⃣ Organic Posting
+
+**Definition:** Organic posting refers to **sharing content on social media without paid promotion** to engage followers naturally.
+
+**Explanation:**
+
+* Focuses on creating and posting valuable content, images, videos, stories, or updates.
+* Helps in building a loyal audience and maintaining consistent engagement.
+* Does not require a budget but may have slower reach compared to paid posts.
+
+**Example:** Posting daily product tips on Instagram or Facebook.
+
+---
+
+### 2️⃣ Paid Advertising
+
+**Definition:** Paid advertising involves **promoting posts or campaigns using a paid budget** on social media platforms to reach a targeted audience.
+
+**Explanation:**
+
+* Platforms like Facebook, Instagram, LinkedIn, and TikTok allow precise audience targeting based on demographics, interests, and behaviors.
+* Helps achieve faster reach and higher engagement than organic posting.
+* Can be optimized to drive website traffic, leads, or sales.
+
+**Example:** Facebook Ads promoting a new product to users aged 18-30 in a specific city.
+
+---
+
+### 3️⃣ Influencer Marketing
+
+**Definition:** Influencer marketing is a strategy where **brands collaborate with social media influencers** to promote products or services.
+
+**Explanation:**
+
+* Leverages the influencer’s audience and credibility.
+* Influencers can be micro, macro, or celebrity-level depending on reach.
+* Effective for building trust and increasing brand awareness.
+
+**Example:** A fashion brand sending clothes to a popular Instagram influencer for review and promotion.
+
+---
+
+### 4️⃣ Community Management
+
+**Definition:** Community management involves **engaging and managing a brand’s audience or followers** on social media.
+
+**Explanation:**
+
+* Includes responding to comments, messages, and interactions.
+* Builds stronger relationships with customers and encourages loyalty.
+* Helps monitor brand perception and gather feedback.
+
+**Example:** Moderating a Facebook group for product discussions and answering customer queries.
+
+---
+
+### 💡 Exam Tip
+
+When asked about social media types:
+
+* Define each type clearly
+* Give **1–2 lines explanation**
+* Provide a **real-life example** for better marks
+
 
 ### 🎯 Objectives
 
