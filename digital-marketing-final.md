@@ -367,6 +367,23 @@ Customer actively promotes the brand on social media or reviews.
 
 ---
 
+## Subjective Question:
+
+## Scenerio 1
+A shopkeeper launches an e-commerce website to sell electronic accessories.
+The website receives a good number of visitors through online promotions.
+Most visitors successfully add products to the shopping cart, but a large percentage of them leave the website without completing the checkout process.
+
+a) Identify the possible reasons for users abandoning the checkout process.
+b) Suggest practical digital marketing or technical improvements that can help increase successful checkouts.
+
+---
+
+
+
+---
+---
+
 # 🧠 Scenario-Based Questions (IMPORTANT FOR EXAM)
 
 Below are **detailed, exam-oriented answers** for scenario-based questions. You can write these in **5–8 marks** questions.
