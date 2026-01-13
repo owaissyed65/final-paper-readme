@@ -1,3 +1,153 @@
+## Clustering (Unsupervised Learning)
+
+**Clustering** is an **unsupervised learning technique** that groups data objects into **clusters** such that:
+- Objects in the **same cluster are similar**
+- Objects in **different clusters are dissimilar**
+
+⚠️ In clustering:
+- There are **no class labels**
+- The algorithm finds patterns **on its own**
+
+---
+
+## Why Clustering is Used
+
+- Discover hidden patterns in data
+- Group similar data points
+- Data exploration and summarization
+- Useful when labels are **not available**
+
+---
+
+## Simple Example
+
+Consider students with attributes **(Age, Marks)**:
+
+- Students with similar marks and ages → same cluster
+- Different patterns → different clusters
+
+---
+
+## How Clustering Works (Basic Idea)
+
+1. Measure **similarity or distance** between data points  
+   (e.g., Euclidean distance)
+2. Group closer points together
+3. Form clusters based on similarity
+
+---
+
+## Common Clustering Algorithms
+
+- **K-Means**  
+  Groups data into *K* clusters using distance
+
+- **Hierarchical Clustering**  
+  Creates a tree-like structure of clusters
+
+- **DBSCAN**  
+  Groups dense regions and detects outliers
+
+---
+
+## Applications of Clustering
+
+- Customer segmentation
+- Market analysis
+- Image segmentation
+- Document grouping
+- Anomaly detection
+
+---
+
+## Key Differences (Clustering vs Classification)
+
+| Feature | Clustering | Classification |
+|------|-----------|----------------|
+| Learning Type | Unsupervised | Supervised |
+| Labels | ❌ No | ✅ Yes |
+| Output | Groups | Classes |
+| Goal | Find structure | Predict label |
+
+---
+
+## One-Line Exam Answer
+
+**Clustering is an unsupervised learning technique that groups similar data points without using labeled data.**
+
+---
+## Regression (Supervised Learning)
+
+**Regression** is a **supervised learning technique** used to **predict a continuous numeric value** based on input features.
+
+In regression:
+- **Labeled data is required**
+- Output is a **number**, not a category
+
+---
+
+## Why Regression is Used
+
+- Predict future values
+- Understand relationship between variables
+- Estimate trends and patterns
+
+---
+
+## Simple Example
+
+Predicting **house price** based on:
+- Area
+- Number of rooms
+- Location
+
+👉 Output: a **number** (e.g., 5,000,000 PKR)
+
+---
+
+## How Regression Works (Basic Idea)
+
+1. Use labeled data (input + output)
+2. Learn relationship between variables
+3. Fit a line or curve to minimize error
+4. Predict continuous values for new data
+
+---
+
+## Common Regression Algorithms
+
+- **Linear Regression**
+- **Multiple Linear Regression**
+- **Polynomial Regression**
+- **Ridge & Lasso Regression**
+
+---
+
+## Applications of Regression
+
+- Price prediction
+- Sales forecasting
+- Temperature prediction
+- Risk analysis
+
+---
+
+## Regression vs Classification
+
+| Feature | Regression | Classification |
+|------|-----------|---------------|
+| Learning Type | Supervised | Supervised |
+| Output | Continuous value | Class/Category |
+| Example | Price = 500,000 | Pass / Fail |
+
+---
+
+## One-Line Exam Answer
+
+**Regression is a supervised learning technique used to predict continuous numerical values.**
+
+---
+
 # Data, Attributes, and Data Preprocessing (Data Mining)
 
 This document explains the basic concepts of **Data**, **Attributes**, **Measurement**, **Data Types**, **Data Quality**, and **Data Preprocessing** as used in **Data Mining**.
