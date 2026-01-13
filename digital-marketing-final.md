@@ -377,6 +377,32 @@ Most visitors successfully add products to the shopping cart, but a large percen
 a) Identify the possible reasons for users abandoning the checkout process.
 b) Suggest practical digital marketing or technical improvements that can help increase successful checkouts.
 
+
+a) **Possible reasons for users abandoning the checkout process:**
+
+- Complicated or lengthy checkout process
+
+- Unexpected extra costs (shipping, taxes) shown at checkout
+
+- Slow website performance or technical errors
+
+- Lack of trusted payment options
+
+- Poor mobile optimization
+
+
+b) **Digital marketing or technical improvements:**
+
+- Simplify checkout steps (guest checkout option)
+
+- Display total cost clearly before checkout
+
+- Improve page loading speed and fix bugs
+
+- Add multiple secure payment options
+
+- Use reminder emails or retargeting ads for abandoned carts
+
 ---
 
 ### Scenario 1 – Website Traffic Issue (SEO)
@@ -386,6 +412,34 @@ Even after several weeks, the website receives very low traffic from search engi
 
 a) Identify the possible reasons for low search visibility.
 b) Suggest SEO-focused improvements to increase organic traffic.
+
+Scenario 2 – Website Traffic Issue (SEO)
+
+
+a) Possible reasons for low search visibility:
+
+- Website not optimized for search engines
+
+- Poor keyword usage in content
+
+- Missing meta tags and descriptions
+
+- Slow loading speed or mobile issues
+
+- Lack of backlinks
+
+
+b) SEO-focused improvements:
+
+- Optimize content using relevant keywords
+
+- Add proper meta titles and descriptions
+
+- Improve site speed and mobile responsiveness
+
+- Create quality backlinks
+
+- Submit sitemap to search engines
 
 ### Scenario 2 – Social Media Engagement Issue
 
