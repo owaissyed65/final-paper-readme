@@ -1,5 +1,180 @@
 # ML Exam
 
+Here is a **clear, simple, exam-friendly explanation** of the **difference between ANN and CNN** 👇
+
+---
+
+## Difference between ANN and CNN
+
+### 1️⃣ ANN (Artificial Neural Network)
+
+**ANN** is a basic neural network where:
+
+* Every neuron is **fully connected** to the next layer
+* Works well with **structured/tabular data**
+
+### Features of ANN
+
+* Uses **fully connected layers**
+* Large number of parameters
+* Does **not automatically detect spatial features**
+* Input is usually **1D data**
+
+### Examples
+
+* Predicting salary
+* Credit score prediction
+* House price prediction
+
+---
+
+### 2️⃣ CNN (Convolutional Neural Network)
+
+**CNN** is a specialized neural network mainly used for **image and spatial data**.
+
+### Features of CNN
+
+* Uses **convolution layers**
+* Learns **spatial features automatically**
+* Fewer parameters due to **weight sharing**
+* Input is usually **2D or 3D data**
+
+### Examples
+
+* Image recognition
+* Face detection
+* Medical image analysis
+
+---
+
+## Key Differences Table
+
+| Feature            | ANN                       | CNN                          |
+| ------------------ | ------------------------- | ---------------------------- |
+| Full Form          | Artificial Neural Network | Convolutional Neural Network |
+| Connection         | Fully connected           | Partially connected          |
+| Best for           | Tabular / numeric data    | Image / spatial data         |
+| Feature extraction | Manual                    | Automatic                    |
+| Parameters         | More                      | Fewer                        |
+| Spatial awareness  | ❌ No                      | ✅ Yes                        |
+| Input type         | 1D                        | 2D / 3D                      |
+
+---
+
+## Simple Memory Trick 🧠
+
+* **ANN = All Neurons connected**
+* **CNN = Convolution + vision**
+
+---
+
+## One-Line Exam Answer
+
+* **ANN** is a general-purpose neural network with fully connected layers.
+* **CNN** is designed for image and spatial data using convolution operations.
+
+If you want:
+
+* 📌 very short 2-mark answer
+* 🧠 mnemonics only
+* 📊 diagram explanation
+
+Just tell me 👍
+
+
+### What is **ReLU**?
+
+**ReLU** stands for **Rectified Linear Unit**.
+It is an **activation function** used in **neural networks**, especially in **CNNs and ANNs**.
+
+---
+
+## Simple Definition (Exam-ready)
+
+> **ReLU outputs the input value if it is positive, otherwise it outputs zero.**
+
+---
+
+## Mathematical Form
+
+[
+\text{ReLU}(x) = \max(0, x)
+]
+
+---
+
+## How ReLU Works (Very Easy)
+
+| Input (x) | Output |
+| --------- | ------ |
+| -5        | 0      |
+| -1        | 0      |
+| 0         | 0      |
+| 3         | 3      |
+| 7         | 7      |
+
+* Negative values → **0**
+* Positive values → **same value**
+
+---
+
+## Why ReLU is Used
+
+* Simple and fast to compute
+* Solves **vanishing gradient problem**
+* Makes network learn **faster**
+* Produces sparse activation (many zeros)
+
+---
+
+## Where ReLU is Used
+
+* Hidden layers of:
+
+  * ANN
+  * CNN
+  * Deep neural networks
+
+---
+
+## ReLU vs Sigmoid (Quick Idea)
+
+| Feature            | ReLU   | Sigmoid |
+| ------------------ | ------ | ------- |
+| Output Range       | 0 to ∞ | 0 to 1  |
+| Speed              | Fast   | Slow    |
+| Vanishing Gradient | ❌ No   | ✅ Yes   |
+
+---
+
+## Limitation of ReLU
+
+* **Dying ReLU problem**
+  If neuron outputs always 0, it stops learning.
+
+(Solved using variants like **Leaky ReLU**)
+
+---
+
+## Simple Memory Trick 🧠
+
+* **ReLU = Remove negatives, keep positives**
+
+---
+
+## One-Line Exam Answer
+
+**ReLU is an activation function that outputs zero for negative inputs and the input itself for positive values.**
+
+If you want:
+
+* 📊 graph explanation
+* 🧠 mnemonic only
+* ✍️ 2-line exam answer
+
+Just tell me 👍
+
+
 Here is a **simple and clear explanation of Machine Learning** and its main types, using **easy words and short definitions**.
 
 ---
