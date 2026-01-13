@@ -315,6 +315,28 @@ The company should focus on the **Customer Value Journey**. The value journey ex
 
 ---
 
+##8️⃣ Digital Marketing Strategy
+
+#🔹 Definition
+
+A planned approach using digital channels to achieve business goals like traffic, leads, and sales.
+
+🔹 Scenario Examples
+
+#Scenario 1: Clothing brand wants to increase online sales without heavy paid ads.
+
+#Strategy:
+Social Media Marketing (Instagram/Facebook), Content Marketing (blogs/videos), SEO, Email Marketing (newsletters).
+
+Explanation: Combines platforms to increase awareness, engagement, and conversions cost-effectively.
+
+#Scenario 2:
+Software company wants to sell B2B solutions.
+
+Strategy: LinkedIn Marketing, Content Marketing (case studies/whitepapers), Email Marketing (personalized emails), SEO.
+
+Explanation: Targets professionals, builds trust, and generates high-quality leads.
+
 ## ✅ Exam Tip
 
 📌 In scenario-based questions:
