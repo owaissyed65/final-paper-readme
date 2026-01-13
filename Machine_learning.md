@@ -1,5 +1,133 @@
 # ML Exam
 
+This slide is explaining an **important concept in measurement (and data mining)**:
+👉 **How we assign numbers to real-world attributes may not truly reflect their actual properties**.
+
+Let’s break it **very simply**, step by step.
+
+---
+
+## What is being shown?
+
+You see **five objects**: **A, B, C, D, E**
+Each object has a **physical length** (shown by the vertical black bars).
+
+### Left side numbers (5, 7, 8, 10, 15)
+
+These represent the **actual lengths** of A–E (real measurement values).
+
+### Right side numbers (1, 2, 3, 4, 5)
+
+These represent **assigned numbers / ranks / codes** for A–E.
+
+---
+
+## Key Idea of the Slide
+
+> **“The way you measure an attribute may not match the attribute’s properties.”**
+
+This means:
+
+* You can **measure something correctly**
+* But the **numbers you assign** may **lose important information**
+
+---
+
+## What’s the problem here?
+
+Look carefully:
+
+| Object | Real Length | Assigned Number |
+| ------ | ----------- | --------------- |
+| A      | 5           | 1               |
+| B      | 7           | 2               |
+| C      | 8           | 3               |
+| D      | 10          | 4               |
+| E      | 15          | 5               |
+
+### Real world facts:
+
+* E (15) is **much longer** than A (5)
+* Difference between D and E = **5**
+* Difference between B and C = **1**
+
+### Assigned numbers say:
+
+* Difference between **every object is exactly 1**
+* A → B = 1
+* B → C = 1
+* C → D = 1
+* D → E = 1
+
+⚠️ **This is wrong representation of reality**
+
+---
+
+## Why is this important?
+
+Because:
+
+* The **true distances (differences)** between lengths are **not preserved**
+* Mathematical operations (like average, distance, similarity) become **misleading**
+
+Example:
+
+* Is E really just “1 unit longer” than D? ❌
+* In reality, it’s much longer.
+
+---
+
+## Simple Real-Life Example
+
+Imagine **student heights**:
+
+| Student | Height (cm) | Rank |
+| ------- | ----------- | ---- |
+| Ali     | 150         | 1    |
+| Ahmed   | 151         | 2    |
+| Owais   | 180         | 3    |
+
+Using **rank**:
+
+* Difference between Ali & Ahmed = 1
+* Difference between Ahmed & Owais = 1
+
+But in reality:
+
+* Ali & Ahmed differ by **1 cm**
+* Ahmed & Owais differ by **29 cm**
+
+👉 Rank **destroys real distance information**
+
+---
+
+## What type of measurement is this?
+
+This is an example of:
+
+* **Ordinal scale** (ranking)
+* NOT a **ratio or interval scale**
+
+Ranks:
+
+* Preserve **order**
+* ❌ Do NOT preserve **actual differences**
+
+---
+
+## Final One-Line Summary (Very Important)
+
+**This slide shows that assigning simple numbers (like ranks) to real measurements can hide or distort the true differences between values.**
+
+If you want, I can also explain this in:
+
+* 📊 data mining context
+* 🧮 types of measurement scales
+* 🎯 exam-ready short answer
+
+Just tell me 👍
+
+
 Here is a **clear, simple, exam-friendly explanation** of the **difference between ANN and CNN** 👇
 
 ---
