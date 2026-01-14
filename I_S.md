@@ -579,6 +579,820 @@ Each mode provides different security and performance trade-offs, making them su
 
 <img width="1015" height="460" alt="image" src="https://github.com/user-attachments/assets/73c0c294-b4c0-427c-bf8e-9bc990fd74b1" />
 
+# Key Management and Distribution
+
+## 1. Introduction to Key Management and Distribution
+
+Key Management and Distribution is a fundamental concept in cryptography and network security. It focuses on how cryptographic keys—especially **public keys**—are generated, stored, distributed, verified, and revoked securely. Since encryption and authentication rely heavily on keys, improper key management can completely compromise system security.
+
+The main goal is to ensure that a public key truly belongs to the claimed owner and has not been altered or replaced by an attacker.
+
+---
+
+## 2. Distribution of Public Keys
+
+Public keys must be distributed in a way that prevents impersonation and man-in-the-middle attacks. Several approaches are used to distribute public keys, each offering different levels of security.
+
+The major public key distribution methods are:
+- Public Announcement  
+- Publicly Available Directory  
+- Public-Key Authority  
+- Public-Key Certificates  
+
+---
+
+## 3. Public Announcement
+
+### Explanation
+
+In the **Public Announcement** method, users broadcast their public keys openly using:
+- Email mailing lists  
+- Newsgroups  
+- Personal or organizational websites  
+
+This method is very simple and does not require any centralized infrastructure.
+
+### Advantages
+- Easy to implement  
+- No trusted third party required  
+
+### Weaknesses
+- **Major security risk**: Anyone can create a fake key and claim it belongs to someone else  
+- Vulnerable to impersonation attacks  
+- No verification mechanism  
+
+Because of these weaknesses, public announcements are rarely used in secure systems.
+
+---
+
+## 4. Publicly Available Directory
+
+### Explanation
+
+A **Publicly Available Directory** improves security by storing public keys in a centralized, trusted directory managed by a reliable authority.
+
+Each entry in the directory contains:
+- User name  
+- Corresponding public key  
+
+Participants must register their public keys with the directory authority, and they can update or replace keys when needed.
+
+### Advantages
+- Better security than public announcements  
+- Centralized and organized key storage  
+
+### Limitations
+- The directory authority must be fully trusted  
+- If the directory is compromised, all keys are at risk  
+
+---
+
+## 5. Public-Key Authority
+
+### Explanation
+
+A **Public-Key Authority** strengthens security by tightly controlling key distribution. Instead of users retrieving keys directly from a directory, they must request public keys from the authority in real time.
+
+Key characteristics:
+- Combines features of a public directory and strict authentication  
+- Users must know the public key of the authority beforehand  
+- The authority securely delivers public keys upon request  
+
+### Advantages
+- Strong protection against key forgery  
+- Ensures authenticity of public keys  
+
+### Disadvantages
+- Requires **real-time access** to the authority  
+- Can become a bottleneck or single point of failure  
+
+---
+
+## 6. Public-Key Certificates
+
+### Explanation
+
+**Public-Key Certificates** eliminate the need for real-time communication with a public-key authority. A certificate binds a user’s **identity** to their **public key** and is digitally signed by a trusted **Certificate Authority (CA)**.
+
+Certificates typically include:
+- Owner’s identity  
+- Public key  
+- Validity period  
+- Usage restrictions  
+
+Anyone can verify the certificate using the CA’s public key.
+
+### Benefits
+- High scalability  
+- Strong authentication  
+- No continuous authority interaction required  
+
+---
+
+## 7. X.509 Authentication Service
+
+### Explanation
+
+**X.509** is a widely used international standard that defines:
+- The structure of public-key certificates  
+- Authentication protocols  
+
+It operates within the **X.500 directory framework**, which uses distributed servers to manage user information.
+
+X.509 certificates are widely used in:
+- SSL/TLS  
+- IP Security (IPsec)  
+- S/MIME  
+
+Each certificate is digitally signed by a CA to ensure authenticity and integrity.
+
+---
+
+## 8. X.509 Certificate Structure
+
+An X.509 certificate contains the following fields:
+
+- **Version**: Indicates version (v1, v2, or v3)  
+- **Serial Number**: Unique identifier within the CA  
+- **Signature Algorithm Identifier**  
+- **Issuer Name**: X.500 name of the CA  
+- **Validity Period**: Start and end dates  
+- **Subject Name**: X.500 name of the certificate owner  
+- **Subject Public Key Information**  
+- **Issuer Unique Identifier** (v2+)  
+- **Subject Unique Identifier** (v2+)  
+- **Extensions** (v3): Additional attributes  
+- **Digital Signature**: Hash of all fields signed by CA  
+
+---
+
+## 9. Public Key Infrastructure (PKI)
+
+### Explanation
+
+**Public Key Infrastructure (PKI)** is a complete system that manages digital certificates throughout their lifecycle.
+
+PKI includes:
+- Hardware  
+- Software  
+- Policies  
+- Procedures  
+- Human roles  
+
+### Objective of PKI
+- Enable secure, efficient, and trusted acquisition of public keys  
+- Support encryption, authentication, and digital signatures  
+
+---
+
+## 10. PKIX Model
+
+The **PKIX (Public Key Infrastructure X.509)** model defines the roles involved in PKI.
+
+### Components
+
+#### End Entity
+- Users, servers, routers, or devices  
+- Identified in the certificate’s subject field  
+
+#### Certification Authority (CA)
+- Issues digital certificates  
+- Signs certificates and CRLs  
+
+#### Registration Authority (RA)
+- Assists with identity verification  
+- Supports certificate enrollment  
+
+#### CRL Issuer
+- Publishes Certificate Revocation Lists  
+- May be delegated by the CA  
+
+#### Repository
+- Stores certificates and CRLs  
+- Allows retrieval by end entities  
+
+---
+
+## 11. Conclusion
+
+Key Management and Distribution is essential for secure communication systems. While simple methods like public announcements are easy to implement, they lack security. Advanced mechanisms such as **Public-Key Certificates, X.509, and PKI** provide strong authentication, scalability, and trust, making them the foundation of modern secure networks.
+
+---
+
+## References
+- Key Management and Distribution Lecture Slides :contentReference[oaicite:1]{index=1}
+
+# IP Security (IPSec)
+
+## 1. Introduction to IP Security
+
+IP Security, commonly known as **IPSec**, is a framework of open standards designed to ensure secure communication over Internet Protocol (IP) networks. It provides protection for data transmitted across local area networks (LANs), wide area networks (WANs), and the public Internet.
+
+IPSec operates at the **network layer**, which allows it to secure all applications without requiring changes to individual programs.
+
+---
+
+## 2. Security in the Internet Architecture
+
+### Explanation
+
+In the original Internet architecture, **security was not built into the IP layer**. Instead, security responsibilities were left to individual applications such as email or web browsers.
+
+Over time, as the Internet expanded and cyber threats increased, it became clear that:
+- Application-level security was not sufficient
+- A **universal security mechanism** was needed at the IP level
+
+This realization led to the development of **IPSec**, which provides security as a core network service rather than an optional feature.
+
+---
+
+## 3. Services, Mechanisms, and Algorithms
+
+### Explanation
+
+A security protocol like IPSec is structured in three layers:
+
+- **Services**: What security provides  
+  - Authentication  
+  - Integrity  
+  - Confidentiality  
+
+- **Mechanisms**: How security is achieved  
+  - Encryption  
+  - Digital signatures  
+  - Hashing  
+
+- **Algorithms**: Mathematical techniques used  
+  - AES, DES for encryption  
+  - SHA for hashing  
+  - RSA for authentication  
+
+These layers work together to ensure secure data transmission.
+
+---
+
+## 4. What is IPSec?
+
+### Explanation
+
+**Internet Protocol Security (IPSec)** is a suite of protocols that:
+- Authenticates IP packets
+- Encrypts IP packet contents
+- Protects data from tampering and eavesdropping
+
+Key characteristics:
+- Works with **IPv4 and IPv6**
+- Commonly used in **Virtual Private Networks (VPNs)**
+- Supported by major platforms such as:
+  - Windows
+  - Linux
+  - Cisco routers
+
+IPSec ensures that data sent over an IP network is secure, authentic, and confidential.
+
+---
+
+## 5. Applications of IPSec
+
+### Explanation
+
+IPSec is widely used in various real-world networking scenarios, including:
+
+- **Secure Branch Office Connectivity**
+  - Connects remote offices securely over the Internet
+
+- **Secure Remote Access**
+  - Allows employees to safely access corporate networks from home
+
+- **Extranet and Intranet Connectivity**
+  - Enables secure communication with business partners
+
+- **Electronic Commerce Security**
+  - Protects financial transactions and sensitive data
+
+---
+
+## 6. Benefits of IPSec
+
+### Explanation
+
+IPSec provides several important advantages:
+
+- Can be implemented in **routers and firewalls**
+- Secures all traffic crossing the network perimeter
+- Operates below the transport layer (TCP/UDP)
+- Transparent to applications and end users
+- Can provide security for:
+  - Entire networks
+  - Individual users
+
+Because it is application-independent, IPSec is highly flexible and scalable.
+
+---
+
+## 7. IP Security Architecture
+
+### Explanation
+
+The IPSec architecture defines how security is applied at the IP layer.
+
+It allows a system to:
+- Select appropriate security protocols
+- Choose encryption and authentication algorithms
+- Manage cryptographic keys
+
+This architecture enables secure communication by enforcing security policies consistently across the network.
+
+---
+
+## 8. Authentication Header (AH) and Encapsulating Security Payload (ESP)
+
+### 8.1 Authentication Header (AH)
+
+**Explanation**
+
+AH provides:
+- Data integrity
+- Authentication of the sender
+- Protection against replay attacks
+
+However, AH **does not provide encryption**, meaning the data remains visible.
+
+---
+
+### 8.2 Encapsulating Security Payload (ESP)
+
+**Explanation**
+
+ESP provides:
+- Confidentiality through encryption
+- Optional authentication and integrity
+- Limited traffic flow confidentiality
+
+ESP is more commonly used than AH because it supports encryption.
+
+---
+
+## 9. Transport and Tunnel Modes
+
+### Explanation
+
+IPSec operates in two modes depending on the security requirement.
+
+---
+
+## 10. Transport Mode
+
+### Explanation
+
+- Protects only the **payload** of the IP packet
+- Original IP header remains unchanged
+- Used for **end-to-end communication** (host to host)
+- Commonly used when both endpoints support IPSec
+
+Transport mode is efficient but provides limited protection.
+
+---
+
+## 11. Tunnel Mode
+
+### Explanation
+
+- Protects the **entire IP packet**
+- Original packet is encapsulated inside a new IP packet
+- Used mainly in **VPNs**
+- Provides stronger security
+
+### Tunnel Configurations
+- Router to Router
+- Router to Host
+- Host to Host
+
+Tunnel mode is ideal for secure communication over untrusted networks like the Internet.
+
+---
+
+## 12. Comparison of Transport and Tunnel Modes
+
+| Feature | Transport Mode | Tunnel Mode |
+|------|------|------|
+| Protection | Payload only | Entire packet |
+| IP Header | Original | New outer header |
+| Usage | End-to-end | VPNs |
+| Security Level | Moderate | High |
+
+---
+
+## 13. Conclusion
+
+IPSec provides **universal, network-level security** for all IP-based applications. It offers two core protocols—AH and ESP—and supports two modes of operation—Transport and Tunnel.
+
+Key points:
+- Works with IPv4 and IPv6
+- Mandatory in IPv6
+- Essential for VPNs and secure networking
+- Ensures authentication, integrity, and confidentiality
+
+IPSec remains one of the most important security technologies in modern networking.
+
+---
+
+## References
+
+- IP Security Lecture Slides :contentReference[oaicite:0]{index=0}
+
+# TLS / SSL (Transport Layer Security / Secure Sockets Layer)
+
+## 1. Introduction to SSL and TLS
+
+Secure Sockets Layer (SSL) and Transport Layer Security (TLS) are cryptographic protocols designed to provide secure communication over a computer network. TLS is the modern and more secure version of SSL.
+
+The Internet Engineering Task Force (IETF) standardized TLS based on SSL. TLS officially replaced SSL in 1999 and is now the primary security protocol used on the Internet.
+
+TLS is widely used to secure web traffic through **HTTPS (HTTP Secure)** and is supported by almost every modern web browser.
+
+---
+
+## 2. TLS Fundamentals
+
+### Explanation
+
+Transport Layer Security (TLS) is:
+- A **standard protocol** for encrypting Internet traffic
+- Previously known as SSL
+- Designed to ensure privacy and data integrity
+
+Key points:
+- TLS replaced SSL due to SSL’s security weaknesses
+- TLS works above TCP and below application protocols
+- It protects data exchanged between clients and servers
+
+---
+
+## 3. Purpose of TLS
+
+### Explanation
+
+TLS is designed to achieve three main security goals:
+
+### 3.1 Data Integrity
+Ensures that data sent over the network is not altered during transmission.
+
+### 3.2 Authentication
+Verifies the identity of communicating parties, mainly the server and sometimes the client.
+
+### 3.3 Confidentiality
+Encrypts data so that unauthorized parties cannot read it.
+
+Together, these goals ensure secure and trusted communication.
+
+---
+
+## 4. TCP/IP Protocol Suite
+
+### Explanation
+
+The **TCP/IP protocol suite** is the foundation of Internet communication. It controls:
+- Data transport
+- Routing between devices
+
+Protocols such as:
+- HTTP
+- LDAP
+- IMAP
+
+operate **on top of TCP/IP** and rely on it to perform application-level tasks like loading web pages or sending emails.
+
+---
+
+## 5. TCP/IP Protocol Suite and Security
+
+### Explanation
+
+TCP/IP by itself **does not provide strong security features** such as encryption or authentication. This limitation makes it vulnerable to:
+- Eavesdropping
+- Data modification
+- Identity spoofing
+
+TLS was introduced to add security **on top of TCP/IP**, protecting application data without changing underlying protocols.
+
+---
+
+## 6. Services Provided by TLS
+
+### Explanation
+
+TLS offers several important security services:
+
+- Encrypts data to prevent unauthorized reading
+- Ensures clients connect to legitimate servers
+- Prevents unauthorized access
+- Protects data from tampering during transmission
+
+These services make TLS essential for secure Internet communication.
+
+---
+
+## 7. Types of TLS Services
+
+### Explanation
+
+TLS provides three primary services:
+
+### 7.1 TLS Server Authentication
+Allows clients to verify the identity of the server.
+
+### 7.2 TLS Client Authentication
+Allows servers to verify the identity of the client.
+
+### 7.3 Encrypted TLS Connection
+Ensures all exchanged data remains confidential.
+
+---
+
+## 8. TLS Server Authentication
+
+### Explanation
+
+TLS server authentication allows a client to confirm that it is communicating with the correct server.
+
+This is done using:
+- Digital certificates
+- Public-key cryptography
+- Trusted Certificate Authorities (CAs)
+
+This authentication is crucial when transmitting sensitive data such as credit card information.
+
+---
+
+## 9. TLS Client Authentication
+
+### Explanation
+
+TLS client authentication allows a server to verify a client’s identity.
+
+The server checks:
+- Client’s certificate
+- Public key
+- Issuing Certificate Authority
+
+This method is commonly used in secure environments like banking systems or enterprise networks.
+
+---
+
+## 10. Encrypted TLS Connection
+
+### Explanation
+
+In an encrypted TLS connection:
+- All data is encrypted before transmission
+- Data is decrypted only by the intended receiver
+
+This ensures:
+- High confidentiality
+- Protection against data interception
+
+Encryption protects both parties in private transactions.
+
+---
+
+## 11. TLS Sub-Protocols
+
+### Explanation
+
+TLS consists of two main sub-protocols:
+
+- TLS Record Protocol
+- TLS Handshake Protocol
+
+These protocols work together to provide secure communication.
+
+---
+
+## 12. TLS Record Protocol
+
+### Explanation
+
+The TLS Record Protocol:
+- Defines how data is formatted and transmitted
+- Ensures confidentiality and integrity
+
+It provides:
+- **Confidentiality** using symmetric encryption
+- **Message Integrity** using Message Authentication Codes (MACs)
+
+The shared keys used are generated during the handshake process.
+
+---
+
+## 13. TLS Handshake Protocol
+
+### Explanation
+
+The TLS Handshake Protocol is the most complex part of TLS.
+
+It is responsible for:
+- Authenticating the client and server
+- Negotiating encryption and MAC algorithms
+- Generating shared cryptographic keys
+
+This protocol runs **before any application data is exchanged**, ensuring a secure communication channel.
+
+---
+
+## 14. Importance of TLS
+
+### Explanation
+
+TLS is essential for:
+- Secure web browsing (HTTPS)
+- Online banking
+- E-commerce
+- Email security
+
+It protects users from attacks such as:
+- Man-in-the-Middle
+- Data tampering
+- Identity spoofing
+
+---
+
+## 15. Conclusion
+
+TLS is a critical security protocol that ensures safe communication over the Internet. By providing authentication, encryption, and data integrity, TLS protects sensitive information and enables trust in online services.
+
+TLS has replaced SSL and remains the backbone of modern Internet security.
+
+---
+
+## References
+
+- TLS / SSL Lecture Slides :contentReference[oaicite:0]{index=0}
+
+# Firewall & Virtual Private Network (VPN)
+
+## 1. Introduction
+
+Network security is a critical requirement in modern computing environments. Two of the most important technologies used to protect networks are **Firewalls** and **Virtual Private Networks (VPNs)**. Firewalls control network traffic, while VPNs secure communication over public networks.
+
+---
+
+## 2. Firewall
+
+### Explanation
+
+A **firewall** is a network security device that monitors and controls incoming and outgoing network traffic. It allows or blocks traffic based on predefined security rules.
+
+Firewalls act as a **barrier between trusted internal networks and untrusted external networks**, such as the Internet, preventing unauthorized access and cyber attacks.
+
+---
+
+## 3. Types of Firewalls Based on Implementation
+
+### Explanation
+
+Firewalls can be implemented in different forms:
+
+### 3.1 Hardware Firewall
+A hardware firewall is a physical device placed between a private network (LAN) and an external network (WAN).  
+It usually has two or more network interfaces and provides centralized protection for all connected devices.
+
+### 3.2 Software Firewall
+A software firewall is installed on an operating system and monitors traffic entering or leaving a single computer.  
+It provides personalized security but protects only the host on which it is installed.
+
+---
+
+## 4. Routers as Firewalls
+
+### Explanation
+
+Routers can function as basic firewalls by using **Access Control Lists (ACLs)**.
+
+Key points:
+- ACLs define rules to allow or deny packets
+- Rules are based on IP address, protocol, and port number
+- Routers can inspect packet headers
+
+Routers are often used along with **Intrusion Detection Systems (IDS)** to enhance security monitoring.
+
+---
+
+## 5. Types of Firewalls Based on Functionality
+
+### 5.1 Packet Filtering Firewall
+
+#### Explanation
+
+A packet filtering firewall examines packets individually and makes decisions based on:
+- Source IP address
+- Destination IP address
+- Protocol type
+- Port numbers
+
+It is fast and efficient but offers limited security because it does not track connection state.
+
+---
+
+### 5.2 Proxy Firewall
+
+#### Explanation
+
+A proxy firewall acts as an intermediary between users and external servers.
+
+Features:
+- Prevents direct connections from outside networks
+- Can perform content filtering
+- Can cache frequently accessed data
+
+Proxy firewalls provide better security but may introduce latency.
+
+---
+
+### 5.3 Stateful Inspection Firewall
+
+#### Explanation
+
+A stateful inspection firewall tracks the **state of active connections**.
+
+It:
+- Monitors traffic from connection start to end
+- Makes decisions based on context and session information
+- Provides stronger security than packet filtering
+
+This is one of the most commonly used firewall types today.
+
+---
+
+## 6. Virtual Private Network (VPN)
+
+### Explanation
+
+A **Virtual Private Network (VPN)** allows users or branch offices to securely access a private network over the Internet.
+
+It creates an **encrypted tunnel** between two endpoints, ensuring that data remains confidential and protected from attackers.
+
+VPNs are generally more cost-effective than private leased lines.
+
+---
+
+## 7. Securing Communication with VPN
+
+### Explanation
+
+VPNs secure communication using encryption technologies.
+
+Key components:
+- VPN client and VPN server
+- Encrypted tunnel through the public Internet
+- Secure authentication mechanisms
+
+VPN servers can be:
+- Configured on server operating systems
+- Implemented as dedicated hardware devices
+
+As long as encryption remains secure, VPNs are extremely difficult to exploit.
+
+---
+
+## 8. VPN Benefits
+
+### Explanation
+
+VPNs offer multiple advantages:
+
+- Enable secure remote access for mobile users
+- Allow multiple office locations to connect securely
+- Reduce costs compared to traditional WAN links
+- Use existing Internet infrastructure
+
+VPNs are widely used in corporate, academic, and government networks.
+
+---
+
+## 9. Firewall vs VPN
+
+| Feature | Firewall | VPN |
+|------|------|------|
+| Purpose | Controls network traffic | Secures communication |
+| Security Method | Rule-based filtering | Encryption |
+| Placement | Network boundary | Over Internet |
+| Usage | Prevents unauthorized access | Enables secure remote access |
+
+---
+
+## 10. Conclusion
+
+Firewalls and VPNs are essential components of network security. Firewalls protect networks by controlling traffic flow, while VPNs ensure secure communication over public networks.
+
+When used together, they provide strong protection against unauthorized access, data breaches, and cyber threats.
+
+---
+
+## References
+
+- Firewall & VPN Lecture Slides :contentReference[oaicite:0]{index=0}
+
 
 
 
