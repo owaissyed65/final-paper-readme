@@ -1,4 +1,4 @@
-# Week 5 – Information Security (Authentication & Risk Assessment)
+<img width="1013" height="504" alt="image" src="https://github.com/user-attachments/assets/55d45531-8b7a-468d-b668-81428bd8d37f" /># Week 5 – Information Security (Authentication & Risk Assessment)
 
 ## Overview
 This week focuses on **authentication mechanisms**, **risk assessment**, **password protection techniques**, and **smart card–based authentication**. These concepts are essential for securing information systems against unauthorized access.
@@ -562,5 +562,25 @@ Counter (CTR) mode uses a **counter value** combined with a key to generate a ke
 ## Conclusion
 Block cipher modes of operation are essential for secure encryption.  
 Each mode provides different security and performance trade-offs, making them suitable for different applications. Choosing the correct mode is crucial for maintaining **data confidentiality and integrity**.
+
+<img width="994" height="658" alt="image" src="https://github.com/user-attachments/assets/656f9f1f-670d-4607-b425-3f94f2bbee34" />
+
+<img width="964" height="659" alt="image" src="https://github.com/user-attachments/assets/1b78a89f-1776-4dae-9ced-34451b4340f1" />
+
+<img width="1037" height="408" alt="image" src="https://github.com/user-attachments/assets/19bde458-e60d-4d6f-a8ba-4c98e621a398" />
+
+<img width="1045" height="704" alt="image" src="https://github.com/user-attachments/assets/ea45efac-6f7b-4210-ad95-f49695f71380" />
+
+<img width="974" height="657" alt="image" src="https://github.com/user-attachments/assets/32600264-f1a9-4efa-919d-4fde0d001ccb" />
+
+<img width="1013" height="504" alt="image" src="https://github.com/user-attachments/assets/be4eefd7-4a49-4c49-9cb7-1e651070e586" />
+
+<img width="1015" height="460" alt="image" src="https://github.com/user-attachments/assets/73c0c294-b4c0-427c-bf8e-9bc990fd74b1" />
+
+
+
+
+
+
 
 
